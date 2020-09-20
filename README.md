@@ -27,7 +27,7 @@ Clone the repo using git:
 $ git clone https://github.com/Gloryness/playrcc.git
 ```
 
-<a href="https://github.com/Gloryness/playrcc/raw/master/playrcc/exe/Tassomai%20Automation.zip">Download the .exe version</a>
+<a href="https://github.com/Gloryness/tassomai-automation/raw/master/exe/Tassomai%20Automation.zip">Download the .exe version</a>
 
 # How To Use
 - Enter path to geckodriver (Firefox webdriver)
