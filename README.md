@@ -12,5 +12,6 @@
     <a href="https://github.com/Gloryness/tassomai-automation/pulls">Send a Pull Request</a>
   </p>
 </p>
-# Tassomai Homework Automation
+  
+#
 Ever bored of doing Science homework 5 days a week on Tassomai? Well... you came to the right place!
