@@ -13,6 +13,11 @@
   </p>
 </p>
   
+# How To Use
+- Enter path to geckodriver (Firefox)
+- Enter Tassomai username
+- Enter Tassomai password
+- You can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
+
 # How It Works
-- With the GUI, you can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
