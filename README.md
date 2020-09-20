@@ -18,6 +18,7 @@
 - Enter Tassomai username
 - Enter Tassomai password
 - You can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
+- Start Automation!
 
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
