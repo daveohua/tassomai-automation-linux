@@ -37,6 +37,8 @@ OR:
 - Start Automation!
 - At the end of the automation, it will provide stats such as if daily/bonus goal is complete, the time it took, amount of correct/incorrect answers and the total quizes complete.
 
+**NOTE: Credentials and PATH are only stored to info.json in AppData/Local/tassomai-automation to auto-fill them in each time you run the GUI.**
+
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
 1. It will enter the user's credentials, wait until the start quiz button has been found and then click on that element to start the quiz.
