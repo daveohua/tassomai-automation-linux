@@ -19,12 +19,12 @@ Python 3.8+ recommended.
 
 Install latest version from git repository using pip:
 ```bash
-$ pip install git+https://github.com/Gloryness/playrcc.git
+$ pip install git+https://github.com/Gloryness/tassomai-automation.git
 ```
 
 Clone the repo using git:
 ```bash
-$ git clone https://github.com/Gloryness/playrcc.git
+$ git clone https://github.com/Gloryness/tassomai-automation.git
 ```
 
 <a href="https://github.com/Gloryness/tassomai-automation/raw/master/exe/Tassomai%20Automation.zip">Download the .exe version</a>
