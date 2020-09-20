@@ -46,8 +46,5 @@ OR:
 3. Now we are at the quiz, it has to detect if we've seen this question before by reading `answers.json` in `AppData/Local/tassomai-automation`
 4. If so, then loop through all boxes, and if the processed text of the box is equal to the stored answer then we know which box it's in, therefore can use this data to click the correct box.
 5. Otherwise, if the question isn't found in `answers.json` then it will call a function that answers a random box by listing all the boxes and using the `random` libary to choose one in the list to click it and return if it's correct or not.
-6. If the answer was correct or not, it will call a function to find the correct answer. We do this by looping through all the boxes, and if the boxes `background-color` css property is equal to green - 
-```css
-rgb(201, 240, 195)
-```, then store `{question: answer}` in `answers.json`.
+6. If the answer was correct or not, it will call a function to find the correct answer. We do this by looping through all the boxes, and if the boxes `background-color` css property is equal to green - `rgb(201, 240, 195)`, then store `{question: answer}` in `answers.json`.
 7. This is all for 1 question. It will do this X times (depending on how many sections there are in the quiz)
