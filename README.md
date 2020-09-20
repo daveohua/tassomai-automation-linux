@@ -14,7 +14,7 @@
 </p>
   
 # How To Use
-- Enter path to geckodriver (Firefox)
+- Enter path to geckodriver (Firefox webdriver)
 - Enter Tassomai username
 - Enter Tassomai password
 - You can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
