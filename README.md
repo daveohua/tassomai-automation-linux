@@ -13,6 +13,22 @@
   </p>
 </p>
   
+# Installation
+
+Python 3.8+ recommended.
+
+Install latest version from git repository using pip:
+```bash
+$ pip install git+https://github.com/Gloryness/playrcc.git
+```
+
+Clone the repo using git:
+```bash
+$ git clone https://github.com/Gloryness/playrcc.git
+```
+
+<a href="https://github.com/Gloryness/playrcc/raw/master/playrcc/exe/Tassomai%20Automation.zip">Download the .exe version</a>
+
 # How To Use
 - Enter path to geckodriver (Firefox webdriver)
 - Enter Tassomai username
