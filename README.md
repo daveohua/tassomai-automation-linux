@@ -1,5 +1,5 @@
 <p align="center">
-  <a><img src="src/images/banner.png" width="972" height="180"</a>
+  <a><img src="src/images/logo.png"</a>
   <h3 align="center">Automate your Tassomai homework!</h3>
   <p align="center">
     Ever bored of doing Science homework 5 days a week on Tassomai? Well... you came to the right place!
