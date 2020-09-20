@@ -19,7 +19,7 @@
 - Enter Tassomai password
 - You can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
 - Start Automation!
-- At the end of the automation, it will provide stats such as if daily/bonus goal is complete, time it took, correct/incorrect answers and total quizes complete.
+- At the end of the automation, it will provide stats such as if daily/bonus goal is complete, the time it took, amount of correct/incorrect answers and the total quizes complete.
 
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
