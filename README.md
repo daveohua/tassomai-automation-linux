@@ -13,5 +13,6 @@
   </p>
 </p>
   
-#
-Ever bored of doing Science homework 5 days a week on Tassomai? Well... you came to the right place!
+# How It Works
+With the GUI, you can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'
+Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
