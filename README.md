@@ -37,7 +37,7 @@ OR:
 - Start Automation!
 - At the end of the automation, it will provide stats such as if daily/bonus goal is complete, the time it took, amount of correct/incorrect answers and the total quizes complete.
 
-**NOTE: Credentials are only stored to info.json in AppData/Local/tassomai-automation to auto-fill them in each time you run the GUI.**
+**NOTE: Credentials are only stored to `info.json` in AppData/Local/tassomai-automation to auto-fill them in each time you run the GUI.**
 
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
