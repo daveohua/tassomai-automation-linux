@@ -17,10 +17,7 @@
 
 Python 3.8+ recommended.
 
-Install latest version from git repository using pip:
-```bash
-$ pip install git+https://github.com/Gloryness/tassomai-automation.git
-```
+Install required modules which is all listed in `requirements.txt`
 
 Clone the repo using git:
 ```bash
