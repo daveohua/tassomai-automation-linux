@@ -1,0 +1,4 @@
+pyqt5_tools (for the GUI)
+parsel (xpath usage)
+selenium (browser automation)
+requests (retreiving data)

@@ -3,16 +3,17 @@ from PyQt5.QtWidgets import QMainWindow, QSizePolicy, QFrame, QFormLayout, QWidg
 from PyQt5.QtCore import QMetaObject, QRect, QThread, pyqtSlot
 from PyQt5.QtGui import QPixmap, QFont, QIcon
 
-from base.session import Session
+import os
+
+from base.https.session import Session
 from base.output import OutputSender
 from app.cache import Database
-from app.cache import Cache
 
 class TassomaiUI(object):
     def __init__(self, main_window: QMainWindow):
         self.win = main_window
         self.path = __file__
-        if not self.path.endswith(("gui\\mainwindow.py", "gui/mainwindow.py")):
+        if not self.path.endswith(("gui\\mainwindow.py", "gui/mainwindow.py")): # this is when we're using the .exe version
             self.path = ""
         else:
             self.path = self.path.replace("gui\\mainwindow.py", "").replace("\\", "/")
@@ -193,10 +194,8 @@ class Window(QMainWindow):
 
         self.outputSender = OutputSender(self.ui.output)
 
-        self.database = Database()
-        self.cache = Cache()
-
-        self.running = False
+        self.database = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'answers.json')
+        self.cache = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'info.json')
 
         self.ui.pathToGecko.setText(self.cache.get('path'))
         self.ui.emailTassomai.setText(self.cache.get('email'))
@@ -206,7 +205,7 @@ class Window(QMainWindow):
 
     def closeEvent(self, event):
         if self.session_thread.isRunning():
-            self.running = False
+            self.session.running = False
             try:
                 self.session_thread.terminate()
                 self.session_thread.wait()
@@ -232,7 +231,8 @@ class Window(QMainWindow):
         self.session.logger.emit('TYPES=[(#c8001a, BOLD), Successfully terminated script.]', {'newlinesafter': 2})
         self.ui.startButton.setEnabled(True)
         self.ui.stopButton.setEnabled(False)
-        self.running = False
-        if hasattr(self.session, 'selenium'):
-            self.session.show_stats()
-            self.session.selenium.driver.quit()
+        self.session.running = False
+
+        if not self.session.shownStats:
+            if hasattr(self.session, 'tassomai'):
+                self.tassomai.show_stats()

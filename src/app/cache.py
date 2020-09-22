@@ -2,9 +2,9 @@ import json
 import os
 
 class Database:
-    def __init__(self):
-        self.folder = os.path.abspath(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/')
-        self.filename = self.folder + '\\answers.json'
+    def __init__(self, folder, filename):
+        self.folder = os.path.abspath(folder)
+        self.filename = self.folder + f'\\{filename}'
 
         if not os.path.exists(self.folder): # making sure all the folders exist to avoid errors
             os.makedirs(self.folder)
@@ -66,19 +66,18 @@ class Database:
         with open(self.filename, 'w') as f:
             json.dump(data, f, indent=3)
 
-    def get(self, key):
+    def get(self, key, *keys):
+        """
+        Retrieve values in the database.
+        :param key: A required key to get from the database
+        :param keys: Optional other keys to get stacking up from the first key
+        For example: get('1', '2', 3) is equal to data['1']['2'][3]
+        """
+        keys = list(keys)
+        keys.insert(0, key)
         with open(self.filename) as f:
             data = json.load(f)
         if not self.cached(key):
             return ""
-        return data[key]
-
-class Cache(Database):
-    def __init__(self):
-        super(Cache, self).__init__()
-        self.filename = self.folder + '\\info.json'
-
-        if not os.path.isfile(self.filename):
-            with open(self.filename, 'w') as f:
-                data = json.loads('{}')
-                json.dump(data, f, indent=3)
+        evalulated = 'data' + ''.join([f'[{ascii(keyy) if type(keyy) == str else keyy}]' for keyy in keys])
+        return eval(evalulated)
