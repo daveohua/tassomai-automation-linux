@@ -47,4 +47,4 @@ OR:
 7. This is all for 1 question. It will do this X times (depending on how many sections there are in the quiz)
 
 # Overview
-<a><img src="src/images/Tassomai Automation.jpg"</a>
+<img src="src/images/Tassomai Automation.jpg">
