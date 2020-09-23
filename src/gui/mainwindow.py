@@ -235,4 +235,4 @@ class Window(QMainWindow):
 
         if not self.session.shownStats:
             if hasattr(self.session, 'tassomai'):
-                self.tassomai.show_stats()
+                self.session.show_stats()

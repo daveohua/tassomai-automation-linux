@@ -1,5 +1,4 @@
 import re
-from string import punctuation
 
 from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QTextEdit
@@ -78,11 +77,11 @@ class OutputSender:
         if underline:
             html.append("text-decoration: underline")
 
-        bold_ = re.findall(f'BOLD=\[[a-zA-Z0-9 \]{punctuation}]*]', text)
-        italic_ = re.findall(f'ITALIC=\[[a-zA-Z0-9 \]{punctuation}]*]', text)
-        underline_ = re.findall(f'UNDERLINE=\[[a-zA-Z0-9 \]{punctuation}]*]', text)
-        color_ = re.findall(f'COLOR=\(\S*, [a-zA-Z0-9 \]{punctuation}]*\)', text)
-        types_ = re.findall(f'TYPES=\[\([a-zA-Z0-9 \]{punctuation}]*\), [a-zA-Z0-9 \]{punctuation.replace("[", "")}]*]', text)
+        bold_ = re.findall(f'BOLD=\[.*?]', text)
+        italic_ = re.findall(f'ITALIC=\[.*?]', text)
+        underline_ = re.findall(f'UNDERLINE=\[.*?]', text)
+        color_ = re.findall(f'COLOR=\(.*?, .*?\)', text)
+        types_ = re.findall(f'TYPES=\[\(.*?\), .*?]', text)
 
 
         if bold_:

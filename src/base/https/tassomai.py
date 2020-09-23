@@ -29,7 +29,7 @@ class Tassomai:
 
     def login(self, email, password):
         """
-        Log into the Tassomai page, and start the request session to fetch data about daily goals and etc.
+        Log into the Tassomai page.
         """
         self.session = requests.session()
         params = {
@@ -233,7 +233,12 @@ class Tassomai:
         xpath = "/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/div/tass-goal-page/div/" \
                 "accomplishments/discipline-dashboard/tass-quiz-suggestions-container/tass-quiz-suggestions/" \
                 "div/div[2]/tass-start-quiz-container[%s]/tass-start-quiz/div/div[2]/div[2]/button"
-        quizes = [self.driver.find_element_by_xpath(xpath % i) for i in range(1, 3)]
+        quizes = []
+        for i in range(1, 10):
+            try:
+                quizes.append(self.driver.find_element_by_xpath(xpath % i))
+            except:
+                break
         quiz = random.choice(quizes)
         quiz.click()
 
@@ -289,8 +294,7 @@ class Tassomai:
         :param section: The section in the quiz
         :return A random answer
         """
-        randomlist = [0, 1, 2, 3]
-        box = random.choice(randomlist)
+        box = random.randint(0, 3)
         return self.answer(section, box)
 
     def answer_from_database(self, database, section):
@@ -301,12 +305,14 @@ class Tassomai:
         """
         answer = database.get(self.get_current_question(section)) # getting the answer
         for i in range(1, 5):
-            xpath = self.quiz_xpath % (section+1, i)
-
             text = self.process_text(section+1, i)
 
-            if answer == text: # looping through all the boxes and seeing which box is equal to the answer
-                break
+            if type(answer) == list:
+                if text in answer:  # looping through all the boxes and seeing which box is in the list
+                    break
+            else:
+                if answer == text: # looping through all the boxes and seeing which box is equal to the answer
+                    break
 
         return self.answer(section, i-1)
 

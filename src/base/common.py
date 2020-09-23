@@ -12,17 +12,10 @@ def establishConnection():
     except:
         return False
 
-def process_zeros(x):
-    """
-    Process the number x and seperate that into a list with divisons by 10, 100, 1000...
-    10,000 --> [10, 100, 1000]
-    :return: list
-    """
-    length = x / len(str(x))
-    place = []
-    for i in range(1, len(str(x)) - 1):
-        place.append(int(f'1{"0" * i}'))
-    return place
+def calculate_percentage(number, total):
+    matched_less = total - number
+    no_percentage_matched = 100 - matched_less*100.0/total
+    return no_percentage_matched
 
 def convert_to_time(x):
     """

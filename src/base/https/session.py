@@ -3,7 +3,7 @@ import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from base.common import establishConnection, convert_to_time, process_zeros
+from base.common import establishConnection, convert_to_time, calculate_percentage
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
 
@@ -123,11 +123,13 @@ class Session(QObject):
 
                 to_update = {}
                 for section in range(self.tassomai.sections):
+                    question = self.tassomai.get_current_question(section)
+
                     if not self.running:
                         self.selenium.driver.close()
                         self.selenium.driver.quit()
                         return
-                    question = self.tassomai.get_current_question(section)
+
                     self.logger.emit(question, {'color': '#0066cc', 'bold': True})
 
                     if self.database.cached(question):
@@ -138,11 +140,23 @@ class Session(QObject):
 
                     answer = self.tassomai.find_correct_answer(section)
 
-                    print({question: answer})
-                    to_update.update({question: answer})
+                    if not self.running:
+                        self.selenium.driver.close()
+                        self.selenium.driver.quit()
+                        return
 
-                    self.logger.emit(f'Question {section+1}: '
+                    if question in to_update:
+                        if type(to_update[question]) == list:
+                            to_update[question].append(answer)
+                        else:
+                            to_update.update(question=[to_update[question], answer]) # 2 possibilities
+                    else:
+                        to_update.update({question: answer})
+                    print({question: to_update[question]})
+
+                    self.logger.emit(f'COLOR=(#7214ff, Question {section+1}:) '
                                      f'TYPES=[(BOLD, {"#0c5d09" if is_correct else "#c8001a"}), {"Correct" if is_correct else "Incorrect"}]', {})
+                    self.logger.emit(f'COLOR=(#7214ff, Correct Answer:) TYPES=[(BOLD, #0c5d09), {answer.replace("[", "(").replace("]", ")")}]', {})
                     if is_correct:
                         self.correct += 1
                     else:
@@ -191,7 +205,7 @@ class Session(QObject):
         self.logger.emit(f'- Bonus Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_bonus_complete else "#c8001a"}), '
                          f'{"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}]', {})
         self.logger.emit(f'- Level: TYPES=[(BOLD, #0c5d09), {self.tassomai.level} ( '
-                         f'{self.tassomai.level_progress/process_zeros(self.tassomai.level_total)[-2]:0.1f}% )]', {})
+                         f'{calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total):0.1f}% )]', {})
         self.logger.emit(f'- Finished Quizes: TYPES=[(BOLD, #0c5d09), {self.quizes}]', {})
         self.logger.emit(f'- Total Correct: TYPES=[(BOLD, #0c5d09), {self.correct}]', {})
         self.logger.emit(f'- Total Incorrect: TYPES=[(BOLD, #c8001a), {self.incorrect}]', {})
