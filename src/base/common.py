@@ -13,9 +13,7 @@ def establishConnection():
         return False
 
 def calculate_percentage(number, total):
-    matched_less = total - number
-    no_percentage_matched = 100 - matched_less*100.0/total
-    return no_percentage_matched
+    return round((number/total) * 100, 1)
 
 def convert_to_time(x):
     """

@@ -195,24 +195,41 @@ class Tassomai:
         :param box: The box in the current section (1 to 4)
         :return: The processed text
         """
-        xpath = self.text_xpath % (section, box) + '/text()'
-        xpath2 = self.text_xpath % (section, box) + '/*[substring(@id,string-length(@id) -string-length(\'-Frame\') +1) = \'-Frame\']/@data-mathml'
-        xpath3 = self.text_xpath % (section, box) + '/span/span/span/span/span'
-
+        text_xpath = self.text_xpath % (section+1, box) + '/text()'
+        xpath = '/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/' \
+                'swiper/div/div[1]/div[%s]/question/div[2]/div[%s]/answer/button/span[1]/script/text()'
+        # xpath2 = self.text_xpath % (section, box) + '/*[substring(@id,string-length(@id) -string-length(\'-Frame\') +1) = \'-Frame\']/@data-mathml'
+        # xpath3 = self.text_xpath % (section, box) + '/span/span/span/span/span'
+        #
         tree = Selector(self.driver.page_source)
-        text = tree.xpath(xpath).getall() # finding the text
-        mathjax = tree.xpath(xpath2).getall() # for symbols like CO2 (but with a smaller 2)
-        unknown = tree.xpath(xpath3).getall() # other symbols like γ
-        mathjax = [element.strip("<mn>") for element in re.findall('<mn>\d+', ''.join(mathjax))]
-        unknown = [element.strip('</span>') for element in re.findall('>.</span>', ''.join(unknown))]
+        text_answer = tree.xpath(text_xpath).getall() # finding the text
+        # mathjax = tree.xpath(xpath2).getall() # for symbols like CO2 (but with a smaller 2)
+        # unknown = tree.xpath(xpath3).getall() # other symbols like γ
+        # mathjax = [element.strip("<mn>") for element in re.findall('<mn>\d+', ''.join(mathjax))]
+        # unknown = [element.strip('</span>') for element in re.findall('>.</span>', ''.join(unknown))]
+        #
+        # if len(mathjax) >= 1:
+        #     for index, symbol in enumerate(mathjax):
+        #         text.insert(index+(index+1), symbol) # 0+(0+1) = 1 ..... 1+(1+1) = 3 therefore we can insert inbetween characters.
+        # elif len(unknown) >= 1:
+        #     text = unknown
 
-        if len(mathjax) >= 1:
-            for index, symbol in enumerate(mathjax):
-                text.insert(index+(index+1), symbol) # 0+(0+1) = 1 ..... 1+(1+1) = 3 therefore we can insert inbetween characters.
-        elif len(unknown) >= 1:
-            text = unknown
+        quiz_id = re.search("quizModal:quiz/\d+", self.driver.current_url)[0].replace("quizModal:quiz/", "")
+        text = self.session.get(f'https://kolin.tassomai.com/api/quiz/fetch/{quiz_id}', headers=self.headers).json()
 
-        return ''.join(text)
+        if text['questions'][section]['uses_mathjax']:
+            try:
+                answer = tree.xpath(xpath % (section+1, box)).getall()[0]
+            except:
+                return ''.join(text_answer)
+            mathjax = re.split('\\\\\[|\\\\frac|\\\\text |\\\\|]', answer)
+            mathjax = ''.join(mathjax).strip()
+            mathjax = mathjax.replace('times ', " x")
+            mathjax = mathjax.replace('times', " x ")
+            mathjax = mathjax.replace('}{', " / ")
+            return mathjax if len(text_answer) == 0 else ''.join(text_answer)+mathjax
+
+        return ''.join(text_answer)
 
     def get_current_question(self, section):
         """
@@ -270,7 +287,7 @@ class Tassomai:
         for i in range(1, 5):
             xpath = self.quiz_xpath % (section + 1, i)
 
-            text = self.process_text(section + 1, i) # finding the text
+            text = self.process_text(section, i) # finding the text
 
             quiz = self.driver.find_element_by_xpath(xpath)
             elements[quiz] = text
@@ -305,7 +322,7 @@ class Tassomai:
         """
         answer = database.get(self.get_current_question(section)) # getting the answer
         for i in range(1, 5):
-            text = self.process_text(section+1, i)
+            text = self.process_text(section, i)
 
             if type(answer) == list:
                 if text in answer:  # looping through all the boxes and seeing which box is in the list

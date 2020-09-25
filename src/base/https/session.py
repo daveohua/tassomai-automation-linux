@@ -149,7 +149,7 @@ class Session(QObject):
                         if type(to_update[question]) == list:
                             to_update[question].append(answer)
                         else:
-                            to_update.update(question=[to_update[question], answer]) # 2 possibilities
+                            to_update[question] = [to_update[question], answer] # multiple possibilities
                     else:
                         to_update.update({question: answer})
                     print({question: to_update[question]})
@@ -205,7 +205,7 @@ class Session(QObject):
         self.logger.emit(f'- Bonus Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_bonus_complete else "#c8001a"}), '
                          f'{"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}]', {})
         self.logger.emit(f'- Level: TYPES=[(BOLD, #0c5d09), {self.tassomai.level} ( '
-                         f'{calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total):0.1f}% )]', {})
+                         f'{calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total)}% )]', {})
         self.logger.emit(f'- Finished Quizes: TYPES=[(BOLD, #0c5d09), {self.quizes}]', {})
         self.logger.emit(f'- Total Correct: TYPES=[(BOLD, #0c5d09), {self.correct}]', {})
         self.logger.emit(f'- Total Incorrect: TYPES=[(BOLD, #c8001a), {self.incorrect}]', {})
