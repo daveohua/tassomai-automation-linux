@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QMainWindow, QSizePolicy, QFrame, QFormLayout, QWidg
 from PyQt5.QtCore import QMetaObject, QRect, QThread, pyqtSlot
 from PyQt5.QtGui import QPixmap, QFont, QIcon
 
-import os
+import os, sys
 
 from base.https.session import Session
 from base.output import OutputSender
@@ -223,7 +223,7 @@ class Window(QMainWindow):
 
         self.session.logger.connect(self.updateLog)
         self.session.show.connect(self.show)
-        self.session.close.connect(self.close)
+        self.session.close.connect(sys.exit)
         self.ui.startButton.clicked.connect(self.session.start)
         self.ui.stopButton.clicked.connect(self.terminate_session)
 
