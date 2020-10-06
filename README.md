@@ -36,6 +36,16 @@ OR:
 
 **NOTE: Credentials are only stored to `info.json` in AppData/Local/tassomai-automation to auto-fill them in each time you run the GUI.**
 
+# Tip
+If you want... there are command line options that are available!
+All you need to do is:
+```bash
+$ "Tassomai Automation".exe -h
+```
+for a full list of commands.
+
+This is very useful for running it as soon as you turn your PC on!
+
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
 1. It will enter the user's credentials, wait until the start quiz button has been found and then click on that element to start the quiz.
