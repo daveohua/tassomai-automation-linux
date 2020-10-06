@@ -41,6 +41,18 @@ If you want... there are command line options that are available!
 All you need to do is:
 ```bash
 $ "Tassomai Automation".exe -h
+  -h, --help                              Print this help message and exit
+  -x EXECUTABLE, --executable=EXECUTABLE  Path to webdriver (geckodriver.exe)
+  -u USERNAME, --username=USERNAME        Email for Tassomai
+  -p PASSWORD, --password=PASSWORD        Tassomai Password
+  --no-stats                              Do not show the stats when finished.
+  --close                                 Close when finished.
+  --max-quizes=NUMBER                     Maximum number of quizes to do
+  --start                                 Automatically start the automation
+  --gui-frameless                         Make the GUI hidden but still runs in the background.
+  --frameless                             Make firefox frameless
+  --no-daily                              Do not finish when daily goal is complete.
+  --bonus                                 Finish when bonus goal is complete.
 ```
 for a full list of commands.
 
