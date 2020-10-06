@@ -186,8 +186,10 @@ class TassomaiUI(object):
 )
 
 class Window(QMainWindow):
-    def __init__(self, parent=None):
+    def __init__(self, show_stats=True, close=False, parent=None):
         super().__init__(parent)
+        self.showStats = show_stats
+        self.shouldClose = close
 
         self.ui = TassomaiUI(self)
         self.ui.setupUi()
@@ -220,6 +222,8 @@ class Window(QMainWindow):
         self.session_thread.start()
 
         self.session.logger.connect(self.updateLog)
+        self.session.show.connect(self.show)
+        self.session.close.connect(self.close)
         self.ui.startButton.clicked.connect(self.session.start)
         self.ui.stopButton.clicked.connect(self.terminate_session)
 

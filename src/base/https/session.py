@@ -10,6 +10,8 @@ from base.https.tassomai import Tassomai
 class Session(QObject):
 
     logger = pyqtSignal(str, dict)
+    show = pyqtSignal()
+    close = pyqtSignal()
 
     def __init__(self, base, parent=None):
         super().__init__(parent)
@@ -39,13 +41,16 @@ class Session(QObject):
 
         if '@' not in self.email:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Invalid email.]', {})
+            print("Invalid email.")
             return
         if len(self.password) < 1:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Must include password.]', {})
+            print("Must include password.")
             return
         if len(self.geckoPath) < 1:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Must include path to geckodriver. '
                              'If it\'s in the same directory then enter \'geckodriver.exe\']', {})
+            print("Must include path to geckodriver. If it\'s in the same directory then enter \'geckodriver.exe\'")
             return
 
         self.timer = time.perf_counter()
@@ -54,26 +59,32 @@ class Session(QObject):
 
         def connect():
             self.logger.emit('TYPES=[(#0066cc, BOLD), Establishing a connection...]', {})
+            print("Establishing a connection...")
             r = establishConnection()
             if r:
                 self.logger.emit('TYPES=[(#0c5d09, BOLD), Successfully established connection.]', {'newlinesafter': 2})
+                print("Successfully established connection.\n")
             else:
                 self.logger.emit('TYPES=[(#c8001a, BOLD), Unable to establish connection.]', {})
+                print("Unable to establish connection.")
                 time.sleep(0.5)
                 connect()
         connect()
 
         self.logger.emit('TYPES=[(BOLD, #0066cc), Loading Firefox...]', {})
+        print("Loading Firefox...")
 
         try:
             self.selenium = Selenium(self, self.geckoPath)
             self.selenium.start()
-        except Exception as exc:
-            print(exc)
+        except:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Unable to load Firefox.]', {})
+            print("Unable to load Firefox.")
+            logging.error(traceback.format_exc())
             return
 
         self.logger.emit('TYPES=[(#0c5d09, BOLD), Successfully opened Firefox.]', {'newlinesafter': 2})
+        print("Successfully opened Firefox.\n")
 
         time.sleep(0.5)
 
@@ -101,9 +112,12 @@ class Session(QObject):
             self.selenium.wait('tass-start-quiz__button') # waiting until logged in
         except:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Unable to log in to Tassomai.]', {'newlinesafter': 2})
+            print("Unable to login to Tassomai.\n")
+            logging.error(traceback.format_exc())
             return
 
         self.logger.emit('TYPES=[(#0c5d09, BOLD), Successfully logged into Tassomai.]', {})
+        print("Successfully logged into Tassomai.")
 
         time.sleep(2.00)
 
@@ -118,8 +132,13 @@ class Session(QObject):
                 if self.tassomai.is_bonus_complete and self.bonusGoal:
                     break
                 self.logger.emit(f'COLOR=(#0c5d09, Starting up quiz {quiz+1}.)', {'newlinesbefore': 1})
+                print(f"\nQuiz {quiz+1}")
+
                 self.tassomai.load_new_quiz()
-                self.logger.emit(self.tassomai.title, {'color': '#7214ff', 'bold': True, 'newlinesafter': 2})
+
+                title = self.tassomai.title
+                self.logger.emit(title, {'color': '#7214ff', 'bold': True, 'newlinesafter': 2})
+                print(f"{title}\n")
 
                 to_update = {}
                 for section in range(self.tassomai.sections):
@@ -131,6 +150,7 @@ class Session(QObject):
                         return
 
                     self.logger.emit(question, {'color': '#0066cc', 'bold': True})
+                    print(question)
 
                     if self.database.cached(question):
                         is_correct = self.tassomai.answer_from_database(self.database, section) # sometimes there can be multiple of the same questions
@@ -157,6 +177,8 @@ class Session(QObject):
                     self.logger.emit(f'COLOR=(#7214ff, Question {section+1}:) '
                                      f'TYPES=[(BOLD, {"#0c5d09" if is_correct else "#c8001a"}), {"Correct" if is_correct else "Incorrect"}]', {})
                     self.logger.emit(f'COLOR=(#7214ff, Correct Answer:) TYPES=[(BOLD, #0c5d09), {answer.replace("[", "(").replace("]", ")")}]', {})
+                    print(f"Question {section+1}: {'Correct' if is_correct else 'Incorrect'}")
+                    print(f"Correct Answer: {answer.replace('[', '(').replace(']', ')')}")
                     if is_correct:
                         self.correct += 1
                     else:
@@ -197,6 +219,10 @@ class Session(QObject):
         self.ui.terminate_session()
 
     def show_stats(self):
+        if self.ui.showStats:
+            self.show.emit()
+        print("\n\nTassomai Automation Complete!")
+        print("Loading STATS...")
         self.logger.emit(f'COLOR=(#0066cc, Tassomai Automation Complete!)', {'newlinesbefore': 1})
         self.logger.emit(f'STATS:', {'color': '#7214ff', 'bold': True})
         self.logger.emit(f'- Time: TYPES=[(BOLD, #0c5d09), {convert_to_time(round((time.perf_counter() - self.timer)))}]', {})
@@ -209,3 +235,7 @@ class Session(QObject):
         self.logger.emit(f'- Finished Quizes: TYPES=[(BOLD, #0c5d09), {self.quizes}]', {})
         self.logger.emit(f'- Total Correct: TYPES=[(BOLD, #0c5d09), {self.correct}]', {})
         self.logger.emit(f'- Total Incorrect: TYPES=[(BOLD, #c8001a), {self.incorrect}]', {})
+        print("Successfully loaded STATS.")
+        if self.ui.shouldClose:
+            print("-- Exiting --")
+            self.close.emit()
