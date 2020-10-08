@@ -172,7 +172,6 @@ class Session(QObject):
                             to_update[question] = [to_update[question], answer] # multiple possibilities
                     else:
                         to_update.update({question: answer})
-                    print({question: to_update[question]})
 
                     self.logger.emit(f'COLOR=(#7214ff, Question {section+1}:) '
                                      f'TYPES=[(BOLD, {"#0c5d09" if is_correct else "#c8001a"}), {"Correct" if is_correct else "Incorrect"}]', {})
