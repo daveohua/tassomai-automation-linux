@@ -219,7 +219,7 @@ class Tassomai:
 
         if text['questions'][section]['uses_mathjax']:
             try:
-                answer = tree.xpath(xpath % (section+1, box)).getall()[0]
+                answer = ' '.join(tree.xpath(xpath % (section+1, box)).getall())
             except:
                 return ''.join(text_answer)
             mathjax = re.split('\\\\\[|\\\\frac|\\\\text |\\\\|]', answer)
