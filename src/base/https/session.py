@@ -240,7 +240,7 @@ class Session(QObject):
         daily_goal = f'- Daily Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_complete else "#c8001a"}),' \
                      f' {"Complete" if self.tassomai.is_complete else "Incomplete"}]'
         bonus_goal = f'- Bonus Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_bonus_complete else "#c8001a"}),' \
-                     f' {"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}'
+                     f' {"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}]'
         level = self.tassomai.level
         percentage = calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total)
         quizes = self.quizes
