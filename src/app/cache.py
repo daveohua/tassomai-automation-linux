@@ -16,10 +16,11 @@ class Database:
                 data = json.loads('{}')
                 json.dump(data, f, indent=3)
 
-        with open(self.filename, 'w') as f:
-            git = GithubDatabase("answers.json") # Making sure the local database is updated too
-            content = git.get_content()
-            json.dump(content, f, indent=3)
+        if self.filename == 'answers.json':
+            with open(self.filename, 'w') as f:
+                git = GithubDatabase("answers.json") # Making sure the local database is updated too
+                content = git.get_content()
+                json.dump(content, f, indent=3)
 
     def _test_if_empty(self):
         with open(self.filename) as f:
