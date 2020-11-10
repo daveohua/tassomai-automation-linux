@@ -1,4 +1,5 @@
 import time
+import json
 import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
@@ -6,6 +7,7 @@ from PyQt5.QtCore import QObject, pyqtSignal
 from base.common import establishConnection, convert_to_time, calculate_percentage
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
+from app.github_db import GithubDatabase
 
 class Session(QObject):
 
@@ -15,6 +17,7 @@ class Session(QObject):
 
     def __init__(self, base, parent=None):
         super().__init__(parent)
+        self.git = GithubDatabase("answers.json")
         self.running = False
         self.shownStats = False
         self.ui = base
@@ -70,6 +73,13 @@ class Session(QObject):
                 time.sleep(0.5)
                 connect()
         connect()
+
+        with open(self.database.filename, 'w') as f:
+            content = self.git.get_content()
+            json.dump(content, f, indent=3)
+
+        self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Public Answers Database!]', {'newlinesafter': 2})
+        print("Successfully updated local database by fetching the Public Answers Database!\n")
 
         self.logger.emit('TYPES=[(BOLD, #0066cc), Loading Firefox...]', {})
         print("Loading Firefox...")
@@ -206,6 +216,9 @@ class Session(QObject):
                 time.sleep(0.5)
 
                 self.quizes += 1
+                new_content = self.database.all()
+                self.git.edit_content(f"Public Answers Database - {len(new_content)} questions answered!", new_content)
+
 
             self.shownStats = True
             self.show_stats()
@@ -222,18 +235,35 @@ class Session(QObject):
             self.show.emit()
         print("\n\nTassomai Automation Complete!")
         print("Loading STATS...")
+
+        timer = convert_to_time(round((time.perf_counter() - self.timer)))
+        daily_goal = f'- Daily Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_complete else "#c8001a"}),' \
+                     f' {"Complete" if self.tassomai.is_complete else "Incomplete"}]'
+        bonus_goal = f'- Bonus Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_bonus_complete else "#c8001a"}),' \
+                     f' {"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}'
+        level = self.tassomai.level
+        percentage = calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total)
+        quizes = self.quizes
+        correct = self.correct
+        incorrect = self.incorrect
+
         self.logger.emit(f'COLOR=(#0066cc, Tassomai Automation Complete!)', {'newlinesbefore': 1})
         self.logger.emit(f'STATS:', {'color': '#7214ff', 'bold': True})
-        self.logger.emit(f'- Time: TYPES=[(BOLD, #0c5d09), {convert_to_time(round((time.perf_counter() - self.timer)))}]', {})
-        self.logger.emit(f'- Daily Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_complete else "#c8001a"}), '
-                         f'{"Complete" if self.tassomai.is_complete else "Incomplete"}]', {})
-        self.logger.emit(f'- Bonus Goal: TYPES=[(BOLD, {"#0c5d09" if self.tassomai.is_bonus_complete else "#c8001a"}), '
-                         f'{"Complete" if self.tassomai.is_bonus_complete else "Incomplete"}]', {})
-        self.logger.emit(f'- Level: TYPES=[(BOLD, #0c5d09), {self.tassomai.level} ( '
-                         f'{calculate_percentage(self.tassomai.level_progress, self.tassomai.level_total)}% )]', {})
-        self.logger.emit(f'- Finished Quizes: TYPES=[(BOLD, #0c5d09), {self.quizes}]', {})
-        self.logger.emit(f'- Total Correct: TYPES=[(BOLD, #0c5d09), {self.correct}]', {})
-        self.logger.emit(f'- Total Incorrect: TYPES=[(BOLD, #c8001a), {self.incorrect}]', {})
+        self.logger.emit(f'- Time: TYPES=[(BOLD, #0c5d09), {timer}]', {})
+        self.logger.emit(f'- Daily Goal: TYPES=[(BOLD, {daily_goal}]', {})
+        self.logger.emit(f'- Bonus Goal: TYPES=[(BOLD, {bonus_goal}]', {})
+        self.logger.emit(f'- Level: TYPES=[(BOLD, #0c5d09), {level} ( {percentage}% )]', {})
+        self.logger.emit(f'- Finished Quizes: TYPES=[(BOLD, #0c5d09), {quizes}]', {})
+        self.logger.emit(f'- Total Correct: TYPES=[(BOLD, #0c5d09), {correct}]', {})
+        self.logger.emit(f'- Total Incorrect: TYPES=[(BOLD, #c8001a), {incorrect}]', {})
+        print(f'STATS:')
+        print(f'- Time: {timer}')
+        print(f'- Daily Goal: {daily_goal}')
+        print(f'- Bonus Goal: {bonus_goal}')
+        print(f'- Level: {level} ( {percentage}% )')
+        print(f'- Finished Quizes: {quizes}')
+        print(f'- Total Correct: {correct}')
+        print(f'- Total Incorrect: {incorrect}')
         print("Successfully loaded STATS.")
         if self.ui.shouldClose:
             print("-- Exiting --")
