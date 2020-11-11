@@ -1,13 +1,14 @@
 import time
 import json
+import subprocess
 import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
 
+from app import path
 from base.common import establishConnection, convert_to_time, calculate_percentage
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
-from app.github_db import GithubDatabase
 
 class Session(QObject):
 
@@ -17,7 +18,6 @@ class Session(QObject):
 
     def __init__(self, base, parent=None):
         super().__init__(parent)
-        self.git = GithubDatabase("answers.json")
         self.running = False
         self.shownStats = False
         self.ui = base
@@ -75,7 +75,8 @@ class Session(QObject):
         connect()
 
         with open(self.database.filename, 'w') as f:
-            content = self.git.get_content()
+            content = subprocess.check_output([path+'github_db.exe', '-g']).decode('utf-8').strip()
+            content = eval(f'dict({content})')
             json.dump(content, f, indent=3)
 
         self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Public Answers Database!]', {'newlinesafter': 2})
@@ -216,9 +217,8 @@ class Session(QObject):
                 time.sleep(0.5)
 
                 self.quizes += 1
-                new_content = self.database.all()
-                self.git.edit_content(f"Public Answers Database - {len(new_content)} questions answered!", new_content)
 
+                subprocess.call([path+'github_db.exe', f'-e "{self.database.filename}"'])
 
             self.shownStats = True
             self.show_stats()

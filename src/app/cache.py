@@ -1,7 +1,8 @@
 import json
 import os
+import subprocess
 
-from app.github_db import GithubDatabase
+from app import path
 
 class Database:
     def __init__(self, folder, filename):
@@ -18,8 +19,8 @@ class Database:
 
         if self.filename == 'answers.json':
             with open(self.filename, 'w') as f:
-                git = GithubDatabase("answers.json") # Making sure the local database is updated too
-                content = git.get_content()
+                content = subprocess.check_output([path+'github_db.exe', '-g']).decode('utf-8').strip()
+                content = eval(f'dict({content})')
                 json.dump(content, f, indent=3)
 
     def _test_if_empty(self):
