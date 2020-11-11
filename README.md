@@ -67,6 +67,7 @@ This is very useful for running it as soon as you turn your PC on!
 5. Otherwise, if the question isn't found in `answers.json` then it will call a function that answers a random box by listing all the boxes and using the `random` libary to choose one in the list to click it and return if it's correct or not.
 6. If the answer was correct or not, it will call a function to find the correct answer. We do this by looping through all the boxes, and if the boxes `background-color` css property is equal to green - `rgb(201, 240, 195)`, then store `{question: answer}` in `answers.json`.
 7. This is all for 1 question. It will do this X times (depending on how many sections there are in the quiz)
+8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online here. Currently as of 11/11/20, **389 questions have been answered!**
 
 # Overview
 <img src="src/images/Tassomai Automation.jpg">
