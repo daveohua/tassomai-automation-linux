@@ -76,6 +76,7 @@ This is very useful for running it as soon as you turn your PC on!
 7. This is all for 1 question. It will do this X times (depending on how many sections there are in the quiz)
 
 8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online here.
+
 Currently as of 11/11/20, **389 questions have been answered!**
 
 # Overview
