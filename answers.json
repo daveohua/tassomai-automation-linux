@@ -14,7 +14,7 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Open cuts quickly heal over by the formation of SCABS",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs",
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -444,5 +444,7 @@
    "Pathogenic BACTERIAL cells\u2026": "produce TOXINS",
    "The WINDPIPE is lined with tiny hairs called ---(1)---. These hair-like projections move ---(2)--- and dust away from the LUNGS and into the throat.": "1: cilia; 2: mucus",
    "The bonds in metallic compounds are hard to break due to the STRONG electrostatic attraction between the POSITIVELY charged IONS and the ---(1)---. This means that most metals have ---(2)--- melting and boiling points.": "1: 'sea' of delocalised electrons; 2: high",
-   "Carbon NANOTUBES are ---(1)--- of fullerenes and have a very ---(2)--- length to diameter ratio.": "1: cylindrical tubes; 2: high"
+   "Carbon NANOTUBES are ---(1)--- of fullerenes and have a very ---(2)--- length to diameter ratio.": "1: cylindrical tubes; 2: high",
+   "---(1)--- is/are used to make proteins in plants, a deficiency in this may cause ---(2)---.": "1: nitrates; 2: stunted growth",
+   "Following vaccination against a microorganism, memory cells protect an individual by rapidly producing ---(1)--- when reinfected with ---(2)--- microorganism.": "1: antibodies; 2: the same"
 }
