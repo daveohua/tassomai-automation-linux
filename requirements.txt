@@ -1,6 +1,6 @@
-pyqt5_tools (for the GUI)
-parsel (xpath usage)
-selenium (browser automation)
-requests (retreiving data)
-youtube_dl (just yoinking a function from .compat)
-PyGithub (for updating the database)
+pyqt5_tools
+parsel
+selenium
+requests
+youtube_dl
+PyGithub
