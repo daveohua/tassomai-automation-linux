@@ -1,4 +1,6 @@
 import requests
+import json
+import os
 
 def establishConnection():
     """
@@ -14,6 +16,12 @@ def establishConnection():
 
 def calculate_percentage(number, total):
     return round((number/total) * 100, 1)
+
+def retreive_temp_data(folder):
+    with open(folder+'\\temp.json') as f:
+        data = json.load(f)
+    os.remove(folder+'\\temp.json') # deleting it as its only temporary
+    return data
 
 def convert_to_time(x):
     """

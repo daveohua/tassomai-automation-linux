@@ -6,7 +6,7 @@ import logging, traceback
 from PyQt5.QtCore import QObject, pyqtSignal
 
 from app import path
-from base.common import establishConnection, convert_to_time, calculate_percentage
+from base.common import establishConnection, convert_to_time, calculate_percentage, retreive_temp_data
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
 
@@ -75,8 +75,8 @@ class Session(QObject):
         connect()
 
         with open(self.database.filename, 'w') as f:
-            content = subprocess.check_output([path+'github_db.exe', '-g']).decode('utf-8').strip()
-            content = eval(f'dict({content})')
+            subprocess.call([path+'github_db.exe', f'-p \"{self.database.folder}\"', '-g'])
+            content = retreive_temp_data(self.folder)
             json.dump(content, f, indent=3)
 
         self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Public Answers Database!]', {'newlinesafter': 2})
@@ -218,7 +218,7 @@ class Session(QObject):
 
                 self.quizes += 1
 
-                subprocess.call([path+'github_db.exe', f'-e "{self.database.filename}"'])
+                subprocess.call([path+'github_db.exe', f'-p \"{self.database.folder}\"', f'-e "{self.database.filename}"'])
 
             self.shownStats = True
             self.show_stats()

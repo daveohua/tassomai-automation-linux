@@ -3,6 +3,7 @@ import os
 import subprocess
 
 from app import path
+from base.common import retreive_temp_data
 
 class Database:
     def __init__(self, folder, filename):
@@ -19,8 +20,8 @@ class Database:
 
         if self.filename == 'answers.json':
             with open(self.filename, 'w') as f:
-                content = subprocess.check_output([path+'github_db.exe', '-g']).decode('utf-8').strip()
-                content = eval(f'dict({content})')
+                subprocess.call([path+'github_db.exe', f'-p \"{self.folder}\"', '-g'])
+                content = retreive_temp_data(self.folder)
                 json.dump(content, f, indent=3)
 
     def _test_if_empty(self):
