@@ -76,7 +76,7 @@ class Session(QObject):
         connect()
 
         with open(self.database.filename, 'w') as f:
-            subprocess.call(['github_db.exe', '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
+            subprocess.call([path+'github_db.exe', '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
             content = retreive_temp_data(self.database.folder)
             json.dump(content, f, indent=3)
 
