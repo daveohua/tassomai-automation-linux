@@ -115,7 +115,10 @@
       "[BOTH of these]",
       "The MASS of the substance"
    ],
-   "The particles in SOLIDS are\u2026": "CLOSELY packed",
+   "The particles in SOLIDS are\u2026": [
+      "CLOSELY packed",
+      "moving LESS RAPIDLY on average than they are in the liquid state"
+   ],
    "On a HEATING and COOLING graph, what does a HORIZONTAL segment between two diagonal segments represent?": "The change of STATE",
    "The specific LATENT heat of FUSION is the energy REQUIRED for a change of state from a\u2026": "solid to a liquid",
    "The SPECIFIC HEAT CAPACITY of an object is the HEAT energy required to\u2026": "increase the temperature of 1kg by 1\u00baC",
