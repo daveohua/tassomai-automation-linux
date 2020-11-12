@@ -9,7 +9,10 @@ class Selenium:
         self.path = path_to_gecko
 
     def start(self):
-        kwargs = {"executable_path": self.path, "service_log_path": self.path.replace('.exe', '.log')}
+        kwargs = {
+            "executable_path": self.path,
+            "service_log_path": self.path.replace('.exe', '.log')
+        }
 
         if self.ui.ui.framelessFirefox.isChecked():
             option = webdriver.FirefoxOptions()
