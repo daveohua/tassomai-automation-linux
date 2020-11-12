@@ -115,16 +115,16 @@
       "The MASS of the substance",
       "[BOTH of these]"
    ],
-   "The particles in SOLIDS are\u2026": [
-      "CLOSELY packed",
-      "moving LESS RAPIDLY on average than they are in the liquid state"
-   ],
+   "The particles in SOLIDS are\u2026": "moving LESS RAPIDLY on average than they are in the liquid state",
    "On a HEATING and COOLING graph, what does a HORIZONTAL segment between two diagonal segments represent?": "The change of STATE",
    "The specific LATENT heat of FUSION is the energy REQUIRED for a change of state from a\u2026": "solid to a liquid",
    "The SPECIFIC HEAT CAPACITY of an object is the HEAT energy required to\u2026": "increase the temperature of 1kg by 1\u00baC",
    "The equation governing SPECIFIC HEAT CAPACITY is given as \u0394E = mc\u0394\u03b8. What does the m represent?": "Mass",
    "Heating a closed system will RAISE the temperature and may produce changes of\u2026": "state",
-   "On a HEATING and COOLING graph, which quantity is measured on the y-axis?": "[EITHER of these]",
+   "On a HEATING and COOLING graph, which quantity is measured on the y-axis?": [
+      "Temperature (\u00baC)",
+      "[EITHER of these]"
+   ],
    "The specific LATENT heat of VAPORISATION is the energy REQUIRED for a change of state from a\u2026": "liquid to a vapour",
    "Which of these formulae is used to work out the ENERGY required for a CHANGE OF STATE?": "E = m x L [energy = mass x specific latent heat]",
    "How do we know that the specific heat capacity of water is 4.2J/g\u00baC?": "We can measure the rise in temperature of a KNOWN MASS of water from a KNOWN AMOUNT of HEAT energy, then calculate: energy / (mass x temp rise)",
