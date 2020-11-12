@@ -14,7 +14,7 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs",
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -538,5 +538,8 @@
    "FULLERENES are large molecules consisting of ---(1)--- atoms with ---(2)--- shapes.": "1: carbon; 2: hollow",
    "PLANTS can be infected by pathogens and become diseased. What are SIGNS that a plant may be diseased?": "[ALL of these]",
    "A FULLERENE is a structure of carbon atoms in the shape of\u2026": "hexagonal rings (that can then form many shapes e.g. tubes or balls)",
-   "What is the CHANGE in ENERGY seen in particles following CONDENSATION?": "The particles have LESS energy"
+   "What is the CHANGE in ENERGY seen in particles following CONDENSATION?": "The particles have LESS energy",
+   "ASPIRIN originates from\u2026": "willow",
+   "ANTIBIOTICS are drugs that kill ---(1)--- and prevent their growth. They do not work against ---(2)---.": "1: bacteria; 2: viruses",
+   "VACCINATION can provide IMMUNITY against certain diseases. It involves injecting INACTIVE pathogens in the form of specific ---(1)---. This causes WHITE BLOOD CELLS to produce ---(2)--- which combat any possible future infection.": "1: antigens; 2: antibodies"
 }
