@@ -551,5 +551,7 @@
    "Why is the SKIN a useful physical barrier against pathogens?": "Its dry, dead outer cells are difficult for microbes to penetrate",
    "How many NUCLEI do VIRUSES have?": "0",
    "If the MELTING POINT of hydrogen chloride (HCl) is -115\u00b0C and BOILING POINT is -85\u00b0C, what STATE is it in at room temperature?": "Gas",
-   "FINE particles have a size range between ---(1)---, which makes them ---(2)--- than nanoparticles. [*Pay close attention to the powers!]": "1: ; 2: larger100 - 2500text{nm},({or},1 x10^{-7} - 2.5 x10^{-6}m)"
+   "FINE particles have a size range between ---(1)---, which makes them ---(2)--- than nanoparticles. [*Pay close attention to the powers!]": "1: ; 2: larger100 - 2500text{nm},({or},1 x10^{-7} - 2.5 x10^{-6}m)",
+   "There are numerous ways that a PATHOGEN can be spread from one person to another. Which of these is a valid example?": "[ANY of these]",
+   "Vaccination of a high percentage of the population helps to ---(1)--- the risk of EPIDEMICS by ---(2)---.": "1: reduce; 2: promoting herd immunity"
 }
