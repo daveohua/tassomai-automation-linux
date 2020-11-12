@@ -260,7 +260,10 @@
    "The NUCLEUS\u2026": "is the organelle containing the GENETIC INFORMATION for the organism",
    "What happens during STAGE 1 of the CELL CYCLE?": "The cells increase in SIZE and MASS. They carry out their normal cell functions and REPLICATE their CHROMOSOMES in preparation of cell division. This is known as INTERPHASE",
    "Rutherford's NUCLEAR ATOMIC model was further developed by Niels BOHR, who proposed that\u2026": "ELECTRONS occupy ORBITS around the NUCLEUS",
-   "Some NUCLEI are UNSTABLE and may spontaneously decay, emitting\u2026": "[NEITHER of these]",
+   "Some NUCLEI are UNSTABLE and may spontaneously decay, emitting\u2026": [
+      "helium nuclei",
+      "[NEITHER of these]"
+   ],
    "The emission of GAMMA rays\u2026": "causes NO change to the CHARGE of the nucleus",
    "During ENDOTHERMIC reactions\u2026": "ENERGY is TAKEN IN from the surrounding environment",
    "Not all collisions lead to a reaction. A reaction DOES NOT occur when particles collide\u2026": "with TOO LOW an ENERGY",
@@ -586,5 +589,7 @@
    "Group 1 elements are all\u2026": "reactive metals",
    "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
    "Less REACTIVE metals, such as iron, are EXTRACTED from their ORES using\u2026": "reduction",
-   "A reaction for the extraction of Zinc is ZnO(s) + C(s) \u2192 Zn(s) + CO(g). In the process, Zinc oxide is being\u2026": "reduced"
+   "A reaction for the extraction of Zinc is ZnO(s) + C(s) \u2192 Zn(s) + CO(g). In the process, Zinc oxide is being\u2026": "reduced",
+   "The HALF-LIFE of a radioactive isotope is the time it takes for\u2026": "the NUMBER of the undecayed NUCLEI in the sample to DECAY to HALF the initial amount",
+   "A BETA particle can have a CHARGE of\u2026": "-1 or +1"
 }
