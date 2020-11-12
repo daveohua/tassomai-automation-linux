@@ -169,7 +169,7 @@
    "What effect will an INCREASE in temperature have on the rate of TRANSPIRATION?": "FASTER evaporation and diffusion from the leaf",
    "Complete the equation for the reaction of an ALKALI and an ACID: 2NaOH(aq) + H\n2\nSO\n4\n(aq) \u2192": "{Na}_2{SO}_4{(aq)} + 2H_2{O(l)}",
    "NaCl is added to a solution of aqueous H\u2082SO\u2084 until there is no further reaction. The name of the salt formed after evaporation is called\u2026": "sodium sulfate",
-   "Which of these is the only CORRECT formula for A SALT (note: there are more salts than just table salt)?": "MgCl_2",
+   "Which of these is the only CORRECT formula for A SALT (note: there are more salts than just table salt)?": "Ca(NO)_3 _2",
    "Which of these equations is TRUE?": "Power = work done / time taken [i.e. ]P= {E / t}",
    "In a plant, MINERALS are taken up into the ROOTS by\u2026": "active transport",
    "CRUDE OIL is a ---(1)--- resource found in rocks. It contains a mixture of compounds, mainly ---(2)---.": "1: finite; 2: hydrocarbons",
@@ -584,5 +584,7 @@
    "Which of these metals will react with COLD WATER?": "[ALL of these]",
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
-   "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions"
+   "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
+   "Less REACTIVE metals, such as iron, are EXTRACTED from their ORES using\u2026": "reduction",
+   "A reaction for the extraction of Zinc is ZnO(s) + C(s) \u2192 Zn(s) + CO(g). In the process, Zinc oxide is being\u2026": "reduced"
 }
