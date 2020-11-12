@@ -107,16 +107,14 @@
    "On a HEATING and COOLING graph, what does an UPWARD gradient represent?": "An INCREASE of temperature over time",
    "The SPECIFIC HEAT CAPACITY, c, measured in J/kg\u00baC, is the HEAT energy required to change the temperature of\u2026": "1kg of a material by 1\u00baC",
    "The equation governing SPECIFIC HEAT CAPACITY is given as \u0394E = mc\u0394\u03b8. What does the c represent?": "The specific heat capacity of the material",
-   "When HEAT ENERGY is transferred to a system, the INCREASE in the system's TEMPERATURE depends on the\u2026": [
-      "[ALL of these]",
-      "[BOTH of these]"
-   ],
+   "When HEAT ENERGY is transferred to a system, the INCREASE in the system's TEMPERATURE depends on the\u2026": "[ALL of these]",
    "The quantity measured in KILOGRAMS per CUBIC METRE (kg/m\n3\n) is\u2026": "density",
    "CHANGES of STATE are always ---(1)--- changes, as the material ---(2)--- properties if the change is REVERSED.": "1: physical; 2: recovers its original",
    "HEATING a CLOSED system will change its...": "energy",
    "What stays the SAME during the time in which substances are undergoing a CHANGE OF STATE? [*BE CAREFUL; there are many versions of this question but with different ANSWERS!]": [
-      "The TEMPERATURE of the substance",
-      "[BOTH of these]"
+      "The MASS of the substance",
+      "[BOTH of these]",
+      "The TEMPERATURE of the substance"
    ],
    "The particles in SOLIDS are\u2026": "moving LESS RAPIDLY on average than they are in the liquid state",
    "On a HEATING and COOLING graph, what does a HORIZONTAL segment between two diagonal segments represent?": "The change of STATE",
