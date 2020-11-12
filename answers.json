@@ -419,7 +419,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "All the particles are represented as SPHERES",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -450,5 +450,7 @@
    "If the FORCES between the particles of a SOLID substance are ---(1)--- then a LARGE amount of energy would be ---(2)--- in an upwards change of state (MELTING).": "1: strong; 2: required",
    "[TRUE or FALSE?]: COVALENT-bonded molecules are only ever made up of 2 ATOMS, no more.": "[FALSE]: Each covalent BOND is made up of 2 ELECTRONS, but a covalent MOLECULE can have several bonds and thus several atoms",
    "In which of these situations will the RATE of TRANSPIRATION be GREATEST?": "High temperature, low humidity",
-   "What is a DOUBLE circulatory system?": "TWO circuits from the heart"
+   "What is a DOUBLE circulatory system?": "TWO circuits from the heart",
+   "Group 1 elements are all alkali metals. They will ---(1)--- an electron to form a ---(2)--- ion.": "1: lose; 2: positive",
+   "IONIC compounds have certain properties which allow them to form\u2026": "[ALL of these]"
 }
