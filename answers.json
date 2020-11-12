@@ -14,7 +14,10 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
+      "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
+      "Open cuts quickly heal over by the formation of SCABS"
+   ],
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -559,5 +562,7 @@
    "BACTERIAL pathogens can be spread by DIRECT contact. Which of the following is an example of this?": "Kissing",
    "Skin is the first line of defence from infection, however if a PATHOGEN enters the body it will be attacked by\u2026": "white blood cells",
    "IONIC compounds are typically made up of a\u2026": "metal + a non-metal",
-   "NANOPARTICLES have very different properties compared to BULK materials because of their\u2026": "high surface area to volume ratio"
+   "NANOPARTICLES have very different properties compared to BULK materials because of their\u2026": "high surface area to volume ratio",
+   "Which of the following terms BEST describes antibiotics?": "Substances that KILL and PREVENT growth of bacteria",
+   "Here are four steps that show the process of IMMUNISATION. Which happens FIRST?": "A small quantity of dead or inactive forms of the pathogen are introduced to the body"
 }
