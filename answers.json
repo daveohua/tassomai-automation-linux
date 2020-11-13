@@ -749,10 +749,7 @@
    "FLUORINE and SODIUM react to form ---(1)--- which is ---(2)--- compound, generally termed a METAL HALIDE.": "1: sodium fluoride; 2: an ionic",
    "The power rating for a 1500 W vacuum cleaner means that\u2026": "1.5 kJ of energy is TRANSFERRED per second when it is being used",
    "CHARGE delivered to a circuit can be calculated by\u2026": "multiplying CURRENT by TIME [Q = I x t]",
-   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": [
-      "[ALL of these]",
-      "[BOTH of these]"
-   ],
+   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": "[ALL of these]",
    "Which of these formulae calculates the ELASTIC POTENTIAL energy of a spring?": "E_E = 12{ke}^2",
    "As protons, neutrons and electrons were yet to be discovered, scientists classified the EARLY periodic table by atomic\u2026": "mass",
    "A displacement reaction ---(1)--- take place between SODIUM FLUORIDE (NaF) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will not; 2: chlorine is LESS reactive than fluorine",
@@ -793,7 +790,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The BLUE wire is the NEUTRAL wire (N)",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The LIVE wire connects to the FUSE",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1085,5 +1082,8 @@
    "OSMOSIS and TRANSPIRATION play a role in WATER UPTAKE in the trunk of a tree. Which process has more of a significance?": "Transpiration",
    "Which element has the symbol S?": "Sulphur",
    "The RELATIVE ATOMIC MASS (Ar) of an element\u2026": "is the MEAN MASS of ALL the DIFFERENT ISOTOPES of the element",
-   "Where in the atom would you find the NEUTRONS?": "In the nucleus"
+   "Where in the atom would you find the NEUTRONS?": "In the nucleus",
+   "A SPEAKER, which receives a 5 A current over a 10 V potential difference, transfers energy from ELECTRICAL to SOUND. If this transfer is 100% efficient, what is the POWER output? [Check the UNITS]": "P = V x I = 10 x 5 = 50 W",
+   "[TRUE or FALSE?]: Increased CURRENT through a FILAMENT LAMP causes the wire to HEAT UP and RESISTANCE to DECREASE.": "[FALSE]: Hot wires are MORE resistant",
+   "When DRILLING a hole, a drill\u2026": "transfers ELECTRICAL energy to KINETIC, SOUND and HEAT energy"
 }
