@@ -59,7 +59,7 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": "plants that provide biofuel",
+   "An example of a RENEWABLE energy resource is\u2026": "wind energy",
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -732,8 +732,8 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "[BOTH of these]",
-      "Energy (kWh) = power (kW) x time (h)"
+      "[NEITHER of these]",
+      "[BOTH of these]"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
@@ -783,5 +783,6 @@
    "DELOCALISED electrons within metals are ---(1)---, allowing them to carry a ---(2)---, which means that they conduct electricity.": "1: free to move; 2: charge",
    "Diamond is very HARD because of the strong ---(1)--- bonds of each CARBON atom, and their bonding arrangement with ---(2)--- other carbons.": "1: covalent; 2: four",
    "The elements found on the FAR RIGHT of the periodic table in group 8 (a.k.a. group 0) are the\u2026": "NOBLE gases",
-   "JJ THOMSON'S discovery of the ---(1)--- led to the development of the ---(2)--- model.": "1: electron; 2: plum pudding"
+   "JJ THOMSON'S discovery of the ---(1)--- led to the development of the ---(2)--- model.": "1: electron; 2: plum pudding",
+   "SOLAR CELLS are devices that convert energy from the Sun into ELECTRICAL energy. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is both sustainable and renewable; 2: it is not readily available all the time (no sunlight at night)"
 }
