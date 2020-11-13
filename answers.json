@@ -68,7 +68,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS are made using crops that would otherwise provide FOOD",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -377,7 +377,7 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[NEITHER of these]",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "coal",
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
@@ -742,5 +742,8 @@
    "Resistor one (R\u2081 = 1 ohms) and resistor two (R\u2082 = 4 ohms) are connected in SERIES with a supply VOLTAGE (V) of 50V. What is the CURRENT (I) in the circuit?": "I = V / R = 50 / (4+1) = 10A",
    "An LDR can be used in a light-sensor circuit. The LDR's resistance ---(1)--- as the incident light intensity increases. The CURRENT in the circuit would then ---(2)---.": "1: decreases; 2: increase",
    "In what CONDITIONS do the BACTERIA that are most harmful to humans thrive the most (grow and reproduce)?": "Warm body temperatures (37\u00b0C)",
-   "The FINAL stage of cell DIVISION involves the\u2026": "cell MEMBRANE and CYTOPLASM splitting in half to form 2 DIPLOID daughter cells"
+   "The FINAL stage of cell DIVISION involves the\u2026": "cell MEMBRANE and CYTOPLASM splitting in half to form 2 DIPLOID daughter cells",
+   "Which calculation would be used to determine the amount of ENERGY associated with an object RAISED above the ground?": "Gravitational potential energy = mass x gravitational field strength x height [GPE = m x g x h]",
+   "Which of these is a TRUE ADVANTAGE of using geothermal power?": "It is RENEWABLE",
+   "NUCLEAR POWER can be used as a NON-RENEWABLE energy source. An ADVANTAGE of this is that it ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: does NOT produce carbon dioxide; 2: nuclear waste remains radioactive and is hazardous for thousands of years"
 }
