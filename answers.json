@@ -326,7 +326,10 @@
    "The NERVOUS SYSTEM does NOT include\u2026": "the pancreas",
    "FSH stimulates the maturation of follicles, which\u2026": "stimulates oestrogen production",
    "Why is HOMEOSTASIS necessary?": "Maintaining a CONSTANT INTERNAL ENVIRONMENT ensures that METABOLIC PROCESSES will be able to work at their optimum level",
-   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": "[BOTH of these]",
+   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": [
+      "POSITIVELY charged aluminium ions gain electrons from the cathode",
+      "POSITIVELY charged aluminium ions gain electrons from the cathode"
+   ],
    "The positive electrode, made of GRAPHITE (CARBON), must be CONTINUALLY REPLACED in the extraction of ALUMINIUM because \u2026": "it reacts with OXYGEN IONS to form CO\u2082, a gas",
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
@@ -1202,5 +1205,8 @@
    "Which is the correct balanced chemical equation for the reaction of METHANOIC ACID with CALCIUM CARBONATE?": "2HCOOH + CaCO\u2083 \u2192 Ca(HCOO)\u2082 + CO\u2082 + H\u2082O",
    "A reaction has an ACTUAL yield of 2.78g, with a percentage yield of 37.3%. What was the THEORETICAL yield?": "{2.78 / 37.3} x100=7.45g",
    "The RELATIVE ATOMIC MASS (Ar) of an element is a measure of the mass in ---(1)--- of one ---(2)--- of an element.": "1: grams; 2: mole",
-   "Reaction pathways with HIGH YIELDS and ATOM ECONOMY may not be chosen in industry because\u2026": "[ALL of these]"
+   "Reaction pathways with HIGH YIELDS and ATOM ECONOMY may not be chosen in industry because\u2026": "[ALL of these]",
+   "Which of these does NOT accurately describe an ELECTROLYTE?": "A solution with a pH of 7",
+   "Electrolysis is carried out on an AQUEOUS solution of NaCl. Which of these is NOT likely to be a product?": "Sodium (s)",
+   "The pH of a solution depends on\u2026": "both the CONCENTRATION and the STRENGTH of the acid"
 }
