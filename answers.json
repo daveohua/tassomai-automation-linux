@@ -1279,5 +1279,9 @@
    "What VOLUME (\ndm\n3\n) would 22g of helium take up, at room temperature and pressure?": "{22}4 x24 = 132 { dm}^3",
    "One MOLE of a substance contains ---(1)--- of particles, atoms, molecules or ions as one mole of ---(2)----.": "1: the same number; 2: any OTHER substance",
    "Which of these is a STRONG acid?": "Nitric acid",
-   "When an AQUEOUS solution containing a dissolved salt is ELECTROLYSED, the ions created are\u2026": "[Salt cation]\u207a, [Salt anion]\u207b, H\u207a and OH\u207b"
+   "When an AQUEOUS solution containing a dissolved salt is ELECTROLYSED, the ions created are\u2026": "[Salt cation]\u207a, [Salt anion]\u207b, H\u207a and OH\u207b",
+   "When the MOLTEN STATE of PbBr\n2\n, an IONIC compound, is electrolysed using INERT electrodes, the ---(1)--- is produced at the NEGATIVE---(2)---.": "1: metal (lead); 2: cathode",
+   "The chemical reaction \"HF + NaOH \u2192 NaF + H\u2082O\" uses 20 grams of HF. How many grams of NaF are produced? (Relative atomic masses are: H = 1; F = 19; Na = 23; O = 16)": "20 / (19 + 1) = 1 mol HF; 1 mol NaF made; Mass = n x Mr = 1 x (23 + 19) = 42g",
+   "Electrolysis of a NaCl SOLUTION is carried out. The correct HALF-EQUATION for the reaction at the CATHODE is\u2026": "2H\u207a + 2e\u207b \u2192 H\u2082",
+   "The number of moles of a gas is given by\u2026": "the volume of the gas (dm\u00b3) / 24 (dm\u00b3)"
 }
