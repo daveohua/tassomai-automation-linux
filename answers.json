@@ -658,11 +658,7 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
-      "Many of them form IONS with DIFFERENT CHARGES",
-      "Transition elements have HIGH melting/boiling points",
-      "[NONE of these are true]"
-   ],
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Transition elements make COLOURED compounds",
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -914,5 +910,7 @@
    "NON-METALS tend to appear in which part of the PERIODIC TABLE?": "On the RIGHT-hand side (actually taking up only a small part of the table)",
    "What is the chemical formula of CHLORINE GAS?": "{Cl}_2(g)",
    "In a HEAT-SENSOR circuit we can use an NTC THERMISTOR. When the temperature RISES, the THERMISTOR'S resistance ---(1)--- and this ---(2)--- the current in the CIRCUIT.": "1: decreases; 2: increases",
-   "The National Grid is a system of ---(1)--- and TRANSFORMERS linking ---(2)--- to consumers.": "1: cables; 2: power stations"
+   "The National Grid is a system of ---(1)--- and TRANSFORMERS linking ---(2)--- to consumers.": "1: cables; 2: power stations",
+   "What is the ATOMIC NUMBER?": "It is the number of PROTONS in the nucleus of one atom of a particular element",
+   "Group 7 halogens GAIN an electron when reacting with metals. The REACTIVITY of group 7 ---(1)--- as you go down the group, because their outer shell of electrons gets ---(2)--- the nucleus.": "1: decreases; 2: further from"
 }
