@@ -924,5 +924,9 @@
    "Given that resistances of resistor 1 (R\n1\n) = 11 ohms and resistor 2 (R\n2\n) = 9 ohms, what is the P.D. (V\n1\nand V\n2\n) across each resistor in SERIES from a TOTAL voltage (V\nT\n) of 120V?": "V_1 = V_{T} x {R_1 / R_{T}} = 120  x {11 / 20} = 66 { V and V}_2 =V_{T} x {{R}_2 / R_{T}} = 120  x  {9 / 20} = 54 V",
    "The experiment that ERNEST RUTHERFORD designed to test the PLUM PUDDING MODEL involved firing a beam of WHICH kind of particle at very THIN gold foil?": "ALPHA particle",
    "If SODIUM (period 3) is MORE reactive than LITHIUM (period 2), then we can expect RUBIDIUM (period 5) to be\u2026": "MORE reactive than both",
-   "CHLORINE has 2 ISOTOPES of differing mass and in different proportions [\n35\nCl -\n75\n%\n,\n37\nCl -\n25\n%\n]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(75 x35)+(25 x 37) / 100}=35.5"
+   "CHLORINE has 2 ISOTOPES of differing mass and in different proportions [\n35\nCl -\n75\n%\n,\n37\nCl -\n25\n%\n]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(75 x35)+(25 x 37) / 100}=35.5",
+   "Which factors contribute to HEALTH?": "[ALL of these]",
+   "Root hair cells absorb WATER from the soil by the process of\u2026": "osmosis",
+   "Humans have a \"double\" circulatory system, with the heart pumping blood in circuits around the body. Where do these circuits pump blood to?": "ONE circuit to the LUNGS, ONE circuit to the rest of the BODY",
+   "AMYLASE is produced in\u2026": "[BOTH of these]"
 }
