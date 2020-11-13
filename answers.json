@@ -885,5 +885,7 @@
    "Which element has the symbol Fe?": "Iron",
    "The CIRCUIT symbol made up of two lines, one thick & short and the other thin & long, represents a ---(1)---. We represent a ---(2)---, by repeating this symbol ONCE with a dotted line in-between.": "1: cell; 2: battery",
    "On a CURRENT-POTENTIAL DIFFERENCE (I-V) graph, an OHMIC CONDUCTOR (at constant temperature) is represented by...": "a STRAIGHT line with a POSITIVE gradient",
-   "Some DOMESTIC HOUSEHOLDS install ---(1)--- on their roofs. This ---(2)--- our dependence on FOSSIL FUELS.": "1: solar panels; 2: decreases"
+   "Some DOMESTIC HOUSEHOLDS install ---(1)--- on their roofs. This ---(2)--- our dependence on FOSSIL FUELS.": "1: solar panels; 2: decreases",
+   "The CURRENT in a complete SERIES circuit\u2026": "is always the SAME",
+   "[Fill in the blank]: In a SERIES circuit, the total POTENTIAL DIFFERENCE over ALL of the components should be --- the POTENTIAL DIFFERENCE across the SUPPLY.": "EQUAL to"
 }
