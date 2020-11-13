@@ -425,7 +425,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "The particles are represented as SOLID spheres, which is NOT the case in REALITY",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -685,5 +685,7 @@
    "What is the chemical formula of a FLUORIDE ion?": "F^-",
    "Which state symbol would you use to represent SODIUM HYDROXIDE SOLUTION?": "(aq)",
    "One 5\u03a9 resistor and one 10\u03a9 resistor connected in SERIES to a CELL have DIFFERENT ---(1)--- because ---(2)--- in a series circuit.": "1: voltages; 2: the CELL voltage is split in proportion to the resistance of the resistors",
-   "Adding another branch to a PARALLEL circuit has what effect on the CURRENT drawn from the cell?": "The TOTAL circuit resistance DECREASES, so the CURRENT is INCREASED (I = V / R)"
+   "Adding another branch to a PARALLEL circuit has what effect on the CURRENT drawn from the cell?": "The TOTAL circuit resistance DECREASES, so the CURRENT is INCREASED (I = V / R)",
+   "The structure of sodium chloride (NaCl) is a GIANT IONIC LATTICE, which means that\u2026": "a positive SODIUM ion is next to a negative CHLORIDE ion, and this pattern repeats itself",
+   "Diamonds have FOUR strong COVALENT bonds. These are very STRONG, and so require ---(1)--- to break, meaning that diamonds have a ---(2)--- melting point.": "1: a lot of energy; 2: high"
 }
