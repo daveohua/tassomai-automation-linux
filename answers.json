@@ -355,7 +355,7 @@
    "The difference between AEROBIC and ANAEROBIC respiration in muscles is that\u2026": "ANAEROBIC respiration does NOT require OXYGEN",
    "Which of these is the correct word equation for AEROBIC respiration?": "Glucose + oxygen \u2192 carbon dioxide + water [+ENERGY]",
    "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": [
-      "used to produce AMINO ACIDS for protein SYNTHESIS",
+      "used to produce FAT or OIL for storage",
       "used for RESPIRATION"
    ],
    "Assuming there is no other LIMITING factor, what effect will a small INCREASE in UV light have on the rate of photosynthesis?": "It would be HIGHER",
@@ -617,5 +617,8 @@
    "Why does NaCl have a HIGH melting point?": "IONIC bonds are STRONG and require a lot of ENERGY to break",
    "Substances that are made from SMALL molecules have ---(1)--- melting and boiling points. This means that they tend to exist as mainly ---(2)--- at room temperature.": "1: low; 2: liquids or gases",
    "When WATER turns into STEAM, the total VOLUME\u2026": "increases",
-   "Potassium chloride (KCl) is an IONIC compound. The dot and cross diagram for the CHLORIDE ION would show chloride in ---(1)--- brackets with a MINUS sign OUTSIDE them. There would be 3 shells of electrons with ---(2)--- on the outer shell.": "1: square; 2: 7 crosses and 1 dot"
+   "Potassium chloride (KCl) is an IONIC compound. The dot and cross diagram for the CHLORIDE ION would show chloride in ---(1)--- brackets with a MINUS sign OUTSIDE them. There would be 3 shells of electrons with ---(2)--- on the outer shell.": "1: square; 2: 7 crosses and 1 dot",
+   "What is the correct SYMBOL equation for PHOTOSYNTHESIS?": "6{CO}_2+6H_2O\u2192C_6H_{12}O_6+6O_2",
+   "ANAEROBIC RESPIRATION leads to an OXYGEN DEBT, where an animal has an INCREASED BREATHING RATE, to allow it to take in more oxygen. This is used to break down\u2026": "lactic acid",
+   "The INVERSE SQUARE LAW dictates that if the DISTANCE of a light source from an object INCREASES by a factor of 4, then the LIGHT INTENSITY experienced by the object\u2026": "DECREASES by a factor of 4\u00b2, so 16"
 }
