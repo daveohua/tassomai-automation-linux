@@ -1239,5 +1239,8 @@
    "Exactly 200 ml of solution containing 0.75 mol/dm\u00b3 of HNO\u2083 reacts with 300 ml of aqueous NH\u2083 in a 1:1 ratio. What is the concentration of the NH\u2083 solution?": "(0.75 x 0.2) / 0.3 = 0.5 mol/dm\u00b3",
    "Here are four steps that show how to use data from acid-base titrations to calculate concentrations of the acid used. Which happens SECOND?": "Work out the mass of the alkali in the solution using the formula: mass (g) = concentration (g/dm\u00b3) x volume (dm\u00b3). Then use this mass to calculate the number of moles used, using the equation: moles (mol) = mass (g) \u00f7 RFM",
    "Why is a pH INDICATOR used for acid-alkali TITRATIONS?": "A colour change will tell you when the END-POINT of the titration has been reached",
-   "When there are HALIDE ions in an electrolysed aqueous solution, ---(1)--- will be produced at the ---(2)---.": "1: the HALOGEN; 2: anode"
+   "When there are HALIDE ions in an electrolysed aqueous solution, ---(1)--- will be produced at the ---(2)---.": "1: the HALOGEN; 2: anode",
+   "The limiting reactant is ---(1)--- and is ---(2)--- at the end of the reaction.": "1: not in excess; 2: all used up",
+   "How many moles of sodium atoms (relative atomic mass = 23) make a mass of 4.6g?": "n= {m / {Mr}}= {4.6 / 23}=0.2 { mol}",
+   "[TRUE or FALSE?]: Reactions tend to produce a YIELD that is equal to their THEORETICAL YIELD.": "[FALSE]: In reality, reactions result in LESS PRODUCT than theoretically expected"
 }
