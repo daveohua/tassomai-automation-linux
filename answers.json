@@ -658,7 +658,7 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Transition elements make COLOURED compounds",
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Many of them form IONS with DIFFERENT CHARGES",
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -760,7 +760,10 @@
    "Limiting factors are important in the ---(1)--- in GREENHOUSES to gain the ---(2)--- while still MAINTAINING profit.": "1: ECONOMICS of enhancing the conditions; 2: MAXIMUM rate of photosynthesis",
    "Which element has the symbol Na?": "Sodium",
    "Na\n+\n+\nCl\n\u2212\n\u2192": "{NaCl}",
-   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "[ALL of these are false]",
+   "Which of these statements about TRANSITION ELEMENTS is FALSE?": [
+      "Transition elements have LOW melting/boiling points",
+      "[ALL of these are false]"
+   ],
    "Which of these formulae calculates the KINETIC energy of a moving object?": "E_{K}=12 mv^2",
    "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement",
    "If the DOT & CROSS diagram of a compound uses SQUARE brackets with CHARGES outside of them, then it refers to\u2026": "an IONIC substance",
@@ -932,5 +935,6 @@
    "The power RATING of an appliance in WATTS (W) indicates the amount of ENERGY TRANSFERRED (J) per\u2026": "second",
    "RED BLOOD CELLS transport OXYGEN around the body. How are they adapted to their function?": "[ALL of these]",
    "Which of these is the SECOND LARGEST AIRWAY, which transports gases from the TRACHEA to the LUNGS?": "The bronchus",
-   "What supplies the powerful heart muscle with GLUCOSE and OXYGEN?": "Coronary arteries"
+   "What supplies the powerful heart muscle with GLUCOSE and OXYGEN?": "Coronary arteries",
+   "Group 1 elements react with CHLORINE to produce\u2026": "a COLOURLESS, CRYSTALLINE salt"
 }
