@@ -584,7 +584,7 @@
    "Changing the state of a substance with a HIGH melting point, compared to a substance with a LOW melting point, requires\u2026": "more energy",
    "The NEUTRON was discovered ---(1)--- after the idea of the ---(2)--- was widely accepted by scientists.": "1: 20 years; 2: nucleus",
    "[TRUE or FALSE?]: SODIUM reacts MORE vigorously with WATER than POTASSIUM.": "[FALSE]: Reactivity of group 1 metals INCREASES down the series",
-   "Which of these metals will react with COLD WATER?": "[ALL of these]",
+   "Which of these metals will react with COLD WATER?": "Sodium",
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
    "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
@@ -723,5 +723,7 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[NEITHER of these]",
-   "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]"
+   "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
+   "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
+   "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC"
 }
