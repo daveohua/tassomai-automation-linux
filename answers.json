@@ -37,7 +37,7 @@
    "The ATOMIC NUMBER of MAGNESIUM is 12. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,2",
    "Which of these is the chemical symbol for oxygen?": "O",
    "Different ISOTOPES of an element have\u2026": "[ALL of these]",
-   "What is the chemical formula of CARBON DIOXIDE?": "CO2",
+   "What is the chemical formula of CARBON DIOXIDE?": "CO_2",
    "A magnetic field exists\u2026": "[ALL of these]",
    "In NUCLEAR equations, the symbol for a GAMMA ray is\u2026": "\u03b3",
    "Which of these parts of the EM spectrum is used when looking at FRACTURED BONES?": "X-rays",
@@ -913,5 +913,7 @@
    "\"Wasted\" ENERGY tends to DISSIPATE. This means that it will tend to\u2026": "SPREAD OUT, thus becoming LESS significant or useful",
    "HYDROELECTRICITY can be used as a RENEWABLE energy source. An ADVANTAGE of this is that it is ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: replenishable and will not run out; 2: dams flood farmland and push people from their homes",
    "[TRUE or FALSE?]: Metals are a GIANT structure of positive ions surrounded by electrons.": "[TRUE]: They are CRYSTAL LATTICE structures with free 'delocalised' electrons",
-   "The structure of GRAPHITE makes it useful in industry for\u2026": "industrial lubricants, because the molecular structure allows the layers to SLIDE EASILY over one another"
+   "The structure of GRAPHITE makes it useful in industry for\u2026": "industrial lubricants, because the molecular structure allows the layers to SLIDE EASILY over one another",
+   "NON-METALS tend to appear in which part of the PERIODIC TABLE?": "On the RIGHT-hand side (actually taking up only a small part of the table)",
+   "What is the chemical formula of CHLORINE GAS?": "{Cl}_2(g)"
 }
