@@ -683,5 +683,7 @@
    "Which of these structures are found in BOTH animal and plant cells?": "Nucleus, cytoplasm, cell membrane",
    "The group 1 elements are known as the ---(1)--- because they react with water to form ---(2)---.": "1: alkali metals; 2: alkaline solutions",
    "What is the chemical formula of a FLUORIDE ion?": "F^-",
-   "Which state symbol would you use to represent SODIUM HYDROXIDE SOLUTION?": "(aq)"
+   "Which state symbol would you use to represent SODIUM HYDROXIDE SOLUTION?": "(aq)",
+   "One 5\u03a9 resistor and one 10\u03a9 resistor connected in SERIES to a CELL have DIFFERENT ---(1)--- because ---(2)--- in a series circuit.": "1: voltages; 2: the CELL voltage is split in proportion to the resistance of the resistors",
+   "Adding another branch to a PARALLEL circuit has what effect on the CURRENT drawn from the cell?": "The TOTAL circuit resistance DECREASES, so the CURRENT is INCREASED (I = V / R)"
 }
