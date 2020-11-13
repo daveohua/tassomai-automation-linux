@@ -790,7 +790,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The BROWN wire is the LIVE wire (L)",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The LIVE wire connects to the FUSE",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -918,5 +918,8 @@
    "A component known as an NTC THERMISTOR changes its RESISTANCE when the TEMPERATURE changes. If you DECREASE the temperature around it, then\u2026": "its RESISTANCE will INCREASE",
    "What is the chemical formula of POTASSIUM CHLORIDE?": "KCl",
    "Which element has the symbol K?": "Potassium",
-   "Rutherford's NUCLEAR ATOMIC model was further developed by ---(1)---, who proposed that ---(2)---.": "1: Niels BOHR; 2: ELECTRONS occupy shells that ORBIT around the NUCLEUS"
+   "Rutherford's NUCLEAR ATOMIC model was further developed by ---(1)---, who proposed that ---(2)---.": "1: Niels BOHR; 2: ELECTRONS occupy shells that ORBIT around the NUCLEUS",
+   "The ---(1)--- in any circuit appliance EQUALS the current through it TIMES the ---(2)--- across it.": "1: power; 2: potential difference",
+   "The ---(1)--- through any circuit device EQUALS the CURRENT through it MULTIPLIED by the ---(2)--- across it.": "1: power; 2: potential difference",
+   "Given that resistances of resistor 1 (R\n1\n) = 11 ohms and resistor 2 (R\n2\n) = 9 ohms, what is the P.D. (V\n1\nand V\n2\n) across each resistor in SERIES from a TOTAL voltage (V\nT\n) of 120V?": "V_1 = V_{T} x {R_1 / R_{T}} = 120  x {11 / 20} = 66 { V and V}_2 =V_{T} x {{R}_2 / R_{T}} = 120  x  {9 / 20} = 54 V"
 }
