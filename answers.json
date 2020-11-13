@@ -626,7 +626,10 @@
    "Which of the following is an ADVANTAGE of vaccinations?": "[ALL of these]",
    "Diamond has a\u2026": "giant covalent structure",
    "Group 0 elements have a full ---(1)--- shell of electrons, meaning that they are highly ---(2)---, which makes them UNREACTIVE.": "1: outer; 2: stable",
-   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "inert",
+   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": [
+      "[BOTH of these]",
+      "inert"
+   ],
    "The transition metal COBALT (Co) is ---(1)--- than the group 1 alkali metal ---(2)---.": "1: harder; 2: caesium",
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
@@ -1045,5 +1048,7 @@
    "White blood cells can\u2026": "[ALL of these]",
    "In flowering plants, most of the water and mineral ions are absorbed via the\u2026": "roots",
    "Which valves lie between the ATRIA and the VENTRICLES?": "ATRIO-VENTRICULAR valves",
-   "How are RED blood cells specially adapted to carry oxygen? (Pay attention to the KEY words!)": "They have NO NUCLEUS to maximise the amount of HAEMOGLOBIN they can contain"
+   "How are RED blood cells specially adapted to carry oxygen? (Pay attention to the KEY words!)": "They have NO NUCLEUS to maximise the amount of HAEMOGLOBIN they can contain",
+   "Group 7 elements nearer the TOP of the column are\u2026": "more reactive",
+   "BROMINE has\n2\nISOTOPES of differing mass in specified proportions [\n81\nBr -\n50\n%,\n79\nBr -\n50\n%]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(50 x 81)+(50 x 79) / 100}=80"
 }
