@@ -68,7 +68,10 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
+      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
+      "BIOFUELS are made using crops that would otherwise provide FOOD"
+   ],
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -899,5 +902,6 @@
    "A ---(1)--- object CREATES ---(2)--- FIELD around itself.": "1: charged; 2: an electric",
    "CARBON DIOXIDE and WATER are ---(1)--- with relatively ---(2)--- electrostatic intermolecular forces, that cause them to be fluid at room temperature.": "1: SIMPLE COVALENT molecules; 2: weak",
    "Which of these is a COVALENT structure that CONDUCTS electricity?": "Graphite",
-   "The ELECTRON configuration of LITHIUM is 2,1. How many ELECTRON SHELLS does LITHIUM have?": "2"
+   "The ELECTRON configuration of LITHIUM is 2,1. How many ELECTRON SHELLS does LITHIUM have?": "2",
+   "Which of these statements about ENERGY is TRUE?": "[ALL of these]"
 }
