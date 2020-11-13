@@ -760,10 +760,7 @@
    "Limiting factors are important in the ---(1)--- in GREENHOUSES to gain the ---(2)--- while still MAINTAINING profit.": "1: ECONOMICS of enhancing the conditions; 2: MAXIMUM rate of photosynthesis",
    "Which element has the symbol Na?": "Sodium",
    "Na\n+\n+\nCl\n\u2212\n\u2192": "{NaCl}",
-   "Which of these statements about TRANSITION ELEMENTS is FALSE?": [
-      "Transition elements have LOW melting/boiling points",
-      "[ALL of these are false]"
-   ],
+   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "Transition elements have LOW melting/boiling points",
    "Which of these formulae calculates the KINETIC energy of a moving object?": "E_{K}=12 mv^2",
    "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement",
    "If the DOT & CROSS diagram of a compound uses SQUARE brackets with CHARGES outside of them, then it refers to\u2026": "an IONIC substance",
@@ -947,5 +944,6 @@
    "We define GOOD HEALTH as\u2026": "the state of PHYSICAL, MENTAL and SOCIAL well being",
    "TRANSLOCATION is the\u2026": "movement of FOOD substances from the LEAVES to OTHER PARTS of the plant",
    "IONIC compounds tend to form GIANT IONIC STRUCTURES when\u2026": "in a SOLID form",
-   "Which of these is NOT a property of diamond?": "Good ELECTRICAL conductor"
+   "Which of these is NOT a property of diamond?": "Good ELECTRICAL conductor",
+   "Group 7 HALOGENS all have 7 ---(1)--- in their outer shell, so they look to ---(2)--- an electron, meaning that they form a NEGATIVE ion.": "1: electrons; 2: gain"
 }
