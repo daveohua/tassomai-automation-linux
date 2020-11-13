@@ -652,7 +652,11 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Many of them form IONS with DIFFERENT CHARGES",
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
+      "Many of them form IONS with DIFFERENT CHARGES",
+      "Transition elements have HIGH melting/boiling points",
+      "[NONE of these are true]"
+   ],
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -693,5 +697,6 @@
    "If a WASHING MACHINE transfers 12.8 MJ of energy over 1.5 hours to its MOTOR, what is its POWER rating? [pay attention to UNITS]": "{P(W)} = {{E(J)} / {t(s)}} = {12.8 x10^6 / 1.5 x 60 x 60} = 2370.4, W = 2.4 { kW}",
    "The equation E = VQ means that the ENERGY transferred to a circuit COMPONENT is the product of the ---(1)--- and the ---(2)--- delivered.": "1; potential difference; 2: charge",
    "A material which has no fixed SHAPE or VOLUME is a\u2026": "gas",
-   "It is difficult to melt DIAMOND because\u2026": "it has a GIANT COVALENT structure"
+   "It is difficult to melt DIAMOND because\u2026": "it has a GIANT COVALENT structure",
+   "Cobalt (II) chloride, CoCl\u2082, is a transition metal compound\u2026": "where the CHARGE on the COBALT ion is 2+"
 }
