@@ -790,7 +790,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The LIVE wire connects to the FUSE",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The CABLE tie should cover the wires AND their outer insulation",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -954,5 +954,6 @@
    "Which of the following is a component of a PROKARYOTIC cell?": "[ALL of these]",
    "GASEOUS particles move in and out of membranes via diffusion, whilst water particles move around via\u2026": "osmosis",
    "[Fill in the gap]: ---- + 5O\u2082(g) \u2192 3CO\u2082(g) + 4H\u2082O(g). [Don't forget the STATE SYMBOLS and to BALANCE THE EQUATION!]": "C\u2083H\u2088(g)",
-   "Which method would most easily remove LARGE PARTICLES from a liquid?": "Filtration"
+   "Which method would most easily remove LARGE PARTICLES from a liquid?": "Filtration",
+   "On a CURRENT-POTENTIAL DIFFERENCE graph, what quantity does the gradient represent?": "1/Resistance (1/\u03a9)"
 }
