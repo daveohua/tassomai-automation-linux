@@ -68,7 +68,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS are made using crops that would otherwise provide FOOD",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -344,7 +344,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
+   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -715,5 +715,10 @@
    "The ATOMIC NUMBER of an element tells you\u2026": "[ALL of these]",
    "How was Mendeleev able to predict the existence and properties of some undiscovered ELEMENTS?": "By working out the ATOMIC MASS of existing elements and leaving GAPS for similar elements",
    "Group 1 elements have similar\u2026": "[ALL of these]",
-   "Group 1 elements nearer the TOP of the column have their \"spare\" electron\u2026": "CLOSER to the nucleus"
+   "Group 1 elements nearer the TOP of the column have their \"spare\" electron\u2026": "CLOSER to the nucleus",
+   "Which of these are DISADVANTAGES of using fossil fuels?": "[ALL of these]",
+   "How would you calculate the ENERGY transferred in a system by a flowing CURRENT?": "Work done (W) = voltage x current x time = VIT",
+   "ENERGY cannot be DESTROYED, but it can be ---(1)---. As a system loses its energy, that energy tends to be DISSIPATED in the form of ---(2)---.": "1: transferred to other stores; 2: heat (thermal) energy",
+   "If a SYSTEM CHANGES, the way energy is STORED in that system also changes. When a PAINTBALL hits a wall, ---(1)--- energy is converted into ---(2)--- energy which are no longer STORED.": "1: kinetic; 2: heat and sound",
+   "How would you calculate the WORK done by a resultant FORCE?": "Work done (W) = force (f) x distance (d)"
 }
