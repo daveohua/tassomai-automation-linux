@@ -1208,5 +1208,7 @@
    "Reaction pathways with HIGH YIELDS and ATOM ECONOMY may not be chosen in industry because\u2026": "[ALL of these]",
    "Which of these does NOT accurately describe an ELECTROLYTE?": "A solution with a pH of 7",
    "Electrolysis is carried out on an AQUEOUS solution of NaCl. Which of these is NOT likely to be a product?": "Sodium (s)",
-   "The pH of a solution depends on\u2026": "both the CONCENTRATION and the STRENGTH of the acid"
+   "The pH of a solution depends on\u2026": "both the CONCENTRATION and the STRENGTH of the acid",
+   "Which of these statements regarding the reactions at the electrodes during ELECTROLYSIS is TRUE?": "[NONE of these are true]",
+   "The pH scale is logarithmic. This means that going from pH 3 to pH 2 has the effect of ---(1)--- the concentration of H\u207a ions by a factor of ---(2)---.": "1: increasing; 2: 10"
 }
