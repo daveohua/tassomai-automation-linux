@@ -752,7 +752,7 @@
    "FLUORINE and SODIUM react to form ---(1)--- which is ---(2)--- compound, generally termed a METAL HALIDE.": "1: sodium fluoride; 2: an ionic",
    "The power rating for a 1500 W vacuum cleaner means that\u2026": "1.5 kJ of energy is TRANSFERRED per second when it is being used",
    "CHARGE delivered to a circuit can be calculated by\u2026": "multiplying CURRENT by TIME [Q = I x t]",
-   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": "[ALL of these]",
+   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": "[BOTH of these]",
    "Which of these formulae calculates the ELASTIC POTENTIAL energy of a spring?": "E_E = 12{ke}^2",
    "As protons, neutrons and electrons were yet to be discovered, scientists classified the EARLY periodic table by atomic\u2026": "mass",
    "A displacement reaction ---(1)--- take place between SODIUM FLUORIDE (NaF) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will not; 2: chlorine is LESS reactive than fluorine",
@@ -1127,5 +1127,8 @@
    "ALCOHOL causes damage to which part of the body?": "[BOTH of these]",
    "In many parts of the world people have diets which are DEFICIENT in PROTEIN. What effect can this have?": "[BOTH of these]",
    "You can test to see if WATER is PURE by\u2026": "checking its boiling point",
-   "The NEUTRON was discovered by the experimental works of\u2026": "James Chadwick"
+   "The NEUTRON was discovered by the experimental works of\u2026": "James Chadwick",
+   "In order for an electrical CHARGE to flow through a CLOSED circuit, the circuit must include\u2026": "a source of potential difference",
+   "The CURRENT running through a ---(1)--- circuit is the SAME at any point when a ---(2)--- is applied.": "1: series; 2: potential difference",
+   "The RESISTANCE of a/an ---(1)--- changes when the TEMPERATURE changes. If you ---(2)--- the temperature, then its RESISTANCE will DECREASE.": "1: thermistor; 2: increase"
 }
