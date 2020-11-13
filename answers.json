@@ -672,5 +672,10 @@
    "Sodium (s) + water (l) \u2192": "sodium hydroxide (aq) + hydrogen (g)",
    "Which of these is defined as \"the net movement of WATER from a solution with a HIGH WATER concentration to one with a LOW WATER concentration across a PARTIALLY PERMEABLE membrane\"?": "Osmosis",
    "Which of the following are adaptations that make LEAVES an ideal exchange surface?": "They have STOMATA that allow the DIFFUSION of gases into and out of the leaf",
-   "During ---(1)---, WATER molecules move from a solution with a HIGH WATER concentration to a solution with a LOW WATER concentration across a ---(2)--- PERMEABLE membrane.": "1: osmosis; 2: partially"
+   "During ---(1)---, WATER molecules move from a solution with a HIGH WATER concentration to a solution with a LOW WATER concentration across a ---(2)--- PERMEABLE membrane.": "1: osmosis; 2: partially",
+   "As the VOLTAGE across a RESISTOR INCREASES, how does the CURRENT change?": "It INCREASES uniformly",
+   "In an electrical CIRCUIT containing only a CELL and two RESISTORS (first = 5\u03a9, second = 10\u03a9) in PARALLEL, we would find that the p.d. across\u2026": "each branch would be EQUAL to the p.d. across the cell (i.e. it would NOT split)",
+   "Adding resistors in SERIES will ---(1)--- whilst adding them in PARALLEL will ---(2)---.": "1: INCREASE the TOTAL RESISTANCE (R\u1d1b) because R\u1d1b = R\u2081 + R\u2082 + R\u2083 + \u2026 ; 2: DECREASE the TOTAL RESISTANCE (R\u1d1b) because 1 / R\u1d1b = 1 / R\u2081 + 1 / R\u2082 + 1 / R\u2083 + 1 / \u2026",
+   "As the RESISTANCE of a component INCREASES in a series circuit, how does the CURRENT through it change?": "It DECREASES",
+   "In a simple electrical circuit containing only a CELL and two resistors in PARALLEL (first = 10\u03a9, second = 5\u03a9), we would find that the CURRENT\u2026": "from the cell would be SPLIT UNEQUALLY - it would be GREATER through the SMALLER RESISTOR"
 }
