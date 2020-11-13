@@ -1188,5 +1188,9 @@
    "How many PARTICLES are there in 0.5 moles of sodium (Ar = 23)? [Look carefully at the numbers in superscript!]": "No. of particles = moles x Avogadro's constant (N\u1d00) = 0.5 x (6.022 x 10\u00b2\u00b3) = 3.011 x 10\u00b2\u00b3",
    "The products of an electrolysis of pure MOLTEN sodium chloride (NaCl) are ---(1)--- and ---(2)---.": "1: sodium; 2: chlorine",
    "There are TWO steps in calculating the number of MOLECULES in a given MASS of a substance. The FIRST step involves calculating ---(1)--- using the formula ---(2)---.": "1: the number of moles; 2: moles (n) = mass (m) DIVIDED by relative formula mass (Mr)",
-   "When a reaction takes place in a SEALED FLASK, the TOTAL MASS of the system\u2026": "stays the same"
+   "When a reaction takes place in a SEALED FLASK, the TOTAL MASS of the system\u2026": "stays the same",
+   "Here are four steps that show how to work out the CONCENTRATION of an NaOH solution which is neutralised by a given volume of HCl. Which of these is in the CORRECT order?": "Convert all volumes to dm \u2192 Work out the number of MOLES of HCl \u2192 Work out the number of MOLES of NaOH that this amount of HCl reacts with \u2192 Work out the concentration of the NaOH solution^3",
+   "A 6 mol/dm\u00b3 solution of an ACID is considered a ---(1)--- solution, because it contains a ---(2)--- number of ACID molecules relative to the amount of WATER.": "1: concentrated; 2: high",
+   "An ALKALI is\u2026": "a water SOLUBLE base",
+   "Which of these equations defines a NEUTRALISATION reaction?": "Acid + alkali \u2192 salt + water"
 }
