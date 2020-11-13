@@ -68,7 +68,10 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
+      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
+      "BIOFUELS are made using crops that would otherwise provide FOOD"
+   ],
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -377,7 +380,7 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "coal",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[BOTH of these]",
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
@@ -725,7 +728,7 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[NEITHER of these]",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -756,5 +759,6 @@
    "A displacement reaction ---(1)--- take place between SODIUM FLUORIDE (NaF) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will not; 2: chlorine is LESS reactive than fluorine",
    "MOST metallic elements are categorised as\u2026": "transition metals",
    "The RESISTANCE of a THERMISTOR changes when the TEMPERATURE changes. If you INCREASE the temperature, then its RESISTANCE will\u2026": "decrease",
-   "Increasing a GENERATOR'S POWER output at a FIXED VOLTAGE will INCREASE the ---(1)---; it will require ---(2)--- fuel every second.": "1: current supplied; 2: more"
+   "Increasing a GENERATOR'S POWER output at a FIXED VOLTAGE will INCREASE the ---(1)---; it will require ---(2)--- fuel every second.": "1: current supplied; 2: more",
+   "In the ELASTIC POTENTIAL energy formula,\nE\ne\n=\n1\n2\nke\n2\n, what does the k and the e stand for?": "k = spring constant, e = spring EXTENSION"
 }
