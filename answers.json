@@ -788,5 +788,9 @@
    "Two resistors are connected in SERIES with a TOTAL circuit voltage (V\u1d1b) of 18V. Given resistances\nR\n1\n=\n5\n\u03a9\nand\nR\n2\n=\n7\n\u03a9\n, what is the VOLTAGE (\nV\n1\n) over\nR\n1\n?": "V_1={V\u1d1b} x {R_1 / {R\u1d1b}}=18 x 5{12}=7.5V",
    "A 1500W washing machine transfers ---(1)--- energy per unit ---(2)--- than a 900W drill.": "1: more; 2: time",
    "STATIC ELECTRICITY is usually built up through FRICTION by rubbing\u2026": "PARTICULAR INSULATORS against each other",
-   "Which of these is the correct WORD equation for PHOTOSYNTHESIS?": "Carbon dioxide + water \u2192 glucose + oxygen"
+   "Which of these is the correct WORD equation for PHOTOSYNTHESIS?": "Carbon dioxide + water \u2192 glucose + oxygen",
+   "The results of Ernest Rutherford's ALPHA particle scattering experiments proved that the MASS of the atom was ---(1)--- its CENTRE, and that this mass was ---(2)---.": "1: concentrated at; 2: positively charged",
+   "The PLUM PUDDING model proposed that the atom was a sphere of ---(1)--- charge, with ---(2)--- DOTTED around inside it (like plums in a pudding).": "1: positive; 2: electrons",
+   "CALCIUM has 3 ISOTOPES of differing mass and in different proportions\n[\n40\nCa\n\u2212\n97\n%\n,\n42\nCa\n\u2212\n1\n%\n,\n44\nCa\n\u2212\n2\n%\n]\n. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(97 x 40)+(1 x 42)+(2 x 44) / 100}=40.1",
+   "Group 7 HALOGENS normally exist\u2026": "as MOLECULES made of pairs of atoms"
 }
