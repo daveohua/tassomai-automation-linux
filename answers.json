@@ -68,10 +68,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
-      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
-      "BIOFUELS are made using crops that would otherwise provide FOOD"
-   ],
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -350,7 +347,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
+   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -384,7 +381,7 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[BOTH of these]",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "nuclear fuel",
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
@@ -732,10 +729,7 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "[NEITHER of these]",
-      "[BOTH of these]"
-   ],
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -890,5 +884,6 @@
    "JOHN DALTON developed\u2026": "the modern ATOMIC THEORY",
    "Which element has the symbol Fe?": "Iron",
    "The CIRCUIT symbol made up of two lines, one thick & short and the other thin & long, represents a ---(1)---. We represent a ---(2)---, by repeating this symbol ONCE with a dotted line in-between.": "1: cell; 2: battery",
-   "On a CURRENT-POTENTIAL DIFFERENCE (I-V) graph, an OHMIC CONDUCTOR (at constant temperature) is represented by...": "a STRAIGHT line with a POSITIVE gradient"
+   "On a CURRENT-POTENTIAL DIFFERENCE (I-V) graph, an OHMIC CONDUCTOR (at constant temperature) is represented by...": "a STRAIGHT line with a POSITIVE gradient",
+   "Some DOMESTIC HOUSEHOLDS install ---(1)--- on their roofs. This ---(2)--- our dependence on FOSSIL FUELS.": "1: solar panels; 2: decreases"
 }
