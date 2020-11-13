@@ -425,7 +425,10 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": [
+      "All the particles are represented as SPHERES",
+      "It DOESN'T show the FORCES between the particles"
+   ],
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -472,7 +475,7 @@
    "---(1)--- is an example of a pathogenic BACTERIUM. All PATHOGENS ---(2)---.": "1: Staphylococcus aureus; 2: cause INFECTION & DISEASE",
    "Metals comprise a giant structure of ---(1)--- surrounded by ---(2)---.": "1: positive ions; 2: delocalised electrons",
    "In DIAMOND, each carbon atom bonds with\u2026": "FOUR others (in a TETRAHEDRON shape) to make a HARD structure",
-   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They tend to have HIGH melting and boiling points because their bonds are STRONG and HARD to BREAK",
+   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They can conduct ELECTRICITY because their DELOCALISED ELECTRONS carry charge",
    "When a COVALENT compound (such as ICE or WAX) MELTS, this is due to\u2026": "the breaking of the INTERMOLECULAR FORCES",
    "Which of the following is in the structure of a VIRUS?": "[ALL of these]",
    "Drugs are tested using BLIND TRIALS, which means\u2026 (N.B. This is different to a DOUBLE-blind trial)": "ONLY the RESEARCHERS know what medication/vaccine the participants are taking (the patients don't know)",
@@ -705,5 +708,8 @@
    "How would you recover ETHANOL from a mixture of ETHANOL & WATER?": "Fractional distillation",
    "[TRUE or FALSE?]: Noble gases are NOT flammable.": "[TRUE]: They are VERY unreactive",
    "Complete the following equation for the IONISATION of sodium hydroxide in water: [Pay attention to both the STATE SYMBOLS and the CHARGES in SUPERSCRIPT]": "{NaOH(s)}\u2192{Na}^+{(aq)}+{OH}^-{(aq)}",
-   "The movement of OXYGEN and CARBON DIOXIDE during photosynthesis occurs by which process?": "Diffusion"
+   "The movement of OXYGEN and CARBON DIOXIDE during photosynthesis occurs by which process?": "Diffusion",
+   "The covalent bond between GRAPHENE'S carbon atoms gives it a lot of strength so it is very useful in industry\u2026": "to create composites",
+   "Particles in a SOLID\u2026": "are TIGHTLY PACKED in a uniform manner and VIBRATE",
+   "When a liquid is heated to its boiling point\u2026": "particles near the surface and throughout the liquid have enough energy to ESCAPE by evaporation"
 }
