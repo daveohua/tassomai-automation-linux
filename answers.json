@@ -1114,5 +1114,8 @@
    "In an electric circuit, the ---(1)--- wire is at, or is close to the EARTH POTENTIAL of ---(2)---.": "1: neutral; 2: 0V",
    "An ALTERNATING CURRENT (AC) is caused by\u2026": "a VARYING potential difference",
    "MALARIA is best managed by\u2026": "targeting the VECTORS (i.e mosquitos)",
-   "J. J. THOMSON discovered\u2026": "the electron"
+   "J. J. THOMSON discovered\u2026": "the electron",
+   "Which of these is drawn as a rectangle with a \"HOOKED\" diagonal line cutting through it?": "A thermistor",
+   "Electrostatic phenomena are usually caused by\u2026": "the TRANSFER of electrons",
+   "A LIGHT BULB, which receives a 3A CURRENT over a POTENTIAL DIFFERENCE of 12V, transfers energy from ELECTRICAL to LIGHT. If this transfer is 100% efficient, what is the POWER output? [Check the units]": "P = V xI = 12  x3 = 36W"
 }
