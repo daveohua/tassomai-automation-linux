@@ -326,7 +326,7 @@
    "The NERVOUS SYSTEM does NOT include\u2026": "the pancreas",
    "FSH stimulates the maturation of follicles, which\u2026": "stimulates oestrogen production",
    "Why is HOMEOSTASIS necessary?": "Maintaining a CONSTANT INTERNAL ENVIRONMENT ensures that METABOLIC PROCESSES will be able to work at their optimum level",
-   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": "[BOTH of these]",
+   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": "The ANODE is made of CARBON in the form of graphite",
    "The positive electrode, made of GRAPHITE (CARBON), must be CONTINUALLY REPLACED in the extraction of ALUMINIUM because \u2026": "it reacts with OXYGEN IONS to form CO\u2082, a gas",
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
@@ -1246,5 +1246,6 @@
    "ELECTROLYSIS can best be described as\u2026": "the DECOMPOSITION of an ELECTROLYTE by an ELECTRIC CURRENT",
    "An aqueous solution of LiCl has a concentration of 11.2 g/dm\u00b3. What is the concentration in mol/dm\u00b3? [Molar masses (g/mol): Li = 7, Cl = 35]": "{11.2 / 42}=0.27 { mol/dm}^3",
    "Which is the correct balanced chemical formula for the BURNING of HYDROGEN?": "2H_2+O_2\u21922H_2O",
-   "The equation\n CO\n+\nH\n2\nO\n\u2192\nCO\n2\n+\nH\n2\ndescribes the water gas shift reaction. If 3.00g of\nH\n2\nO\nwas used, what is the THEORETICAL yield of\nH\n2\nin grams? [Hint: you need to convert into moles]": "({3.00 / 18}) x2 = 0.33{g}"
+   "The equation\n CO\n+\nH\n2\nO\n\u2192\nCO\n2\n+\nH\n2\ndescribes the water gas shift reaction. If 3.00g of\nH\n2\nO\nwas used, what is the THEORETICAL yield of\nH\n2\nin grams? [Hint: you need to convert into moles]": "({3.00 / 18}) x2 = 0.33{g}",
+   "In the process of REDUCTION in a BLAST FURNACE, ---(1)--- is used to extract ---(2)--- metals from their ores.": "1: carbon; 2: less reactive"
 }
