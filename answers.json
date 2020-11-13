@@ -1185,5 +1185,8 @@
    "When IONS are discharged at the ELECTRODES, this always produces\u2026": "elements",
    "The formula to calculate ATOM ECONOMY is\u2026": "{{molar mass of DESIRED product} / {molar mass of TOTAL reactants}} x100",
    "What is the RELATIVE FORMULA MASS (R.F.M) of O\n2\n(O = 16)?": "R.F.M = sum of all elements =16 x 2 = 32",
-   "How many PARTICLES are there in 0.5 moles of sodium (Ar = 23)? [Look carefully at the numbers in superscript!]": "No. of particles = moles x Avogadro's constant (N\u1d00) = 0.5 x (6.022 x 10\u00b2\u00b3) = 3.011 x 10\u00b2\u00b3"
+   "How many PARTICLES are there in 0.5 moles of sodium (Ar = 23)? [Look carefully at the numbers in superscript!]": "No. of particles = moles x Avogadro's constant (N\u1d00) = 0.5 x (6.022 x 10\u00b2\u00b3) = 3.011 x 10\u00b2\u00b3",
+   "The products of an electrolysis of pure MOLTEN sodium chloride (NaCl) are ---(1)--- and ---(2)---.": "1: sodium; 2: chlorine",
+   "There are TWO steps in calculating the number of MOLECULES in a given MASS of a substance. The FIRST step involves calculating ---(1)--- using the formula ---(2)---.": "1: the number of moles; 2: moles (n) = mass (m) DIVIDED by relative formula mass (Mr)",
+   "When a reaction takes place in a SEALED FLASK, the TOTAL MASS of the system\u2026": "stays the same"
 }
