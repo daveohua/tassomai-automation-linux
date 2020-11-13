@@ -76,10 +76,7 @@
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
    "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
-   "Which of the following can be used to represent COVALENT bonds in a diagram?": [
-      "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
-      "[ALL of these]"
-   ],
+   "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
    "ENERGY WASTE occurs when energy is transferred into stores which are NOT useful. What is used to REDUCE unwanted energy transfers?": "Thermal insulation",
    "A STEP-DOWN transformer will\u2026": "have more turns on the PRIMARY coil",
@@ -582,7 +579,7 @@
    "Why are nanotubes useful when used in conjunction with catalysts?": "They provide a massive surface area of catalyst for reactants to come into contact with",
    "The 'diamond' structure of, unsurprisingly, DIAMONDS makes them useful in industry for\u2026": "cutting tools and drills, because the structure is extremely HARD and SHARP",
    "NANOTUBES are used widely in today's world, such as in\u2026": "[ALL of these]",
-   "NANOPARTICLES can alter a material to make it\u2026": "STRONGER than it otherwise would be",
+   "NANOPARTICLES can alter a material to make it\u2026": "resistant to BACTERIA",
    "---(1)--- makes chlorophyll green in plants, a deficiency in this causes plants to turn ---(2)---.": "1: Magnesium ; 2: yellow",
    "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes FIRST?": "Drugs are tested using COMPUTER models and HUMAN cells grown in the LAB",
    "The force of attraction between NANOPARTICLES is strong because\u2026": "of their HIGH surface area to volume ratio",
@@ -898,5 +895,6 @@
    "Electric lamps waste a lot of ENERGY in the form of ---(1)---. METAL FILAMENT lamps have been replaced by ---(2)--- to INCREASE efficiency.": "1: heat; 2: LEDs",
    "The energy resources used for ---(1)--- demand energy supplies, consumed NATIONALLY, tend to be ---(2)---. This type of energy source is used because it is CURRENTLY considered to be MORE RELIABLE.": "1: high; 2: non-renewable",
    "Complete the equation for the IONISATION of hydrochloric acid: HCl(aq) \u2192": "H\u207a(aq) + Cl\u207b(aq)",
-   "Elements in the SAME GROUP in the table have the same number of\u2026": "ELECTRONS in their OUTER SHELL"
+   "Elements in the SAME GROUP in the table have the same number of\u2026": "ELECTRONS in their OUTER SHELL",
+   "The molecular explanation for all of GRAPHITE'S properties is that EVERY atom in a graphite molecule is bonded to its neighbours by ---(1)--- STRONG COVALENT bonds. This leaves ---(2)--- and NO free IONS.": "1: three; 2: ONE free electron"
 }
