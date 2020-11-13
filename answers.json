@@ -633,7 +633,7 @@
    "Which of the following is an ADVANTAGE of vaccinations?": "[ALL of these]",
    "Diamond has a\u2026": "giant covalent structure",
    "Group 0 elements have a full ---(1)--- shell of electrons, meaning that they are highly ---(2)---, which makes them UNREACTIVE.": "1: outer; 2: stable",
-   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "inert",
+   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "[BOTH of these]",
    "The transition metal COBALT (Co) is ---(1)--- than the group 1 alkali metal ---(2)---.": "1: harder; 2: caesium",
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
@@ -886,5 +886,7 @@
    "The majority of an element's ---(1)--- is located in its ---(2)---.": "1: mass; 2: nucleus",
    "In a simple electrical circuit containing only a CELL and two EQUAL resistors in PARALLEL, we would find that the CURRENT through each resistor would be\u2026": "an EQUAL SPLIT of the current from the cell; the P.D. across each would be EQUAL to that of the p.d. across the cell.",
    "The National ---(1)--- is a system of CABLES and ---(2)--- linking POWER STATIONS to consumers.": "1: Grid; 2: transformers",
-   "A 2400 W WASHING MACHINE takes 40 minutes to wash a load of clothes. How much energy is TRANSFERRED to the MOTOR in a single wash? [Pay attention to the UNITS]": "{E(J)} = {P(W)} x{t(s)}  = 2400 x40 x 60=5760000{ J} =5760{ kJ}= 5.76{ MJ}"
+   "A 2400 W WASHING MACHINE takes 40 minutes to wash a load of clothes. How much energy is TRANSFERRED to the MOTOR in a single wash? [Pay attention to the UNITS]": "{E(J)} = {P(W)} x{t(s)}  = 2400 x40 x 60=5760000{ J} =5760{ kJ}= 5.76{ MJ}",
+   "JOHN DALTON developed\u2026": "the modern ATOMIC THEORY",
+   "Which element has the symbol Fe?": "Iron"
 }
