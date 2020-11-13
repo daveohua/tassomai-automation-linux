@@ -623,7 +623,7 @@
    "Which of the following is an ADVANTAGE of vaccinations?": "[ALL of these]",
    "Diamond has a\u2026": "giant covalent structure",
    "Group 0 elements have a full ---(1)--- shell of electrons, meaning that they are highly ---(2)---, which makes them UNREACTIVE.": "1: outer; 2: stable",
-   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "[BOTH of these]",
+   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "inert",
    "The transition metal COBALT (Co) is ---(1)--- than the group 1 alkali metal ---(2)---.": "1: harder; 2: caesium",
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
@@ -652,7 +652,7 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Transition elements make COLOURED compounds",
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Many of them form IONS with DIFFERENT CHARGES",
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -687,5 +687,6 @@
    "One 5\u03a9 resistor and one 10\u03a9 resistor connected in SERIES to a CELL have DIFFERENT ---(1)--- because ---(2)--- in a series circuit.": "1: voltages; 2: the CELL voltage is split in proportion to the resistance of the resistors",
    "Adding another branch to a PARALLEL circuit has what effect on the CURRENT drawn from the cell?": "The TOTAL circuit resistance DECREASES, so the CURRENT is INCREASED (I = V / R)",
    "The structure of sodium chloride (NaCl) is a GIANT IONIC LATTICE, which means that\u2026": "a positive SODIUM ion is next to a negative CHLORIDE ion, and this pattern repeats itself",
-   "Diamonds have FOUR strong COVALENT bonds. These are very STRONG, and so require ---(1)--- to break, meaning that diamonds have a ---(2)--- melting point.": "1: a lot of energy; 2: high"
+   "Diamonds have FOUR strong COVALENT bonds. These are very STRONG, and so require ---(1)--- to break, meaning that diamonds have a ---(2)--- melting point.": "1: a lot of energy; 2: high",
+   "The ATOMIC NUMBER of CARBON is 6. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,4"
 }
