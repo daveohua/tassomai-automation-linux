@@ -1206,7 +1206,7 @@
    "Which of these does NOT accurately describe an ELECTROLYTE?": "A solution with a pH of 7",
    "Electrolysis is carried out on an AQUEOUS solution of NaCl. Which of these is NOT likely to be a product?": "Sodium (s)",
    "The pH of a solution depends on\u2026": "both the CONCENTRATION and the STRENGTH of the acid",
-   "Which of these statements regarding the reactions at the electrodes during ELECTROLYSIS is TRUE?": "[NONE of these are true]",
+   "Which of these statements regarding the reactions at the electrodes during ELECTROLYSIS is TRUE?": "The reactions at the NEGATIVE electrode are REDUCTIONS",
    "The pH scale is logarithmic. This means that going from pH 3 to pH 2 has the effect of ---(1)--- the concentration of H\u207a ions by a factor of ---(2)---.": "1: increasing; 2: 10",
    "In the ELECTROLYSIS of MOLTEN lead bromide with graphite electrodes, what ionic half equation occurs at the ANODE?": "2Br\u207b - 2e \u2192 Br [Bromine produced]^- _2",
    "Which of these is NOT a WEAK acid?": "Sulfuric acid",
@@ -1247,5 +1247,10 @@
    "An aqueous solution of LiCl has a concentration of 11.2 g/dm\u00b3. What is the concentration in mol/dm\u00b3? [Molar masses (g/mol): Li = 7, Cl = 35]": "{11.2 / 42}=0.27 { mol/dm}^3",
    "Which is the correct balanced chemical formula for the BURNING of HYDROGEN?": "2H_2+O_2\u21922H_2O",
    "The equation\n CO\n+\nH\n2\nO\n\u2192\nCO\n2\n+\nH\n2\ndescribes the water gas shift reaction. If 3.00g of\nH\n2\nO\nwas used, what is the THEORETICAL yield of\nH\n2\nin grams? [Hint: you need to convert into moles]": "({3.00 / 18}) x2 = 0.33{g}",
-   "In the process of REDUCTION in a BLAST FURNACE, ---(1)--- is used to extract ---(2)--- metals from their ores.": "1: carbon; 2: less reactive"
+   "In the process of REDUCTION in a BLAST FURNACE, ---(1)--- is used to extract ---(2)--- metals from their ores.": "1: carbon; 2: less reactive",
+   "During chemical reactions, mass is CONSERVED. However, a change in mass may be seen IF a reactant or product was ---(1)---, and its MASS ---(2)--- taken into account.": "1: a gas; 2: was NOT",
+   "During electrolysis ions are DISCHARGED ---(1)---, producing ---(2)---.": "1: at the ELECTRODES; 2: ELEMENTS",
+   "What is the CONCENTRATION of a 4 litre solution containing 50 grams of hydrochloric acid (HCl)?": "{Concentration (g/dm}^3)={{mass (g)} / {volume (dm}^3)} = {50}4=12.5{ g/dm}^3",
+   "Here are four steps that show an acid-alkali TITRATION starting with a SOLUTION. Which happens FIRST?": "Using a safety pipette filler, TRANSFER the solution of UNKNOWN concentration to a CONICAL FLASK",
+   "Pure water has a pH of 7. The concentration of H\u207a ions is INCREASED by 10,000\n10\n4\ntimes. The pH is now\u2026": "3"
 }
