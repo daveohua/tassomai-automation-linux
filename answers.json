@@ -850,5 +850,8 @@
    "Given that resistances of resistor 1 (R\n1\n) = 8.5 \u03a9 and resistor 2 (R\n2\n) = 5.6 \u03a9, what is the CURRENT (I\n1\nand I\n2\n) through each resistor in SERIES from a TOTAL current (I\nT\n) of 3.6A?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in SERIES so it is 3.6 A",
    "The ATOMIC NUMBER of SILICON is 14. Which one of the following shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,4",
    "What is the chemical formula of SULFUR DIOXIDE?": "SO\u2082",
-   "Relative atomic mass (R.A.M.) is used to describe the mass of an atom when considering all of its possible ISOTOPES. Which method best describes how to calculate R.A.M. of an element with 2 isotopes?": "{({text{% of isotope 1 }  xtext{mass of isotope 1}})+({text{% of isotope 2 }  xtext{mass of isotope 2}}) / 100}"
+   "Relative atomic mass (R.A.M.) is used to describe the mass of an atom when considering all of its possible ISOTOPES. Which method best describes how to calculate R.A.M. of an element with 2 isotopes?": "{({text{% of isotope 1 }  xtext{mass of isotope 1}})+({text{% of isotope 2 }  xtext{mass of isotope 2}}) / 100}",
+   "What is the TOTAL resistance (R\u1d1b) in a SERIES circuit with 4 resistors where: R\u2081 = 6 ohms, R\u2082 = 2 ohms, R\u2083 = 3 ohms and R\u2084 = 7 ohms?": "R\u1d1b = R\u2081 + R\u2082 + R\u2083 + R\u2084 = 6 + 2 + 3 + 7 = 18 ohms",
+   "A FAN, which receives 5 A current over 4 V, transfers energy from ELECTRICAL to KINETIC energy. If this transfer is 100% efficient, what is the POWER output? [Check the units]": "P = V x I = 5 x 4 = 20 W",
+   "In a simple electrical circuit containing only a CELL and two EQUAL resistors in SERIES, we would find that the CURRENT through\u2026": "BOTH would be EQUAL, and that the P.D. across each would be EQUAL"
 }
