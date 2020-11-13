@@ -478,7 +478,7 @@
    "---(1)--- is an example of a pathogenic BACTERIUM. All PATHOGENS ---(2)---.": "1: Staphylococcus aureus; 2: cause INFECTION & DISEASE",
    "Metals comprise a giant structure of ---(1)--- surrounded by ---(2)---.": "1: positive ions; 2: delocalised electrons",
    "In DIAMOND, each carbon atom bonds with\u2026": "FOUR others (in a TETRAHEDRON shape) to make a HARD structure",
-   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They tend to have HIGH melting and boiling points because their bonds are STRONG and HARD to BREAK",
+   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They can conduct ELECTRICITY because their DELOCALISED ELECTRONS carry charge",
    "When a COVALENT compound (such as ICE or WAX) MELTS, this is due to\u2026": "the breaking of the INTERMOLECULAR FORCES",
    "Which of the following is in the structure of a VIRUS?": "[ALL of these]",
    "Drugs are tested using BLIND TRIALS, which means\u2026 (N.B. This is different to a DOUBLE-blind trial)": "ONLY the RESEARCHERS know what medication/vaccine the participants are taking (the patients don't know)",
@@ -824,5 +824,7 @@
    "AMYLASE is an ENZYME that converts\u2026": "starch to sugars",
    "Rutherford expected that when ALPHA particles were fired at a THIN gold foil they would pass straight through, however some emerged at different ---(1)--- whilst others ---(2)---.": "1: angles; 2: bounced back",
    "The ATOMIC NUMBER of PHOSPHORUS is 15. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,5",
-   "What is the RELATIVE MASS of a PROTON?": "1"
+   "What is the RELATIVE MASS of a PROTON?": "1",
+   "Every carbon atom in a diamond is bonded to ---(1)--- neighbouring carbon atoms via COVALENT bonds, leaving ---(2)---.": "1: FOUR; 2: NO free electrons or ions",
+   "In a COVALENT bond, the attractive force is between\u2026": "the shared ELECTRONS (-ve) & the NUCLEI (+ve)"
 }
