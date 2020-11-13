@@ -76,7 +76,10 @@
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
    "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
-   "Which of the following can be used to represent COVALENT bonds in a diagram?": "[ALL of these]",
+   "Which of the following can be used to represent COVALENT bonds in a diagram?": [
+      "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
+      "[ALL of these]"
+   ],
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
    "ENERGY WASTE occurs when energy is transferred into stores which are NOT useful. What is used to REDUCE unwanted energy transfers?": "Thermal insulation",
    "A STEP-DOWN transformer will\u2026": "have more turns on the PRIMARY coil",
@@ -479,7 +482,7 @@
    "---(1)--- is an example of a pathogenic BACTERIUM. All PATHOGENS ---(2)---.": "1: Staphylococcus aureus; 2: cause INFECTION & DISEASE",
    "Metals comprise a giant structure of ---(1)--- surrounded by ---(2)---.": "1: positive ions; 2: delocalised electrons",
    "In DIAMOND, each carbon atom bonds with\u2026": "FOUR others (in a TETRAHEDRON shape) to make a HARD structure",
-   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They can conduct ELECTRICITY because their DELOCALISED ELECTRONS carry charge",
+   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They tend to have HIGH melting and boiling points because their bonds are STRONG and HARD to BREAK",
    "When a COVALENT compound (such as ICE or WAX) MELTS, this is due to\u2026": "the breaking of the INTERMOLECULAR FORCES",
    "Which of the following is in the structure of a VIRUS?": "[ALL of these]",
    "Drugs are tested using BLIND TRIALS, which means\u2026 (N.B. This is different to a DOUBLE-blind trial)": "ONLY the RESEARCHERS know what medication/vaccine the participants are taking (the patients don't know)",
@@ -889,5 +892,6 @@
    "The CURRENT in a complete SERIES circuit\u2026": "is always the SAME",
    "[Fill in the blank]: In a SERIES circuit, the total POTENTIAL DIFFERENCE over ALL of the components should be --- the POTENTIAL DIFFERENCE across the SUPPLY.": "EQUAL to",
    "Which of these is the chemical symbol for aluminium?": "Al",
-   "Mendeleev's periodic arrangement meant some GAPS were LEFT between elements but, being the smart guy that he was, he used these gaps to\u2026": "predict the EXISTENCE and PROPERTIES of the undiscovered elements"
+   "Mendeleev's periodic arrangement meant some GAPS were LEFT between elements but, being the smart guy that he was, he used these gaps to\u2026": "predict the EXISTENCE and PROPERTIES of the undiscovered elements",
+   "The name 'buckminsterfullerene' was given to the first fullerene discovered. Which of these best describes its structure?": "A SPHERICAL molecule consisting of 60 carbon atoms"
 }
