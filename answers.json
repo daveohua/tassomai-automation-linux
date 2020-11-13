@@ -841,5 +841,8 @@
    "How does INCREASING the number of components in a SERIES circuit change the CURRENT drawn from the cell?": "The total RESISTANCE increases, so the CURRENT is REDUCED (I = V / R)",
    "What is the chemical formula of OXYGEN GAS?": "O (g)_2",
    "The transition metal CHROMIUM (Cr) has a ---(1)--- DENSITY than the group 1 alkali ---(2)---.": "1: higher; 2: lithium",
-   "The movement of WATER from the ROOTS, through the XYLEM, and out of the LEAVES is known as\u2026": "the transpiration stream"
+   "The movement of WATER from the ROOTS, through the XYLEM, and out of the LEAVES is known as\u2026": "the transpiration stream",
+   "Adding an additional RESISTOR in PARALLEL to a simple series circuit will ---(1)--- the total RESISTANCE of the circuit, which will ---(2)--- the CURRENT drawn from the power supply.": "1: decrease; 2: increase",
+   "In order to save on wasted electricity through the National Grid, TRANSFORMERS are used to\u2026": "STEP UP VOLTAGE for transfer, and STEP DOWN VOLTAGE for domestic use",
+   "Given that resistances of resistor 1 (R\n1\n) = 8.5 \u03a9 and resistor 2 (R\n2\n) = 5.6 \u03a9, what is the CURRENT (I\n1\nand I\n2\n) through each resistor in SERIES from a TOTAL current (I\nT\n) of 3.6A?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in SERIES so it is 3.6 A"
 }
