@@ -77,7 +77,7 @@ This is very useful for running it as soon as you turn your PC on!
 
 8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online <a href="https://github.com/Gloryness/tassomai-automation/blob/master/answers.json">here.</a>
 
-**Currently as of 13/11/20 at 19:57 PM GMT, 1280 questions have been answered!**
+**Currently as of 13/11/20 at 20:33 PM GMT, 1313 questions have been answered!**
 
 # Overview
 <img src="src/images/Tassomai Automation.jpg">
