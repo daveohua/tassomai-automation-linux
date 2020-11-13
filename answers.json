@@ -326,7 +326,10 @@
    "The NERVOUS SYSTEM does NOT include\u2026": "the pancreas",
    "FSH stimulates the maturation of follicles, which\u2026": "stimulates oestrogen production",
    "Why is HOMEOSTASIS necessary?": "Maintaining a CONSTANT INTERNAL ENVIRONMENT ensures that METABOLIC PROCESSES will be able to work at their optimum level",
-   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": "The ANODE is made of CARBON in the form of graphite",
+   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": [
+      "The ANODE is made of CARBON in the form of graphite",
+      "POSITIVELY charged aluminium ions gain electrons from the cathode"
+   ],
    "The positive electrode, made of GRAPHITE (CARBON), must be CONTINUALLY REPLACED in the extraction of ALUMINIUM because \u2026": "it reacts with OXYGEN IONS to form CO\u2082, a gas",
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
@@ -1252,5 +1255,7 @@
    "During electrolysis ions are DISCHARGED ---(1)---, producing ---(2)---.": "1: at the ELECTRODES; 2: ELEMENTS",
    "What is the CONCENTRATION of a 4 litre solution containing 50 grams of hydrochloric acid (HCl)?": "{Concentration (g/dm}^3)={{mass (g)} / {volume (dm}^3)} = {50}4=12.5{ g/dm}^3",
    "Here are four steps that show an acid-alkali TITRATION starting with a SOLUTION. Which happens FIRST?": "Using a safety pipette filler, TRANSFER the solution of UNKNOWN concentration to a CONICAL FLASK",
-   "Pure water has a pH of 7. The concentration of H\u207a ions is INCREASED by 10,000\n10\n4\ntimes. The pH is now\u2026": "3"
+   "Pure water has a pH of 7. The concentration of H\u207a ions is INCREASED by 10,000\n10\n4\ntimes. The pH is now\u2026": "3",
+   "UNIVERSAL INDICATOR will be what colour in a solution with pH 7?": "Green",
+   "The reaction FeCl\u2082 + Ca \u2192 Fe + CaCl\u2082 is ---(1)---, because iron is ---(2)--- reactive than calcium.": "1: possible; 2: less"
 }
