@@ -1267,5 +1267,8 @@
    "A solution of HCl is an example of a ---(1)--- acid, because the acid molecules have a ----(2)----.": "1: strong; 2: HIGH degree of IONISATION",
    "Here are four steps that show how to use data from acid-base titrations to calculate concentrations of the acid used. Which happens FIRST?": "Write a balanced symbolic equation, and work out the relative formula masses (RFM) of the acid and the alkali (e.g. NaOH + HCl \u2192 NaCl + H\u2082O)",
    "The particular SALT produced in a reaction between ACID and BASE depends on the ---(1)--- of the acid and the ---(2)--- of the base.": "1: negative ion; 2: positive ion",
-   "Metal species such as FeO, Al\n2\nO\n3\n, CaCl\n2\nand Au exist in the earth. The UNREACTIVE metal is\u2026": "Au"
+   "Metal species such as FeO, Al\n2\nO\n3\n, CaCl\n2\nand Au exist in the earth. The UNREACTIVE metal is\u2026": "Au",
+   "In the reaction HNO\n3\n(aq) + NaOH(aq) \u2192 NaNO\n3\n(aq) + H\n2\nO(l), 30 cm\n3\nof 2 mol/dm\n3\nHNO\n3\nneutralises exactly 20 cm\n3\nof NaOH. The CONCENTRATION of NaOH is\u2026": "{(0.03 x 2) / 0.02}=3{mol/dm}^3",
+   "A solution of CITRIC acid is an example of a ---(1)--- acid, because the acid molecules have a ---(2)--- degree of ionisation.": "1: weak; 2: low ",
+   "Here are four steps that show how to use data from acid-base titrations to calculate concentrations of the acid used. Which happens LAST?": "Calculate the mass of the acid used with the equation: mass (g) = moles (mol) x RFM; then calculate the concentration of acid used with the equation: conc (g/dm\u00b3) = mass (g) \u00f7 vol (dm\u00b3)"
 }
