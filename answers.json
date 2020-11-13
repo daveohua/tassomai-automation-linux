@@ -844,5 +844,8 @@
    "The movement of WATER from the ROOTS, through the XYLEM, and out of the LEAVES is known as\u2026": "the transpiration stream",
    "Adding an additional RESISTOR in PARALLEL to a simple series circuit will ---(1)--- the total RESISTANCE of the circuit, which will ---(2)--- the CURRENT drawn from the power supply.": "1: decrease; 2: increase",
    "In order to save on wasted electricity through the National Grid, TRANSFORMERS are used to\u2026": "STEP UP VOLTAGE for transfer, and STEP DOWN VOLTAGE for domestic use",
-   "Given that resistances of resistor 1 (R\n1\n) = 8.5 \u03a9 and resistor 2 (R\n2\n) = 5.6 \u03a9, what is the CURRENT (I\n1\nand I\n2\n) through each resistor in SERIES from a TOTAL current (I\nT\n) of 3.6A?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in SERIES so it is 3.6 A"
+   "Given that resistances of resistor 1 (R\n1\n) = 8.5 \u03a9 and resistor 2 (R\n2\n) = 5.6 \u03a9, what is the CURRENT (I\n1\nand I\n2\n) through each resistor in SERIES from a TOTAL current (I\nT\n) of 3.6A?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in SERIES so it is 3.6 A",
+   "The ATOMIC NUMBER of SILICON is 14. Which one of the following shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,4",
+   "What is the chemical formula of SULFUR DIOXIDE?": "SO\u2082",
+   "Relative atomic mass (R.A.M.) is used to describe the mass of an atom when considering all of its possible ISOTOPES. Which method best describes how to calculate R.A.M. of an element with 2 isotopes?": "{({text{% of isotope 1 }  xtext{mass of isotope 1}})+({text{% of isotope 2 }  xtext{mass of isotope 2}}) / 100}"
 }
