@@ -45,7 +45,10 @@
    "Which of these parts of the EM spectrum is used in COOKING?": "Microwaves",
    "Which of these formulae, regarding frequency (Hz), wavelength (m) and wavespeed (m/s), is correct?": "[ALL of these]",
    "Which of these is an example of a NON-CONTACT force?": "A MAGNET pulling a piece of iron",
-   "A driver's REACTION time can be affected by\u2026": "alcohol",
+   "A driver's REACTION time can be affected by\u2026": [
+      "[BOTH of these]",
+      "alcohol"
+   ],
    "Which of these factors affect a car's STOPPING DISTANCE?": "[ALL of these]",
    "A car's BRAKING DISTANCE is altered if\u2026": "the ROAD is wet or icy",
    "Which of the following fuels DOES NOT come from CRUDE OIL?": "Coal",
@@ -1297,5 +1300,7 @@
    "CH\n4\n4\nis the molecular formula for\u2026": "methane",
    "The decomposition of ammonium chloride, NH\n4\n4\nCl \u21cc NH\n3\n3\n+ HCl, is an example of\u2026": "a REVERSIBLE reaction",
    "If the PRODUCTS of a CHEMICAL REACTION can be turned back into the REACTANTS, then it is known as\u2026": "reversible",
-   "The ATOMIC NUMBER of SODIUM is 11. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,1"
+   "The ATOMIC NUMBER of SODIUM is 11. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,1",
+   "An object of mass 3kg, travelling with a velocity of 5m/s, would have a MOMENTUM of\u2026": "15 kgm/s [MULTIPLY]",
+   "What FORCE acts AGAINST the motion of a car travelling in a straight line on a level road at a CONSTANT VELOCITY (requiring force from the engine to maintain the velocity)?": "[BOTH of these]"
 }
