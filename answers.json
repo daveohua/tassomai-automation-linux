@@ -1157,5 +1157,7 @@
    "A reaction has an ACTUAL yield of 4.30g, with a percentage yield of 63.5%. What was the THEORETICAL yield?": "{4.30 / 63.5} x100 =6.77g",
    "What is the CONCENTRATION of a 500 ml solution containing 1.5 grams of hydrochloric acid (HCl) ?": "Concentration (g/dm\u00b3) = mass (g)  volume (dm\u00b3)div  =  {1.5 / 0.5}=3{ g/dm}^3",
    "A STRONG ACID could have a pH of\u2026": "1",
-   "Which of these terms specifically describes LOSS of ELECTRONS?": "Oxidation"
+   "Which of these terms specifically describes LOSS of ELECTRONS?": "Oxidation",
+   "OXIDATION is the process of\u2026": "electron LOSS",
+   "A solution of H\u2082CO\u2083 is an example of a ---(1)--- acid, because the acid molecules have a ---(2)---.": "1: weak; 2: LOW degree of IONISATION"
 }
