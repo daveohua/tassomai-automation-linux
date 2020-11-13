@@ -691,5 +691,7 @@
    "The ATOMIC NUMBER of CARBON is 6. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,4",
    "Which of these formulae correctly shows the relationship between CURRENT, CHARGE and TIME?": "Current (amps) = charge (coulombs) / time (seconds)",
    "If a WASHING MACHINE transfers 12.8 MJ of energy over 1.5 hours to its MOTOR, what is its POWER rating? [pay attention to UNITS]": "{P(W)} = {{E(J)} / {t(s)}} = {12.8 x10^6 / 1.5 x 60 x 60} = 2370.4, W = 2.4 { kW}",
-   "The equation E = VQ means that the ENERGY transferred to a circuit COMPONENT is the product of the ---(1)--- and the ---(2)--- delivered.": "1; potential difference; 2: charge"
+   "The equation E = VQ means that the ENERGY transferred to a circuit COMPONENT is the product of the ---(1)--- and the ---(2)--- delivered.": "1; potential difference; 2: charge",
+   "A material which has no fixed SHAPE or VOLUME is a\u2026": "gas",
+   "It is difficult to melt DIAMOND because\u2026": "it has a GIANT COVALENT structure"
 }
