@@ -434,7 +434,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "All the particles are represented as SPHERES",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -772,5 +772,8 @@
    "Na\n+\n+\nCl\n\u2212\n\u2192": "{NaCl}",
    "Which of these statements about TRANSITION ELEMENTS is FALSE?": "[ALL of these are false]",
    "Which of these formulae calculates the KINETIC energy of a moving object?": "E_{K}=12 mv^2",
-   "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement"
+   "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement",
+   "If the DOT & CROSS diagram of a compound uses SQUARE brackets with CHARGES outside of them, then it refers to\u2026": "an IONIC substance",
+   "Although graphene has a similar structure and bonding to graphite, it is different because\u2026": "it is ONE layer thick, whereas graphite has MULTIPLE layers",
+   "GRAPHENE has the potential to be used ---(1)--- because its bonding allows for ---(2)--- that can carry charge.": "1: in electronics; 2: free electrons"
 }
