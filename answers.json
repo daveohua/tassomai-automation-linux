@@ -790,7 +790,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The EARTH pin is the TOP one",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The NEUTRAL wire connects to the pin on the LEFT",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1037,5 +1037,9 @@
    "Which of these is a possible COPPER ion?": "{Cu}^{2+}",
    "The ELECTRON configuration of SODIUM is 2,8,1. How many ELECTRON SHELLS does SODIUM have?": "3",
    "The CELLS in BLOOD are suspended in a fluid called\u2026": "plasma",
-   "Which of these best describes the term DIGESTIVE ENZYMES?": "Substances used by organisms to SPEED up the BREAK DOWN of LARGE molecules into SMALLER ones"
+   "Which of these best describes the term DIGESTIVE ENZYMES?": "Substances used by organisms to SPEED up the BREAK DOWN of LARGE molecules into SMALLER ones",
+   "Combining two or more DIFFERENT cells IN PARALLEL in an electrical circuit could result in\u2026": "cells potentially forming a SHORT CIRCUIT where they DISCHARGE into one another and DISSIPATE HEAT. A relatively LOW CURRENT will flow through the circuit",
+   "One 5\u03a9 resistor and one 10\u03a9 resistor connected in PARALLEL to a CELL have the SAME ---(1)--- because ---(2)---.": "1: voltage; 2: the voltage is the same through each branch of the PARALLEL circuit",
+   "Adding resistors in series INCREASES the total ---(1)---. Adding resistors in PARALLEL ---(2)--- the total resistance.": "1: resistance; 2: decreases",
+   "A material which, through friction, LOSES its electrons will become\u2026": "positively charged"
 }
