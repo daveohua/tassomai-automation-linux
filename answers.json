@@ -793,7 +793,10 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The NEUTRAL wire connects to the pin on the LEFT",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
+      "The EARTH pin is the TOP one",
+      "You SHOULD NOT do this while the plug is in the wall"
+   ],
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1050,5 +1053,6 @@
    "Which valves lie between the ATRIA and the VENTRICLES?": "ATRIO-VENTRICULAR valves",
    "How are RED blood cells specially adapted to carry oxygen? (Pay attention to the KEY words!)": "They have NO NUCLEUS to maximise the amount of HAEMOGLOBIN they can contain",
    "Group 7 elements nearer the TOP of the column are\u2026": "more reactive",
-   "BROMINE has\n2\nISOTOPES of differing mass in specified proportions [\n81\nBr -\n50\n%,\n79\nBr -\n50\n%]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(50 x 81)+(50 x 79) / 100}=80"
+   "BROMINE has\n2\nISOTOPES of differing mass in specified proportions [\n81\nBr -\n50\n%,\n79\nBr -\n50\n%]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(50 x 81)+(50 x 79) / 100}=80",
+   "It is DANGEROUS to provide any connection between the EARTH wire and the ---(1)--- wire, because a ---(2)--- current would flow between the two wires.": "1: live; 2: large"
 }
