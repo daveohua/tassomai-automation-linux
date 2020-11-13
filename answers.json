@@ -796,10 +796,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The EARTH pin is the TOP one",
-      "You SHOULD NOT do this while the plug is in the wall"
-   ],
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The BLUE wire is the NEUTRAL wire (N)",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1082,5 +1079,8 @@
    "Many digestive enzymes are created and released by\u2026": "the pancreas",
    "Which of these is an ADVANTAGE of using solar power?": "[ALL of these]",
    "The elements in ---(1)--- are called ---(2)---.": "1: group 7; 2: halogens",
-   "What is the SYMBOL for the RELATIVE ATOMIC MASS of an atom?": "Ar"
+   "What is the SYMBOL for the RELATIVE ATOMIC MASS of an atom?": "Ar",
+   "Resistor 1 (R\u2081 = 5 \u03a9) and resistor 2 (R\u2082 = 7 \u03a9) are in SERIES. If the TOTAL current (I\u1d1b) is 1.2 A, what is the CURRENT (I\u2081 and I\u2082) through each resistor?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in a SERIES circuit so both I\u2081 and I\u2082 equal 1.2 A",
+   "As the POTENTIAL DIFFERENCE across a WIRE (at constant temperature) increases, how does the CURRENT change?": "It increases proportionally",
+   "The COMBINED resistance of two resistors in SERIES is\u2026": "the SUM of their individual resistances"
 }
