@@ -805,5 +805,9 @@
    "What is the charge formed on NEON ions (group 0)?": "[TRICK QUESTION]: It doesn't form an ion",
    "Group 1 elements nearer the BOTTOM of the column are\u2026": "MORE reactive than those at the top",
    "Since the DENSITY of the NOBLE gases ---(1)--- as you go down the group, we know that XENON (Xe) is ---(2)--- dense than ARGON (Ar).": "1: increases; 2: more",
-   "Which of these is the chemical symbol for fluorine?": "F"
+   "Which of these is the chemical symbol for fluorine?": "F",
+   "DOMESTIC lighting is normally configured in ---(1)--- CIRCUITS so that lights can be switched on/off ---(2)---.": "1: parallel; 2: independently of one another",
+   "The DOMESTIC electricity supply in the United Kingdom has a FREQUENCY of ---(1)--- and a POTENTIAL DIFFERENCE of about ---(2)---.": "1: 50 Hz; 2: 230 V",
+   "[TRUE or FALSE?]: Work is done when VOLTAGE flows through a circuit.": "[FALSE]: Work is done when CHARGE flows in a circuit",
+   "A STEP-UP transformer will\u2026": "increase VOLTAGE; decrease CURRENT"
 }
