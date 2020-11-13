@@ -56,7 +56,7 @@ $ "Tassomai Automation".exe -h
 ```
 for a full list of commands.
 
-This is very useful for running it as soon as you turn your PC on!
+This is very useful for scheduling the automation with Windows Task Scheduler on a .cmd file!
 
 # How It Works
 - Due to multiple attemps of unsuccessfully trying to use the `requests` libary to automate tassomai, the `selenium` libary is used instead.
