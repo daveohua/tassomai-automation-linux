@@ -1242,5 +1242,6 @@
    "When there are HALIDE ions in an electrolysed aqueous solution, ---(1)--- will be produced at the ---(2)---.": "1: the HALOGEN; 2: anode",
    "The limiting reactant is ---(1)--- and is ---(2)--- at the end of the reaction.": "1: not in excess; 2: all used up",
    "How many moles of sodium atoms (relative atomic mass = 23) make a mass of 4.6g?": "n= {m / {Mr}}= {4.6 / 23}=0.2 { mol}",
-   "[TRUE or FALSE?]: Reactions tend to produce a YIELD that is equal to their THEORETICAL YIELD.": "[FALSE]: In reality, reactions result in LESS PRODUCT than theoretically expected"
+   "[TRUE or FALSE?]: Reactions tend to produce a YIELD that is equal to their THEORETICAL YIELD.": "[FALSE]: In reality, reactions result in LESS PRODUCT than theoretically expected",
+   "ELECTROLYSIS can best be described as\u2026": "the DECOMPOSITION of an ELECTROLYTE by an ELECTRIC CURRENT"
 }
