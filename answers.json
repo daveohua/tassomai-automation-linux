@@ -688,5 +688,8 @@
    "Adding another branch to a PARALLEL circuit has what effect on the CURRENT drawn from the cell?": "The TOTAL circuit resistance DECREASES, so the CURRENT is INCREASED (I = V / R)",
    "The structure of sodium chloride (NaCl) is a GIANT IONIC LATTICE, which means that\u2026": "a positive SODIUM ion is next to a negative CHLORIDE ion, and this pattern repeats itself",
    "Diamonds have FOUR strong COVALENT bonds. These are very STRONG, and so require ---(1)--- to break, meaning that diamonds have a ---(2)--- melting point.": "1: a lot of energy; 2: high",
-   "The ATOMIC NUMBER of CARBON is 6. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,4"
+   "The ATOMIC NUMBER of CARBON is 6. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,4",
+   "Which of these formulae correctly shows the relationship between CURRENT, CHARGE and TIME?": "Current (amps) = charge (coulombs) / time (seconds)",
+   "If a WASHING MACHINE transfers 12.8 MJ of energy over 1.5 hours to its MOTOR, what is its POWER rating? [pay attention to UNITS]": "{P(W)} = {{E(J)} / {t(s)}} = {12.8 x10^6 / 1.5 x 60 x 60} = 2370.4, W = 2.4 { kW}",
+   "The equation E = VQ means that the ENERGY transferred to a circuit COMPONENT is the product of the ---(1)--- and the ---(2)--- delivered.": "1; potential difference; 2: charge"
 }
