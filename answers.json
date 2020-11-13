@@ -350,7 +350,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
+   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -732,7 +732,7 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[BOTH of these]",
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -894,5 +894,7 @@
    "Which of these is the chemical symbol for aluminium?": "Al",
    "Mendeleev's periodic arrangement meant some GAPS were LEFT between elements but, being the smart guy that he was, he used these gaps to\u2026": "predict the EXISTENCE and PROPERTIES of the undiscovered elements",
    "The name 'buckminsterfullerene' was given to the first fullerene discovered. Which of these best describes its structure?": "A SPHERICAL molecule consisting of 60 carbon atoms",
-   "On a CURRENT-POTENTIAL DIFFERENCE graph, which quantity is measured on the x-axis?": "Potential difference (V)"
+   "On a CURRENT-POTENTIAL DIFFERENCE graph, which quantity is measured on the x-axis?": "Potential difference (V)",
+   "Electric lamps waste a lot of ENERGY in the form of ---(1)---. METAL FILAMENT lamps have been replaced by ---(2)--- to INCREASE efficiency.": "1: heat; 2: LEDs",
+   "The energy resources used for ---(1)--- demand energy supplies, consumed NATIONALLY, tend to be ---(2)---. This type of energy source is used because it is CURRENTLY considered to be MORE RELIABLE.": "1: high; 2: non-renewable"
 }
