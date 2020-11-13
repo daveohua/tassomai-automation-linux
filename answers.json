@@ -734,5 +734,8 @@
    "Which of these is a TRUE DISADVANTAGE of using geothermal power?": "It is very difficult to find appropriate sites to build geothermal power stations",
    "Elements in the SAME PERIOD in the table have the same number of\u2026": "ELECTRON SHELLS",
    "One property of transition metals is their ability to be used as ---(1)---. In the Haber process IRON is used to ---(2)--- the reaction.": "1: catalysts; 2: speed up",
-   "Which method would be most suitable in separating SAND from WATER?": "Filtration"
+   "Which method would be most suitable in separating SAND from WATER?": "Filtration",
+   "If current constantly changes direction, it is called\u2026": "an ALTERNATING current (a.c)",
+   "Resistor one (R\u2081 = 1 ohms) and resistor two (R\u2082 = 4 ohms) are connected in SERIES with a supply VOLTAGE (V) of 50V. What is the CURRENT (I) in the circuit?": "I = V / R = 50 / (4+1) = 10A",
+   "An LDR can be used in a light-sensor circuit. The LDR's resistance ---(1)--- as the incident light intensity increases. The CURRENT in the circuit would then ---(2)---.": "1: decreases; 2: increase"
 }
