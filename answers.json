@@ -1274,5 +1274,8 @@
    "The products '2NaNO\n3\n+ H\n2\nO + CO\n2\n' would occur from reacting which of these reactants?": "2HNO + NaCO_3 _2 _3",
    "Exactly 0.6 dm\u00b3 of solution containing 0.3 mol/dm\u00b3 of HBr reacts with 0.9 dm\u00b3 of aqueous Et\u2083N (triethylamine) in a 1:1 ratio. What is the concentration of the Et\u2083N solution?": "{0.3 x 0.6 / 0.9}=0.2{ mol/dm}^3",
    "Electrolysis of a NaCl solution is carried out. The correct HALF-EQUATION for the reaction at the ANODE is\u2026": "2Cl\u207b \u2192 Cl\u2082 + 2e\u207b",
-   "How many moles of carbon atoms (A\nr\n=12) make a mass of 0.62g?": "Moles (n) = mass (m) / atomic mass (Ar) = 0.62 / 12 = 0.0517 mol"
+   "How many moles of carbon atoms (A\nr\n=12) make a mass of 0.62g?": "Moles (n) = mass (m) / atomic mass (Ar) = 0.62 / 12 = 0.0517 mol",
+   "In the reaction '\nCH\n4\n+\n2\nO\n2\n\u2192\nCO\n2\n+\n2\nH\n2\nO\n',\nH\n2\nO\nis the desired product. What is the atom economy? (\nC\n=\n12\n,\nO\n=\n16\n,\nH\n=\n1\n) (Atom economy = Mr of desired products / Mr of all reactants)": "{2H_2O / {CH}_4+2O_2} ={(2 x(1 x2))+(2 x 16) / 12+(1 x 4)+(2 x 16 x 2)}= {36 / 80}=0.45=45%",
+   "What VOLUME (\ndm\n3\n) would 22g of helium take up, at room temperature and pressure?": "{22}4 x24 = 132 { dm}^3",
+   "One MOLE of a substance contains ---(1)--- of particles, atoms, molecules or ions as one mole of ---(2)----.": "1: the same number; 2: any OTHER substance"
 }
