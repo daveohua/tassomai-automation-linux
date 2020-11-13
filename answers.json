@@ -790,10 +790,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The NEUTRAL wire connects to the pin on the LEFT",
-      "The EARTH pin is the TOP one"
-   ],
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The EARTH pin is the TOP one",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1002,5 +999,7 @@
    "The use of EMBRYONIC STEM cells is subject to\u2026": "government regulation",
    "Atoms contain equal numbers of PROTONS and ELECTRONS because\u2026": "their charges must CANCEL each other out, to leave a BALANCED, UNCHARGED atom",
    "Manganese (IV) dioxide, MnO\n2\n, is a transition metal compound\u2026": "where the CHARGE on the MANGANESE ion is 4+",
-   "The ATOMIC NUMBER of BORON is 5. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,3"
+   "The ATOMIC NUMBER of BORON is 5. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,3",
+   "Given that resistances of resistor 1 (R\n1\n) = 8.5 ohms and resistor 2 (R\n2\n) = 5.6 ohms, what is the P.D. (V\n1\nand V\n2\n) across each resistor in SERIES from a TOTAL voltage (V\nT\n) of 24V?": "V_1 = V_{T} x {R_1 / R_{T}} = 24  x {8.5 / 14.1} = 14.5 { V and V}_2 =V_{T} x {{R}_2 / R_{T}} = 24  x  {5.6 / 14.1} = 9.5 V",
+   "DYNAMOS produce ---(1)---, in which the current flows in ---(2)--- direction.": "1: a direct current (d.c); 2: one"
 }
