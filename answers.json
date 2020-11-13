@@ -361,8 +361,9 @@
    "The difference between AEROBIC and ANAEROBIC respiration in muscles is that\u2026": "ANAEROBIC respiration does NOT require OXYGEN",
    "Which of these is the correct word equation for AEROBIC respiration?": "Glucose + oxygen \u2192 carbon dioxide + water [+ENERGY]",
    "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": [
-      "used for RESPIRATION",
-      "used to produce CELLULOSE which strengthens the cell WALL"
+      "used to produce AMINO ACIDS for protein SYNTHESIS",
+      "used to produce CELLULOSE which strengthens the cell WALL",
+      "used to produce FAT or OIL for storage"
    ],
    "Assuming there is no other LIMITING factor, what effect will a small INCREASE in UV light have on the rate of photosynthesis?": "It would be HIGHER",
    "Food molecules, once broken down, are absorbed in the\u2026": "ileum (small intestine)",
@@ -876,5 +877,7 @@
    "Potassium (s) + water (l) \u2192": "potassium hydroxide (aq) + hydrogen (g)",
    "Which of these vessels can withstand the HIGHEST pressure?": "Arteries",
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens SECOND?": "DEOXYGENATED blood is pumped to the LUNGS via the PULMONARY ARTERY",
-   "What is the formula for body mass index? [N.B. Pay attention to the units!]": "BMI = mass (kg) / height\u00b2 (m\u00b2)"
+   "What is the formula for body mass index? [N.B. Pay attention to the units!]": "BMI = mass (kg) / height\u00b2 (m\u00b2)",
+   "Removing the limiting factor of photosynthesis for a plant (e.g. by increasing the level of light), will INCREASE the rate of photosynthesis\u2026": "until the rate is LIMITED by another factor in the SHORTEST supply",
+   "Carbon dioxide + water \u2192 glucose + oxygen is\u2026": "an ENDOTHERMIC reaction"
 }
