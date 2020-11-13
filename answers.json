@@ -888,5 +888,7 @@
    "The National ---(1)--- is a system of CABLES and ---(2)--- linking POWER STATIONS to consumers.": "1: Grid; 2: transformers",
    "A 2400 W WASHING MACHINE takes 40 minutes to wash a load of clothes. How much energy is TRANSFERRED to the MOTOR in a single wash? [Pay attention to the UNITS]": "{E(J)} = {P(W)} x{t(s)}  = 2400 x40 x 60=5760000{ J} =5760{ kJ}= 5.76{ MJ}",
    "JOHN DALTON developed\u2026": "the modern ATOMIC THEORY",
-   "Which element has the symbol Fe?": "Iron"
+   "Which element has the symbol Fe?": "Iron",
+   "The CIRCUIT symbol made up of two lines, one thick & short and the other thin & long, represents a ---(1)---. We represent a ---(2)---, by repeating this symbol ONCE with a dotted line in-between.": "1: cell; 2: battery",
+   "On a CURRENT-POTENTIAL DIFFERENCE (I-V) graph, an OHMIC CONDUCTOR (at constant temperature) is represented by...": "a STRAIGHT line with a POSITIVE gradient"
 }
