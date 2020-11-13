@@ -883,5 +883,8 @@
    "Components all connected on the SAME branch of a circuit are\u2026": "in SERIES",
    "ELECTRICAL energy is transmitted along the NATIONAL GRID at ---(1)--- VOLTAGES. This improves the EFFICIENCY by reducing ---(2)--- in transmission lines.": "1: high; 2: heat loss",
    "Which state symbol would you use to represent MOLTEN SODIUM CHLORIDE?": "(l)",
-   "The majority of an element's ---(1)--- is located in its ---(2)---.": "1: mass; 2: nucleus"
+   "The majority of an element's ---(1)--- is located in its ---(2)---.": "1: mass; 2: nucleus",
+   "In a simple electrical circuit containing only a CELL and two EQUAL resistors in PARALLEL, we would find that the CURRENT through each resistor would be\u2026": "an EQUAL SPLIT of the current from the cell; the P.D. across each would be EQUAL to that of the p.d. across the cell.",
+   "The National ---(1)--- is a system of CABLES and ---(2)--- linking POWER STATIONS to consumers.": "1: Grid; 2: transformers",
+   "A 2400 W WASHING MACHINE takes 40 minutes to wash a load of clothes. How much energy is TRANSFERRED to the MOTOR in a single wash? [Pay attention to the UNITS]": "{E(J)} = {P(W)} x{t(s)}  = 2400 x40 x 60=5760000{ J} =5760{ kJ}= 5.76{ MJ}"
 }
