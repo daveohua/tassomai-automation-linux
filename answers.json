@@ -347,7 +347,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
+   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -988,5 +988,6 @@
    "In TRANSPIRATION, water EVAPORATES from the leaf through microscopic pores known as\u2026": "stomata",
    "The development of the modern theory of ATOMIC STRUCTURE shows us that\u2026": "NEW EXPERIMENTAL evidence may lead to a scientific model being CHANGED",
    "The order of REACTIVITY of the HALOGENS, from most to least reactive, is\u2026": "F \u2192 Cl \u2192 Br \u2192 I \u2192 At",
-   "The REACTIVITY of Group 1 metals ---(1)--- as you go down the group, because the OUTERMOST electron gets ---(2)--- from the NUCLEUS.": "1: increases; 2: further"
+   "The REACTIVITY of Group 1 metals ---(1)--- as you go down the group, because the OUTERMOST electron gets ---(2)--- from the NUCLEUS.": "1: increases; 2: further",
+   "Energy can't be CREATED but can be\u2026": "transferred"
 }
