@@ -425,10 +425,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": [
-      "All the particles are represented as SPHERES",
-      "It DOESN'T show the FORCES between the particles"
-   ],
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -720,5 +717,6 @@
    "How would you calculate the ENERGY transferred in a system by a flowing CURRENT?": "Work done (W) = voltage x current x time = VIT",
    "ENERGY cannot be DESTROYED, but it can be ---(1)---. As a system loses its energy, that energy tends to be DISSIPATED in the form of ---(2)---.": "1: transferred to other stores; 2: heat (thermal) energy",
    "If a SYSTEM CHANGES, the way energy is STORED in that system also changes. When a PAINTBALL hits a wall, ---(1)--- energy is converted into ---(2)--- energy which are no longer STORED.": "1: kinetic; 2: heat and sound",
-   "How would you calculate the WORK done by a resultant FORCE?": "Work done (W) = force (f) x distance (d)"
+   "How would you calculate the WORK done by a resultant FORCE?": "Work done (W) = force (f) x distance (d)",
+   "Assessing the effects of NANOPARTICLES on human health requires LONG term studies. Nanotechnology is a relatively ---(1)--- field, so there ---(2)--- time to identify these.": "1: new; 2: has NOT been enough"
 }
