@@ -1221,5 +1221,7 @@
    "What VOLUME (dm\u00b3) would 5g of nitrogen gas take up, at room temperature and pressure? (Ar N = 14.0)": "{5 / 14} x24 = 8.57 { dm}^3",
    "Masses of REACTANTS and PRODUCTS can be\u2026": "calculated from BALANCED symbol equations",
    "What is the RELATIVE FORMULA mass (R.F.M) of CaCO\n3\n? (Ca = 40, C = 12, O = 16)?": "R.F.M = sum of all elements = 40+12+(16 x 3)=100",
-   "The correct equation for the reaction of MAGNESIUM with HYDROCHLORIC ACID is\u2026": "Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g)"
+   "The correct equation for the reaction of MAGNESIUM with HYDROCHLORIC ACID is\u2026": "Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g)",
+   "When ALKALINE COMPOUNDS dissolve in WATER they produce\u2026": "aqueous hydroxide ions ({OH}^-)",
+   "In the reaction Mg + CuO \u2192 Cu + MgO, the 'OXIDISING agent' is ---(1)--- and the substance being OXIDISED is ---(2)---.": "1: CuO; 2: Mg"
 }
