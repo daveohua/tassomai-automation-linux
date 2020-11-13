@@ -732,8 +732,8 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "Energy (kWh) = power (kW) x time (h)",
-      "[BOTH of these]"
+      "[BOTH of these]",
+      "Energy (kWh) = power (kW) x time (h)"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
@@ -778,5 +778,6 @@
    "GRAPHENE has the potential to be used ---(1)--- because its bonding allows for ---(2)--- that can carry charge.": "1: in electronics; 2: free electrons",
    "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you INCREASE LIGHT on an LDR, then\u2026": "its RESISTANCE will DECREASE",
    "The closer you get to a CHARGED object, the ---(1)--- the ---(2)--- field.": "1:stronger; 2: electric",
-   "A WEAKER electric field will be depicted by ---(1)--- the ---(2)--- of lines.": "1: decreasing; 2: concentration"
+   "A WEAKER electric field will be depicted by ---(1)--- the ---(2)--- of lines.": "1: decreasing; 2: concentration",
+   "An example of a CLOSED system is\u2026": "soup in an INSULATED container"
 }
