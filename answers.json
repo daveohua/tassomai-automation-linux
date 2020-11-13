@@ -944,7 +944,7 @@
    "An LDR's resistance INCREASES as the\u2026": "light intensity decreases",
    "The CURRENT is the same at every point in a\u2026": "series circuit",
    "Components which are connected to DIFFERENT branches of a circuit are\u2026": "in parallel",
-   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": "1: insulators; 2: clothes sticking from the tumble-drier",
+   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": "1: insulators; 2: dust being attracted to TV screens",
    "Blood drawn INTO the heart from the LUNGS is\u2026": "oxygenated",
    "In PLANTS, a ROOT HAIR is an example of\u2026": "a cell",
    "We define GOOD HEALTH as\u2026": "the state of PHYSICAL, MENTAL and SOCIAL well being",
@@ -1061,5 +1061,9 @@
    "The REACTIVITY of an element is often related to its ---(1)---, since this determines the number of electrons in its ---(2)---.": "1: group number; 2: outermost shell",
    "Which state symbol would you use to represent SODIUM CHLORIDE CRYSTALS?": "(s)",
    "The RELATIVE ATOMIC MASS (Ar) of an element compares the mass of atoms of the element with the atomic mass of\u2026": "the carbon-12 isotope",
-   "The DENSITY of the NOBLE gases\u2026": "INCREASES as you go down the group (He \u2192 Rn)"
+   "The DENSITY of the NOBLE gases\u2026": "INCREASES as you go down the group (He \u2192 Rn)",
+   "We transfer electricity through the NATIONAL GRID at a HIGH ---(1)--- rather than a HIGH ---(2)--- as this REDUCES the amount of energy WASTED in the power cables.": "1: voltage; 2: current",
+   "What is the TOTAL resistance (R\u1d1b) in a SERIES circuit with 3 resistors where: R\u2081 = 4 ohms, R\u2082 = 3.3 ohms and R\u2083 = 9 ohms?": "R\u1d1b = R\u2081 + R\u2082 + R\u2083 = 4 + 3.3 + 9 = 16.3 ohms",
+   "As the VOLTAGE across a DIODE increases, how does the CURRENT change?": "[ALL of these]",
+   "The COMBINED resistance of two resistors in PARALLEL is\u2026": "LESS than that of EITHER of the individual resistors"
 }
