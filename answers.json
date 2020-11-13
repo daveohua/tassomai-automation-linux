@@ -1041,5 +1041,6 @@
    "Combining two or more DIFFERENT cells IN PARALLEL in an electrical circuit could result in\u2026": "cells potentially forming a SHORT CIRCUIT where they DISCHARGE into one another and DISSIPATE HEAT. A relatively LOW CURRENT will flow through the circuit",
    "One 5\u03a9 resistor and one 10\u03a9 resistor connected in PARALLEL to a CELL have the SAME ---(1)--- because ---(2)---.": "1: voltage; 2: the voltage is the same through each branch of the PARALLEL circuit",
    "Adding resistors in series INCREASES the total ---(1)---. Adding resistors in PARALLEL ---(2)--- the total resistance.": "1: resistance; 2: decreases",
-   "A material which, through friction, LOSES its electrons will become\u2026": "positively charged"
+   "A material which, through friction, LOSES its electrons will become\u2026": "positively charged",
+   "White blood cells can\u2026": "[ALL of these]"
 }
