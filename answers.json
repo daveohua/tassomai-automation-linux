@@ -328,7 +328,10 @@
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
    "WHITE blood cells are responsible for\u2026": "forming the body's DEFENCE system against microorganisms",
-   "Osmosis and diffusion happen more RAPIDLY if there is a\u2026 [** BE CAREFUL; there are many versions of this question but with different answers]": "higher surface area to volume ratio",
+   "Osmosis and diffusion happen more RAPIDLY if there is a\u2026 [** BE CAREFUL; there are many versions of this question but with different answers]": [
+      "higher temperature",
+      "higher surface area to volume ratio"
+   ],
    "The movement of WATER into plant ROOT hair cells occurs via what process?": "Osmosis",
    "ALPHA particles can be emitted in nuclear decay. ALPHA particles consist of\u2026": "two protons and two neutrons",
    "Evidence for the existence of the NEUTRON in an atomic nucleus was provided by the ---(1)--- work of ---(2)---.": "1: experimental; 2: James Chadwick",
@@ -737,5 +740,7 @@
    "Which method would be most suitable in separating SAND from WATER?": "Filtration",
    "If current constantly changes direction, it is called\u2026": "an ALTERNATING current (a.c)",
    "Resistor one (R\u2081 = 1 ohms) and resistor two (R\u2082 = 4 ohms) are connected in SERIES with a supply VOLTAGE (V) of 50V. What is the CURRENT (I) in the circuit?": "I = V / R = 50 / (4+1) = 10A",
-   "An LDR can be used in a light-sensor circuit. The LDR's resistance ---(1)--- as the incident light intensity increases. The CURRENT in the circuit would then ---(2)---.": "1: decreases; 2: increase"
+   "An LDR can be used in a light-sensor circuit. The LDR's resistance ---(1)--- as the incident light intensity increases. The CURRENT in the circuit would then ---(2)---.": "1: decreases; 2: increase",
+   "In what CONDITIONS do the BACTERIA that are most harmful to humans thrive the most (grow and reproduce)?": "Warm body temperatures (37\u00b0C)",
+   "The FINAL stage of cell DIVISION involves the\u2026": "cell MEMBRANE and CYTOPLASM splitting in half to form 2 DIPLOID daughter cells"
 }
