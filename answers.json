@@ -678,5 +678,7 @@
    "Adding resistors in SERIES will ---(1)--- whilst adding them in PARALLEL will ---(2)---.": "1: INCREASE the TOTAL RESISTANCE (R\u1d1b) because R\u1d1b = R\u2081 + R\u2082 + R\u2083 + \u2026 ; 2: DECREASE the TOTAL RESISTANCE (R\u1d1b) because 1 / R\u1d1b = 1 / R\u2081 + 1 / R\u2082 + 1 / R\u2083 + 1 / \u2026",
    "As the RESISTANCE of a component INCREASES in a series circuit, how does the CURRENT through it change?": "It DECREASES",
    "In a simple electrical circuit containing only a CELL and two resistors in PARALLEL (first = 10\u03a9, second = 5\u03a9), we would find that the CURRENT\u2026": "from the cell would be SPLIT UNEQUALLY - it would be GREATER through the SMALLER RESISTOR",
-   "The extremely small size of NANOPARTICLES allows them to ---(1)--. This property makes them very useful ---(2)---.": "1: penetrate biological tissue; 2: in medicine for drug delivery"
+   "The extremely small size of NANOPARTICLES allows them to ---(1)--. This property makes them very useful ---(2)---.": "1: penetrate biological tissue; 2: in medicine for drug delivery",
+   "In which of the following situations is the diffusion rate the GREATEST?": "If the difference in concentration is LARGER",
+   "Which of these structures are found in BOTH animal and plant cells?": "Nucleus, cytoplasm, cell membrane"
 }
