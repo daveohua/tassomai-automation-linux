@@ -784,5 +784,8 @@
    "Diamond is very HARD because of the strong ---(1)--- bonds of each CARBON atom, and their bonding arrangement with ---(2)--- other carbons.": "1: covalent; 2: four",
    "The elements found on the FAR RIGHT of the periodic table in group 8 (a.k.a. group 0) are the\u2026": "NOBLE gases",
    "JJ THOMSON'S discovery of the ---(1)--- led to the development of the ---(2)--- model.": "1: electron; 2: plum pudding",
-   "SOLAR CELLS are devices that convert energy from the Sun into ELECTRICAL energy. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is both sustainable and renewable; 2: it is not readily available all the time (no sunlight at night)"
+   "SOLAR CELLS are devices that convert energy from the Sun into ELECTRICAL energy. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is both sustainable and renewable; 2: it is not readily available all the time (no sunlight at night)",
+   "Two resistors are connected in SERIES with a TOTAL circuit voltage (V\u1d1b) of 18V. Given resistances\nR\n1\n=\n5\n\u03a9\nand\nR\n2\n=\n7\n\u03a9\n, what is the VOLTAGE (\nV\n1\n) over\nR\n1\n?": "V_1={V\u1d1b} x {R_1 / {R\u1d1b}}=18 x 5{12}=7.5V",
+   "A 1500W washing machine transfers ---(1)--- energy per unit ---(2)--- than a 900W drill.": "1: more; 2: time",
+   "STATIC ELECTRICITY is usually built up through FRICTION by rubbing\u2026": "PARTICULAR INSULATORS against each other"
 }
