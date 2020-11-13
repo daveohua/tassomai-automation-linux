@@ -344,7 +344,10 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
+   "EFFICIENCY is calculated by\u2026": [
+      "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
+      "[EITHER of these]: It amounts to the same thing"
+   ],
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -724,7 +727,10 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[NEITHER of these]",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
+      "Energy (kWh) = power (kW) x time (h)",
+      "[NEITHER of these]"
+   ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -1069,5 +1075,6 @@
    "PLATELETS are\u2026": "small FRAGMENTS of cells that help blood to CLOT at the site of a wound",
    "BLOOD CLOTS are necessary at wounds to prevent blood loss and the entry of pathogens. However, when blood clots form WITHIN vessels for no reason\u2026": "they can BLOCK OFF the vessel and DEPRIVE tissues of OXYGEN",
    "The transition metal MANGANESE (Mn) has a ---(1)--- MELTING POINT than the group 1 alkali metal ---(2)---.": "1: higher; 2: potassium",
-   "SILICON has 3 ISOTOPES of differing mass and in different proportions [\u00b2\u2078Si - 92%, \u00b2\u2079Si - 5%, \u00b3\u2070Si - 3%]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "[(92 x 28) + (5 x 29) + (3 x 30)] \u00f7 100 = 28.1"
+   "SILICON has 3 ISOTOPES of differing mass and in different proportions [\u00b2\u2078Si - 92%, \u00b2\u2079Si - 5%, \u00b3\u2070Si - 3%]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "[(92 x 28) + (5 x 29) + (3 x 30)] \u00f7 100 = 28.1",
+   "An energy source is considered to be RENEWABLE if it CAN\u2026": "REPLENISH itself whilst being used or comes from sources that can be replenished in a LIFETIME"
 }
