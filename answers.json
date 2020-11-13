@@ -853,5 +853,8 @@
    "Relative atomic mass (R.A.M.) is used to describe the mass of an atom when considering all of its possible ISOTOPES. Which method best describes how to calculate R.A.M. of an element with 2 isotopes?": "{({text{% of isotope 1 }  xtext{mass of isotope 1}})+({text{% of isotope 2 }  xtext{mass of isotope 2}}) / 100}",
    "What is the TOTAL resistance (R\u1d1b) in a SERIES circuit with 4 resistors where: R\u2081 = 6 ohms, R\u2082 = 2 ohms, R\u2083 = 3 ohms and R\u2084 = 7 ohms?": "R\u1d1b = R\u2081 + R\u2082 + R\u2083 + R\u2084 = 6 + 2 + 3 + 7 = 18 ohms",
    "A FAN, which receives 5 A current over 4 V, transfers energy from ELECTRICAL to KINETIC energy. If this transfer is 100% efficient, what is the POWER output? [Check the units]": "P = V x I = 5 x 4 = 20 W",
-   "In a simple electrical circuit containing only a CELL and two EQUAL resistors in SERIES, we would find that the CURRENT through\u2026": "BOTH would be EQUAL, and that the P.D. across each would be EQUAL"
+   "In a simple electrical circuit containing only a CELL and two EQUAL resistors in SERIES, we would find that the CURRENT through\u2026": "BOTH would be EQUAL, and that the P.D. across each would be EQUAL",
+   "NEON has 2 isotopes of differing mass in different proportions [\n20\nNe\n\u2212\n91\n%\n,\n22\nNe\n\u2212\n9\n%\n]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(91  x20) + (9  x22) / 100}= 20.2",
+   "In the early periodic tables, elements were arranged\u2026": "ONLY by atomic MASS",
+   "MAGNESIUM has 3 ISOTOPES of differing mass and in different proportions [\n24\nMg\n\u2212\n79\n%\n,\n25\nMg\n\u2212\n10\n%\n,\n26\nMg\n\u2212\n11\n%\n]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(79 x 24)+(10 x25)+(11 x 26) / 100}=24.3"
 }
