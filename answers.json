@@ -1179,5 +1179,7 @@
    "Which of the following metals reacts with WATER?": "Calcium",
    "In the reaction \"2H\n2\nO\n2\n(g) \u2192 2H\n2\nO(g) + O\n2\n(g)\" 30 dm\n3\nof O\n2\nis produced. At room temperature and pressure, what is the number of MOLES of H\n2\nO\n2\nused in this reaction (vol gas at rtp = n x 24)?": "{mol O}_2 = {30 / 24} = 1.25;{mol H}_2O_2 = 2  x1.25 = 2.5{mol}",
    "Magnesium reacts with oxygen to produce MAGNESIUM OXIDE. In a reaction which uses 32g of magnesium and produces 48g of magnesium oxide, what mass of OXYGEN is used? (Watch out for units!)": "48 - 32 = 16g",
-   "When the MOLTEN IONIC compound, PbBr\u2082, is electrolysed using INERT electrodes, the ---(1)--- is produced at the POSITIVE ---(2)---.": "1: non-metal (bromine); 2: anode"
+   "When the MOLTEN IONIC compound, PbBr\u2082, is electrolysed using INERT electrodes, the ---(1)--- is produced at the POSITIVE ---(2)---.": "1: non-metal (bromine); 2: anode",
+   "Which of these is the BALANCED SYMBOL EQUATION for the reaction of HYDROGEN and OXYGEN?": "2H_2+O_2 \u21922H_2O",
+   "The relative formula mass (R.F.M) of a compound is the ---(1)--- of the relative atomic ---(2)--- of the ATOMS in the formula.": "1: sum; 2: masses"
 }
