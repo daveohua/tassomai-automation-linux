@@ -731,7 +731,10 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
+      "Energy (kWh) = power (kW) x time (h)",
+      "[BOTH of these]"
+   ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -767,5 +770,7 @@
    "Limiting factors are important in the ---(1)--- in GREENHOUSES to gain the ---(2)--- while still MAINTAINING profit.": "1: ECONOMICS of enhancing the conditions; 2: MAXIMUM rate of photosynthesis",
    "Which element has the symbol Na?": "Sodium",
    "Na\n+\n+\nCl\n\u2212\n\u2192": "{NaCl}",
-   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "[ALL of these are false]"
+   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "[ALL of these are false]",
+   "Which of these formulae calculates the KINETIC energy of a moving object?": "E_{K}=12 mv^2",
+   "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement"
 }
