@@ -69,8 +69,8 @@
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
    "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
-      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
-      "BIOFUELS are made using crops that would otherwise provide FOOD"
+      "BIOFUELS are made using crops that would otherwise provide FOOD",
+      "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere"
    ],
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
@@ -383,7 +383,7 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "nuclear fuel",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[BOTH of these]",
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
@@ -909,5 +909,7 @@
    "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you DECREASE LIGHT on an LDR, then\u2026": "the CURRENT through it will DECREASE",
    "BOHR'S suggestion that electrons occupied ORBITS around the nucleus was accepted because his\u2026": "THEORY closely MATCHED the experimental OBSERVATIONS",
    "Group 1 elements all LOSE a SINGLE electron to form a stable positive ion. Because of this they\u2026": "have SIMILAR chemical properties",
-   "A displacement reaction ---(1)--- take place between POTASSIUM BROMIDE (KBr) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will; 2: chlorine is MORE reactive than bromine, so POTASSIUM CHLORIDE + bromine will be formed"
+   "A displacement reaction ---(1)--- take place between POTASSIUM BROMIDE (KBr) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will; 2: chlorine is MORE reactive than bromine, so POTASSIUM CHLORIDE + bromine will be formed",
+   "\"Wasted\" ENERGY tends to DISSIPATE. This means that it will tend to\u2026": "SPREAD OUT, thus becoming LESS significant or useful",
+   "HYDROELECTRICITY can be used as a RENEWABLE energy source. An ADVANTAGE of this is that it is ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: replenishable and will not run out; 2: dams flood farmland and push people from their homes"
 }
