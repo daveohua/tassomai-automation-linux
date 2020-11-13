@@ -27,8 +27,8 @@
    "Variation within a species occurs through\u2026": "[BOTH of these]",
    "When a person has a baby, what is the percentage chance that they will have a biologically FEMALE baby?": "50%",
    "What evidence do we have for EVOLUTION?": "[BOTH of these]",
-   "Which of these are magnetic?": "[ALL of these]",
-   "When a CONDUCTOR carrying a CURRENT is placed in a MAGNETIC field, the size of the FORCE on the conductor depends on the\u2026": "magnetic flux density",
+   "Which of these are magnetic?": "Iron",
+   "When a CONDUCTOR carrying a CURRENT is placed in a MAGNETIC field, the size of the FORCE on the conductor depends on the\u2026": "[BOTH of these]",
    "A material that is MAGNETICALLY SOFT can\u2026": "ONLY be TEMPORARILY magnetised",
    "[Fill in the blank]: An INCREASED exposure to RADIATION would --- the RISK of sickness or tumours.": "increase",
    "The level of HAZARD assigned to a radioactive substance depends on the\u2026": "TYPE of radiation EMITTED",
@@ -622,5 +622,7 @@
    "ANAEROBIC RESPIRATION leads to an OXYGEN DEBT, where an animal has an INCREASED BREATHING RATE, to allow it to take in more oxygen. This is used to break down\u2026": "lactic acid",
    "The INVERSE SQUARE LAW dictates that if the DISTANCE of a light source from an object INCREASES by a factor of 4, then the LIGHT INTENSITY experienced by the object\u2026": "DECREASES by a factor of 4\u00b2, so 16",
    "The RIBOSOMES are\u2026": "the organelle in a cell where PROTEINS are SYNTHESISED",
-   "Which gases move by diffusion into and out of plant LEAVES?": "Carbon dioxide and oxygen"
+   "Which gases move by diffusion into and out of plant LEAVES?": "Carbon dioxide and oxygen",
+   "In magnets, 2 of the SAME pole will do what to each other?": "Repel",
+   "The FORCE on a current-carrying conductor in a MAGNETIC FIELD could be INCREASED by\u2026": "[EITHER of these]"
 }
