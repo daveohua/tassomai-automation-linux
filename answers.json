@@ -355,10 +355,8 @@
    "The difference between AEROBIC and ANAEROBIC respiration in muscles is that\u2026": "ANAEROBIC respiration does NOT require OXYGEN",
    "Which of these is the correct word equation for AEROBIC respiration?": "Glucose + oxygen \u2192 carbon dioxide + water [+ENERGY]",
    "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": [
-      "converted into insoluble STARCH for storage",
-      "used for RESPIRATION",
-      "used to produce FAT or OIL for storage",
-      "used to produce CELLULOSE which strengthens the cell WALL"
+      "used to produce AMINO ACIDS for protein SYNTHESIS",
+      "used for RESPIRATION"
    ],
    "Assuming there is no other LIMITING factor, what effect will a small INCREASE in UV light have on the rate of photosynthesis?": "It would be HIGHER",
    "Food molecules, once broken down, are absorbed in the\u2026": "ileum (small intestine)",
@@ -605,5 +603,10 @@
    "A SIMPLE covalent structure has ---(1)--- melting and boiling points because the INTERMOLECULAR forces are ---(2)---.": "1: low; 2: easily broken",
    "Mendeleev's periodic table was not only arranged by ATOMIC MASS, but also by the\u2026": "PHYSICAL and CHEMICAL properties of elements",
    "Hydrogen HALIDES such as HCl react with ---(1)--- to produce ---(2)--- solutions.": "1: water; 2: acidic",
-   "[Complete the ionic half equation]:\nF\n2\n+\n2\ne\n\u2212\n\u2192": "2F^-"
+   "[Complete the ionic half equation]:\nF\n2\n+\n2\ne\n\u2212\n\u2192": "2F^-",
+   "In ANAEROBIC respiration, the term OXYGEN DEBT refers to the amount of EXTRA oxygen needed ---(1)--- exercise to convert ---(2)--- into carbon dioxide and water.": "1: after; 2: lactic acid",
+   "GLUCOSE produced in ---(1)--- is used by plants to produce amino acids for PROTEIN SYNTHESIS, to make proteins plants also use ---(2)--- absorbed from the soil.": "1: photosynthesis; 2: NITRATE ions",
+   "The rate of photosynthesis for a crop can be ---(1)--- to MAXIMISE profit by using ---(2)---.": "1: increased; 2: greenhouses",
+   "In which ORGANELLE does AEROBIC respiration take place?": "Mitochondria",
+   "What effect will a DECREASE in temperature have on the rate of photosynthesis?": "It would be LOWER, unless the temperature is too high for photosynthesis to begin with"
 }
