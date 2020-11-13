@@ -1277,5 +1277,7 @@
    "How many moles of carbon atoms (A\nr\n=12) make a mass of 0.62g?": "Moles (n) = mass (m) / atomic mass (Ar) = 0.62 / 12 = 0.0517 mol",
    "In the reaction '\nCH\n4\n+\n2\nO\n2\n\u2192\nCO\n2\n+\n2\nH\n2\nO\n',\nH\n2\nO\nis the desired product. What is the atom economy? (\nC\n=\n12\n,\nO\n=\n16\n,\nH\n=\n1\n) (Atom economy = Mr of desired products / Mr of all reactants)": "{2H_2O / {CH}_4+2O_2} ={(2 x(1 x2))+(2 x 16) / 12+(1 x 4)+(2 x 16 x 2)}= {36 / 80}=0.45=45%",
    "What VOLUME (\ndm\n3\n) would 22g of helium take up, at room temperature and pressure?": "{22}4 x24 = 132 { dm}^3",
-   "One MOLE of a substance contains ---(1)--- of particles, atoms, molecules or ions as one mole of ---(2)----.": "1: the same number; 2: any OTHER substance"
+   "One MOLE of a substance contains ---(1)--- of particles, atoms, molecules or ions as one mole of ---(2)----.": "1: the same number; 2: any OTHER substance",
+   "Which of these is a STRONG acid?": "Nitric acid",
+   "When an AQUEOUS solution containing a dissolved salt is ELECTROLYSED, the ions created are\u2026": "[Salt cation]\u207a, [Salt anion]\u207b, H\u207a and OH\u207b"
 }
