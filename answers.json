@@ -14,7 +14,10 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
+      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
+      "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs"
+   ],
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1484,5 +1487,8 @@
    "As the temperature ---(1)---, the rate of diffusion ---(2)---.": "1: increases; 2: increases",
    "During osmosis, ---(1)--- move from a solution with a ---(2)--- WATER concentration to a solution with a ---(3)--- water concentration": "1: water molecules; 2: high; 3: low",
    "The process of DIFFUSION requires\u2026": "a concentration gradient",
-   "DIFFUSION and OSMOSIS require\u2026": "no energy - they occur due to BROWNIAN MOTION only"
+   "DIFFUSION and OSMOSIS require\u2026": "no energy - they occur due to BROWNIAN MOTION only",
+   "---(1)--- are white blood cells that can ENGULF and ABSORB pathogens, whereas ---(2)--- can release ANTIBODIES to fit the ANTIGEN of a pathogen.": "1: Phagocytes ; 2: lymphocytes",
+   "Fungus' cell walls are made from\u2026": "chitin",
+   "A PROTIST such as ---(1)--- is a PATHOGEN because pathogens ---(2)---.": "1: Plasmodium; 2: cause INFECTION & DISEASE"
 }
