@@ -1460,5 +1460,6 @@
    "The current through a diode flows in ---(1)---. The diode has a very ---(2)--- resistance in the REVERSE direction.": "1: ONE direction only; 2: high",
    "OXYGEN is transported in the blood primarily by\u2026": "RED blood cells",
    "Which of these acts as the MAIN AIRWAY, allowing the movement of gases into and out of the chest?": "Trachea",
-   "Which of these is NOT a PRIMARY energy source?": "Electricity"
+   "Which of these is NOT a PRIMARY energy source?": "Electricity",
+   "Which of these is drawn as an empty rectangle?": "A resistor"
 }
