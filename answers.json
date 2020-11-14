@@ -429,10 +429,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": [
-      "Using SOLID, INELASTIC spheres to represent atoms, ions and molecules is a POOR way to visualise what is actually happening",
-      "The particles are represented as SOLID spheres, which is NOT the case in REALITY"
-   ],
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "Using SOLID, INELASTIC spheres to represent atoms, ions and molecules is a POOR way to visualise what is actually happening",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -479,7 +476,10 @@
    "---(1)--- is an example of a pathogenic BACTERIUM. All PATHOGENS ---(2)---.": "1: Staphylococcus aureus; 2: cause INFECTION & DISEASE",
    "Metals comprise a giant structure of ---(1)--- surrounded by ---(2)---.": "1: positive ions; 2: delocalised electrons",
    "In DIAMOND, each carbon atom bonds with\u2026": "FOUR others (in a TETRAHEDRON shape) to make a HARD structure",
-   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": "They can conduct ELECTRICITY because their DELOCALISED ELECTRONS carry charge",
+   "Which of the following statements regarding the properties of METALS is TRUE? [Read the options CAREFULLY!]": [
+      "They tend to have HIGH melting and boiling points because their bonds are STRONG and HARD to BREAK",
+      "They can conduct ELECTRICITY because their DELOCALISED ELECTRONS carry charge"
+   ],
    "When a COVALENT compound (such as ICE or WAX) MELTS, this is due to\u2026": "the breaking of the INTERMOLECULAR FORCES",
    "Which of the following is in the structure of a VIRUS?": "[ALL of these]",
    "Drugs are tested using BLIND TRIALS, which means\u2026 (N.B. This is different to a DOUBLE-blind trial)": "ONLY the RESEARCHERS know what medication/vaccine the participants are taking (the patients don't know)",
@@ -1518,5 +1518,6 @@
    "The PHLOEM is involved in\u2026": "the transport of organic compounds",
    "Which of the following statements about bacteria is FALSE?": "They are only found in blood",
    "A simple COVALENT molecular structure will tend to be\u2026": "UNABLE to conduct electricity at all",
-   "Which enzyme is most commonly found in the STOMACH?": "Proteases"
+   "Which enzyme is most commonly found in the STOMACH?": "Proteases",
+   "[Fill in the blank] Metal ALLOYS are beneficial because they are --- than PURE metals": "stronger"
 }
