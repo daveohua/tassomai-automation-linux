@@ -591,10 +591,7 @@
    "Changing the state of a substance with a HIGH melting point, compared to a substance with a LOW melting point, requires\u2026": "more energy",
    "The NEUTRON was discovered ---(1)--- after the idea of the ---(2)--- was widely accepted by scientists.": "1: 20 years; 2: nucleus",
    "[TRUE or FALSE?]: SODIUM reacts MORE vigorously with WATER than POTASSIUM.": "[FALSE]: Reactivity of group 1 metals INCREASES down the series",
-   "Which of these metals will react with COLD WATER?": [
-      "[ALL of these]",
-      "Sodium"
-   ],
+   "Which of these metals will react with COLD WATER?": "[ALL of these]",
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
    "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
@@ -662,7 +659,10 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Transition elements make COLOURED compounds",
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
+      "[NONE of these are true]",
+      "Transition elements make COLOURED compounds"
+   ],
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
