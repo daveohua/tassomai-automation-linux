@@ -429,7 +429,11 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "The particles are represented as SOLID spheres, which is NOT the case in REALITY",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": [
+      "All the particles are represented as SPHERES",
+      "Using SOLID, INELASTIC spheres to represent atoms, ions and molecules is a POOR way to visualise what is actually happening",
+      "The particles are represented as SOLID spheres, which is NOT the case in REALITY"
+   ],
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
