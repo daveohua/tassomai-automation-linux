@@ -1458,5 +1458,7 @@
    "Potassium [ALKALI METAL] + bromine [HALOGEN] \u2192": "potassium bromide",
    "Which of the following is NOT an organ system?": "A TWO WAY system",
    "PLASMA carries\u2026": "[ALL of these]",
-   "An electrical resistor DISSIPATES energy in the form of\u2026": "THERMAL energy"
+   "An electrical resistor DISSIPATES energy in the form of\u2026": "THERMAL energy",
+   "Which of these formulae correctly shows the relationship between CHARGE (Q), CURRENT (I) and TIME (t)?": "Q = I x t",
+   "The current through a diode flows in ---(1)---. The diode has a very ---(2)--- resistance in the REVERSE direction.": "1: ONE direction only; 2: high"
 }
