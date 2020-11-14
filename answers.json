@@ -81,7 +81,7 @@
    "Which of these are pollutants in air?": "[BOTH of these]",
    "Fish growth can be increased by use of\u2026": "protein-rich food",
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
-   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
+   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
    "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the RELATIVE SIZES or SCALE of ions",
@@ -634,7 +634,7 @@
    "Which of the following is an ADVANTAGE of vaccinations?": "[ALL of these]",
    "Diamond has a\u2026": "giant covalent structure",
    "Group 0 elements have a full ---(1)--- shell of electrons, meaning that they are highly ---(2)---, which makes them UNREACTIVE.": "1: outer; 2: stable",
-   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "inert",
+   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "[BOTH of these]",
    "The transition metal COBALT (Co) is ---(1)--- than the group 1 alkali metal ---(2)---.": "1: harder; 2: caesium",
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
@@ -664,8 +664,7 @@
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
    "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
-      "Transition elements make COLOURED compounds",
-      "Transition elements have HIGH melting/boiling points",
+      "Many of them form IONS with DIFFERENT CHARGES",
       "[NONE of these are true]"
    ],
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
