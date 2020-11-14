@@ -14,10 +14,7 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
-      "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
-      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants"
-   ],
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1504,5 +1501,7 @@
    "ALLOYS present an ADVANTAGE over PURE metals by being\u2026": "stronger, because they have a LESS REGULAR crystalline structure",
    "Which of the following has the HIGHEST BLOOD PRESSURE?": "Left ventricle",
    "In CORONARY heart disease, ---(1)--- build inside the arteries, which ---(2)--- blood flow and may lead to a heart attack.": "1: fatty deposits ; 2: reduces",
-   "ALLOYS are stronger than pure metals because their LATTICE structure is disrupted by\u2026": "particles of DIFFERENT SIZES"
+   "ALLOYS are stronger than pure metals because their LATTICE structure is disrupted by\u2026": "particles of DIFFERENT SIZES",
+   "In the body, the ---(1)--- contains ---(2)--- acid which kills off pathogenic microorganisms as a form of defence.": "1: stomach; 2: hydrochloric",
+   "Which of the following is an example of a PATHOGEN?": "[BOTH of these]"
 }
