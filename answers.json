@@ -440,7 +440,7 @@
    "The ENERGY required for a substance to CHANGE STATES depends on...": "the strength of the FORCES between the PARTICLES",
    "When a POSITIVE ion and a NEGATIVE ion interact they\u2026": "form a STRONG IONIC bond",
    "A STRONG or STIFF polymer will be hard to melt, bend or break because it has\u2026": "relatively LONG-chain molecules, MANY CROSS-LINKS in its structure and STRONG intermolecular forces",
-   "Both diamond and silicon dioxide have a GIANT COVALENT structure. Which characteristics do they share? [**BE CAREFUL; there are 2 versions of this question but with different answers]": "[ALL of these]",
+   "Both diamond and silicon dioxide have a GIANT COVALENT structure. Which characteristics do they share? [**BE CAREFUL; there are 2 versions of this question but with different answers]": "They are very HARD",
    "The STRONGER the forces between the particles, the\u2026": "HIGHER the melting and boiling points",
    "HERD immunity helps\u2026": "to prevent disease EPIDEMICS",
    "The ---(1)--- number of an element in the periodic table determines its ---(2)--- charge.": "1: group; 2: ionic",
@@ -1518,5 +1518,7 @@
    "Which enzyme is most commonly found in the STOMACH?": "Proteases",
    "[Fill in the blank] Metal ALLOYS are beneficial because they are --- than PURE metals": "stronger",
    "EFFICIENCY is the term by which we describe the\u2026": "PROPORTION of the ENERGY that is put INTO a device which is TRANSFERRED to USEFUL energy OUTPUT",
-   "What is calculated by dividing \"USEFUL energy OUTPUT\" by \"TOTAL energy INPUT\"?": "Efficiency"
+   "What is calculated by dividing \"USEFUL energy OUTPUT\" by \"TOTAL energy INPUT\"?": "Efficiency",
+   "[TRUE or FALSE?]: ATOMS are smaller than NANOPARTICLES?": "[TRUE]: Nanoparticles have a size range of 1-100 nm which compares to a few hundred atoms",
+   "An ALLOY is formed by mixing\u2026": "a METAL with either CARBON, other METAL elements, or BOTH"
 }
