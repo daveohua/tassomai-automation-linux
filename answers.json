@@ -63,8 +63,8 @@
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
    "An example of a RENEWABLE energy resource is\u2026": [
-      "tidal barrages or undersea turbines",
-      "[ALL of these]"
+      "[ALL of these]",
+      "hydroelectricity"
    ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
@@ -74,7 +74,10 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
+      "BIOFUELS are made using crops that would otherwise provide FOOD",
+      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082"
+   ],
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -727,7 +730,7 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[NEITHER of these]",
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
@@ -1447,5 +1450,6 @@
    "[TRUE or FALSE?]: Increased CURRENT through a FILAMENT LAMP causes the wire to HEAT UP and RESISTANCE to INCREASE.": "[TRUE]: Hot wires are MORE resistant",
    "Which of these is drawn as two CIRCULAR points with a DIAGONAL line connected to only ONE of them?": "An OPEN switch",
    "If an element is INERT, then it is\u2026": "unreactive",
-   "Blood flows from the heart to the organs through ---(1)--- and returns through ---(2)---.": "1: arteries; 2: veins"
+   "Blood flows from the heart to the organs through ---(1)--- and returns through ---(2)---.": "1: arteries; 2: veins",
+   "The production of ELECTRICITY can cause problems for the ENVIRONMENT. What could be a drawback of WIND POWER PRODUCTION?": "[ALL of these]"
 }
