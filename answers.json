@@ -578,7 +578,7 @@
    "Why are nanotubes useful when used in conjunction with catalysts?": "They provide a massive surface area of catalyst for reactants to come into contact with",
    "The 'diamond' structure of, unsurprisingly, DIAMONDS makes them useful in industry for\u2026": "cutting tools and drills, because the structure is extremely HARD and SHARP",
    "NANOTUBES are used widely in today's world, such as in\u2026": "[ALL of these]",
-   "NANOPARTICLES can alter a material to make it\u2026": "resistant to BACTERIA",
+   "NANOPARTICLES can alter a material to make it\u2026": "STRONGER than it otherwise would be",
    "---(1)--- makes chlorophyll green in plants, a deficiency in this causes plants to turn ---(2)---.": "1: Magnesium ; 2: yellow",
    "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes FIRST?": "Drugs are tested using COMPUTER models and HUMAN cells grown in the LAB",
    "The force of attraction between NANOPARTICLES is strong because\u2026": "of their HIGH surface area to volume ratio",
@@ -669,10 +669,7 @@
    "The idea of the SUBDIVISION of the nuclear charge into a ---(1)--- number of small particles gave rise to the proposal of ---(2)---.": "1: whole; 2: protons",
    "The ATOMIC NUMBER of ARGON is 18. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,8,8",
    "SODIUM CHLORIDE conducts electricity if it is dissolved in a solution or it is molten. This is because\u2026": "CHARGED ions are free to move, and can thus CARRY electricity",
-   "DOT & CROSS diagrams are used to represent IONIC compounds. Which of the following statements is TRUE?": [
-      "They DON'T show how the ions are ARRANGED in SPACE",
-      "They DON'T show the nature of MOVEMENT of ions"
-   ],
+   "DOT & CROSS diagrams are used to represent IONIC compounds. Which of the following statements is TRUE?": "They DON'T show the nature of MOVEMENT of ions",
    "GRAPHENE is the name given to the substance that is\u2026": "a single layer sheet of graphite",
    "ANTIBIOTICS should be used for ---(1)--- INFECTIONS. Common medical advice states that you ---(2)--- FINISH your course of ANTIBIOTICS to prevent ANTIMICROBIAL RESISTANCE.": "1: bacterial; 2: should",
    "Which of these statements about bacteria is TRUE?": "Bacteria do NOT have a NUCLEUS, only a chromosome strand and maybe plasmids",
@@ -1488,5 +1485,6 @@
    "FOSSIL FUELS can be used as NON-renewable energy sources. An ADVANTAGE of FOSSIL FUELS is that they are ---(1)--- and a DISADVANTAGE is that they ---(2)---.": "1: NOT dependent on the WEATHER; 2: release CARBON DIOXIDE when they burn, adding to the GREENHOUSE effect",
    "Typical properties of TRANSITION METALS include\u2026": "[BOTH of these]",
    "Plants use ---(1)--- such as ANTIMICROBIALS which KILL or ---(2)---.": "1: CHEMICAL defences; 2: INHIBIT the growth of BACTERIA, VIRUSES or FUNGI",
-   "MALARIA is caused by a protozoa, PLASMODIUM, which infects humans and replicates in RED blood cells. The way plasmodium interacts with its host makes it a\u2026": "parasite"
+   "MALARIA is caused by a protozoa, PLASMODIUM, which infects humans and replicates in RED blood cells. The way plasmodium interacts with its host makes it a\u2026": "parasite",
+   "IONIC compounds tend to have ---(1)--- melting points and ---(2)--- boiling points.": "1: high; 2: high"
 }
