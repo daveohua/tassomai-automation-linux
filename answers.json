@@ -328,7 +328,7 @@
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
    "WHITE blood cells are responsible for\u2026": "forming the body's DEFENCE system against microorganisms",
-   "Osmosis and diffusion happen more RAPIDLY if there is a\u2026 [** BE CAREFUL; there are many versions of this question but with different answers]": "higher surface area to volume ratio",
+   "Osmosis and diffusion happen more RAPIDLY if there is a\u2026 [** BE CAREFUL; there are many versions of this question but with different answers]": "higher temperature",
    "The movement of WATER into plant ROOT hair cells occurs via what process?": "Osmosis",
    "ALPHA particles can be emitted in nuclear decay. ALPHA particles consist of\u2026": "two protons and two neutrons",
    "Evidence for the existence of the NEUTRON in an atomic nucleus was provided by the ---(1)--- work of ---(2)---.": "1: experimental; 2: James Chadwick",
@@ -1005,7 +1005,10 @@
    "Which of the following is a considered TREATMENT for HEART disease?": "[ALL of these]",
    "Cardiac output =": "HEART rate x STROKE volume",
    "There are 46 chromosomes (23 PAIRS) in human body cells which contain\u2026": "the DNA and genes of a person",
-   "Which of these CAN be produced through the FERMENTATION of BACTERIA and FUNGI in an industrial fermenter?": "[BOTH of these]",
+   "Which of these CAN be produced through the FERMENTATION of BACTERIA and FUNGI in an industrial fermenter?": [
+      "[BOTH of these]",
+      "SINGLE-CELL PROTEINS, such as mycoprotein (used in vegetarian food as a meat substitute)"
+   ],
    "The use of EMBRYONIC STEM cells is subject to\u2026": "government regulation",
    "Atoms contain equal numbers of PROTONS and ELECTRONS because\u2026": "their charges must CANCEL each other out, to leave a BALANCED, UNCHARGED atom",
    "Manganese (IV) dioxide, MnO\n2\n, is a transition metal compound\u2026": "where the CHARGE on the MANGANESE ion is 4+",
@@ -1503,5 +1506,6 @@
    "In CORONARY heart disease, ---(1)--- build inside the arteries, which ---(2)--- blood flow and may lead to a heart attack.": "1: fatty deposits ; 2: reduces",
    "ALLOYS are stronger than pure metals because their LATTICE structure is disrupted by\u2026": "particles of DIFFERENT SIZES",
    "In the body, the ---(1)--- contains ---(2)--- acid which kills off pathogenic microorganisms as a form of defence.": "1: stomach; 2: hydrochloric",
-   "Which of the following is an example of a PATHOGEN?": "[BOTH of these]"
+   "Which of the following is an example of a PATHOGEN?": "[BOTH of these]",
+   "The CLONING of ANIMAL cells\u2026": "uses genetically IDENTICAL PARENT cells"
 }
