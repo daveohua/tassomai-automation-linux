@@ -1392,5 +1392,6 @@
    "When the number of components in a SERIES circuit is INCREASED, what effect does this have on the CURRENT?": "Adding new components INCREASES resistance, therefore CURRENT DECREASES - VOLTAGE is NOT ALTERED",
    "One 5\u03a9 resistor and one 10\u03a9 resistor connected in PARALLEL to a CELL have DIFFERENT ---(1)--- because ---(2)--- in a PARALLEL circuit.": "1: currents; 2: the current is SPLIT in PROPORTION to the resistance of the resistors",
    "In order for an electrical CHARGE to flow through ---(1)--- circuit, the circuit must include a ---(2)---.": "1: a closed; 2: source of potential difference",
-   "Adding an additional IDENTICAL CELL in PARALLEL will ---(1)--- VOLTAGE, but each CELL will last ---(2)--- as the WORK is shared.": "1: maintain the same 2: longer"
+   "Adding an additional IDENTICAL CELL in PARALLEL will ---(1)--- VOLTAGE, but each CELL will last ---(2)--- as the WORK is shared.": "1: maintain the same 2: longer",
+   "HEART valves may become faulty and be replaced by\u2026": "[EITHER of these]"
 }
