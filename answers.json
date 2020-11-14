@@ -793,7 +793,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The CABLE tie should cover the wires AND their outer insulation",
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The EARTH pin is the TOP one",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1386,5 +1386,11 @@
    "The ---(1)--- ventricle is the thinner ventricle, because it only has to pump blood to the ---(2)---.": "1: right; 2: lungs",
    "The left and right ATRIA\u2026": "RECEIVE blood",
    "Which of the following factors affects TRANSPIRATION rate?": "[ALL of these]",
-   "Deoxygenated blood pumped out of the RIGHT VENTRICLE leaves via the\u2026": "pulmonary ARTERY"
+   "Deoxygenated blood pumped out of the RIGHT VENTRICLE leaves via the\u2026": "pulmonary ARTERY",
+   "When comparing a 2kW KETTLE to a 1200W DRILL, we know that ---(1)--- energy is transferred by the ---(2)--- because it has a ---(3)--- output.": "1: more; 2: kettle; 3: higher",
+   "STATIC ELECTRICITY can be\u2026": "[ALL of these]",
+   "When the number of components in a SERIES circuit is INCREASED, what effect does this have on the CURRENT?": "Adding new components INCREASES resistance, therefore CURRENT DECREASES - VOLTAGE is NOT ALTERED",
+   "One 5\u03a9 resistor and one 10\u03a9 resistor connected in PARALLEL to a CELL have DIFFERENT ---(1)--- because ---(2)--- in a PARALLEL circuit.": "1: currents; 2: the current is SPLIT in PROPORTION to the resistance of the resistors",
+   "In order for an electrical CHARGE to flow through ---(1)--- circuit, the circuit must include a ---(2)---.": "1: a closed; 2: source of potential difference",
+   "Adding an additional IDENTICAL CELL in PARALLEL will ---(1)--- VOLTAGE, but each CELL will last ---(2)--- as the WORK is shared.": "1: maintain the same 2: longer"
 }
