@@ -82,7 +82,7 @@
       "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)"
    ],
    "Which pH value would best be described as NEUTRAL?": "7",
-   "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
+   "Which of the following can be used to represent COVALENT bonds in a diagram?": "[ALL of these]",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "[ALL of these]",
    "ENERGY WASTE occurs when energy is transferred into stores which are NOT useful. What is used to REDUCE unwanted energy transfers?": "Thermal insulation",
    "A STEP-DOWN transformer will\u2026": "have more turns on the PRIMARY coil",
@@ -431,7 +431,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "The particles are represented as SOLID spheres, which is NOT the case in REALITY",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -583,7 +583,7 @@
    "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes FIRST?": "Drugs are tested using COMPUTER models and HUMAN cells grown in the LAB",
    "The force of attraction between NANOPARTICLES is strong because\u2026": "of their HIGH surface area to volume ratio",
    "Comparing a NANOPARTICLE of a particular material to a larger particle of the same material, you would observe\u2026": "DIFFERENT properties (due to comparative difference in SURFACE AREA to VOLUME ratio)",
-   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "[ALL of these]",
+   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
    "Molecular compounds such as CARBON DIOXIDE and METHANE have relatively ---(1)--- melting and boiling points because their INTERMOLECULAR forces are ---(2)---.": "1: low; 2: weak",
    "Oxygen gas, which makes up approximately 21% of the atmosphere, has the formula\u2026": "O_2",
    "The NATURE of the particles in a substance determines\u2026": "[ALL of these]",
@@ -1371,5 +1371,7 @@
    "Which of the following will INCREASE the transpiration rate (in plants)?": "[BOTH of these]",
    "If an element is INERT, then it is\u2026": "unreactive",
    "Potassium [ALKALI METAL] + bromine [HALOGEN] \u2192": "potassium bromide",
-   "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost"
+   "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost",
+   "A GIANT COVALENT structure is hard to melt because\u2026": "there are many strong BONDS that must be broken",
+   "Bonding between NON-METALLIC atoms is usually\u2026": "covalent bonding"
 }
