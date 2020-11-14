@@ -793,11 +793,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The LIVE wire connects to the FUSE",
-      "The NEUTRAL wire connects to the pin on the LEFT",
-      "The BROWN wire is the LIVE wire (L)"
-   ],
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "The NEUTRAL wire connects to the pin on the LEFT",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -1440,5 +1436,8 @@
    "The technique of VACCINATION works by\u2026": "allowing the immune system to defeat a sample of a disease and remember it for the future",
    "When LIGHT INTENSITY increases, the RATE of TRANSPIRATION increases. This is because the STOMATA ---(1)--- to allow more carbon dioxide in for photosynthesis, and thus allowing more ---(2)--- to escape.": "1: opens up; 2: water",
    "The structure of VILLI allows for efficient absorption of digested products. One structural feature is a ---(1)--- surface area. This is important as it ---(2)--- diffusion to the blood.": "1: large; 2: increases",
-   "The RIGHT side of the heart pumps blood to the\u2026": "lungs"
+   "The RIGHT side of the heart pumps blood to the\u2026": "lungs",
+   "The current through ---(1)--- (at a CONSTANT temperature) is DIRECTLY PROPORTIONAL to the potential difference across it. This means that its resistance ---(2)--- as the current CHANGES.": "1: an ohmic conductor; 2: remains constant",
+   "What does OHM'S LAW state?": "Voltage = current x resistance",
+   "The electric CURRENT equals the ---(1)--- of electrical ---(2)---.": "1: rate of flow; 2: charge"
 }
