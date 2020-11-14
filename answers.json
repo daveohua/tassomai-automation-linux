@@ -14,10 +14,7 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
-      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
-      "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs"
-   ],
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1495,5 +1492,7 @@
    "A PROTIST such as ---(1)--- is a PATHOGEN because pathogens ---(2)---.": "1: Plasmodium; 2: cause INFECTION & DISEASE",
    "The main function of the circulatory system is to transport blood and nutrients to every cell in the body. Components of this system include\u2026": "the heart",
    "FOSSIL FUELS can be used as NON-renewable energy sources. An ADVANTAGE of FOSSIL FUELS is that they are ---(1)--- and a DISADVANTAGE is that they ---(2)---.": "1: NOT dependent on the WEATHER; 2: release CARBON DIOXIDE when they burn, adding to the GREENHOUSE effect",
-   "Typical properties of TRANSITION METALS include\u2026": "[BOTH of these]"
+   "Typical properties of TRANSITION METALS include\u2026": "[BOTH of these]",
+   "Plants use ---(1)--- such as ANTIMICROBIALS which KILL or ---(2)---.": "1: CHEMICAL defences; 2: INHIBIT the growth of BACTERIA, VIRUSES or FUNGI",
+   "MALARIA is caused by a protozoa, PLASMODIUM, which infects humans and replicates in RED blood cells. The way plasmodium interacts with its host makes it a\u2026": "parasite"
 }
