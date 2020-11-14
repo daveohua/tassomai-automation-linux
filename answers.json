@@ -63,8 +63,8 @@
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
    "An example of a RENEWABLE energy resource is\u2026": [
-      "[ALL of these]",
-      "hydroelectricity"
+      "tidal barrages or undersea turbines",
+      "[ALL of these]"
    ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
@@ -350,7 +350,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
+   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -1457,5 +1457,6 @@
    "The production of ELECTRICITY can cause problems for the ENVIRONMENT. What could be a drawback of WIND POWER PRODUCTION?": "[ALL of these]",
    "Potassium [ALKALI METAL] + bromine [HALOGEN] \u2192": "potassium bromide",
    "Which of the following is NOT an organ system?": "A TWO WAY system",
-   "PLASMA carries\u2026": "[ALL of these]"
+   "PLASMA carries\u2026": "[ALL of these]",
+   "An electrical resistor DISSIPATES energy in the form of\u2026": "THERMAL energy"
 }
