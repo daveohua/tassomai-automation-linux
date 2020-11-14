@@ -63,8 +63,8 @@
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
    "An example of a RENEWABLE energy resource is\u2026": [
-      "tidal barrages or undersea turbines",
-      "[ALL of these]"
+      "hydroelectricity",
+      "tidal barrages or undersea turbines"
    ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
@@ -74,10 +74,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": [
-      "BIOFUELS are made using crops that would otherwise provide FOOD",
-      "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082"
-   ],
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS are made using crops that would otherwise provide FOOD",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -350,7 +347,7 @@
    "Which type of PLANT CELL absorbs water from the soil via OSMOSIS?": "Root hair cells",
    "[TRUE or FALSE?]: Power is the RATE at which WORK is done.": "[TRUE]: We calculate it by dividing ENERGY transferred by TIME taken (P = E/t)",
    "Which of these is a DISADVANTAGE of using WATER POWER (such as waves, tides, hydroelectricity)?": "It can destroy the HABITAT of marine and estuary wildlife",
-   "EFFICIENCY is calculated by\u2026": "DIVIDING the USEFUL OUTPUT power by the TOTAL INPUT power x 100 - expressed as a %",
+   "EFFICIENCY is calculated by\u2026": "[EITHER of these]: It amounts to the same thing",
    "Where in the body is the PITUITARY GLAND?": "Just above the hypothalamus in the brain",
    "Which of these do NOT have a role in the NERVOUS system?": "SMART neurons",
    "The FIRST LINE of treatment for TYPE 2 DIABETES is normally\u2026": "controlling diet & exercise",
@@ -1462,5 +1459,6 @@
    "Which of these formulae correctly shows the relationship between CHARGE (Q), CURRENT (I) and TIME (t)?": "Q = I x t",
    "The current through a diode flows in ---(1)---. The diode has a very ---(2)--- resistance in the REVERSE direction.": "1: ONE direction only; 2: high",
    "OXYGEN is transported in the blood primarily by\u2026": "RED blood cells",
-   "Which of these acts as the MAIN AIRWAY, allowing the movement of gases into and out of the chest?": "Trachea"
+   "Which of these acts as the MAIN AIRWAY, allowing the movement of gases into and out of the chest?": "Trachea",
+   "Which of these is NOT a PRIMARY energy source?": "Electricity"
 }
