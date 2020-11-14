@@ -1167,7 +1167,7 @@
    "In the reaction Mg + CuO \u2192 Cu + MgO, the substance being OXIDISED is ---(1)--- and the substance being REDUCED is ---(2)---.": "1: Mg; 2: CuO",
    "Indicators used in TITRATION\u2026": "should have a clear colour change at the END POINT of the neutralisation",
    "Which of these is NOT a HALOGEN?": "O\u2082",
-   "Which of the following equations is BALANCED?": "{[ALL of these}",
+   "Which of the following equations is BALANCED?": "2{NaOH} + H_2{CO}_3\u2192{Na}_2{CO}_3 + 2H_2O",
    "What is meant by the \"yield of a reaction\"? [Also referred to as the reactant yield]": "The amount of PRODUCT obtained from a reaction",
    "Which of these is NOT a STRONG acid?": "Ethanoic acid",
    "Electrolysis is carried out on an AQUEOUS solution of CuSO\n4\n. Which of these is NOT likely to be a product?": "Hydrogen (g)",
@@ -1363,5 +1363,6 @@
    "Primitive plants had the effect of ---(1)--- carbon dioxide levels and ---(2)--- oxygen levels in the Earth's early atmosphere.": "1: lowering; 2: raising",
    "Given that resistances of resistor 1 (R\n1\n1\n) = 8.5 \u03a9 and resistor 2 (R\n2\n2\n) = 5.6 \u03a9, what is the CURRENT (I\n1\n1\nand I\n2\n2\n) through each resistor in SERIES from a TOTAL current (I\nT\nT\n) of 3.6A?": "[TRICK QUESTION]: The CURRENT is the SAME across all components in SERIES so it is 3.6 A",
    "The production of ELECTRICITY can cause problems for the ENVIRONMENT. What could be a drawback of FOSSIL FUEL PRODUCTION?": "[ALL of these]",
-   "Which of these is a PRIMARY energy source?": "Radiation from the Sun"
+   "Which of these is a PRIMARY energy source?": "Radiation from the Sun",
+   "Concentrations of solutions can be measured in\u2026": "g/dm^3"
 }
