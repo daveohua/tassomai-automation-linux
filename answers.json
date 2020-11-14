@@ -78,6 +78,7 @@
    "Fish growth can be increased by use of\u2026": "protein-rich food",
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
    "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": [
+      "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
       "The nucleus is surrounded by 6 ELECTRONS (There are as many electrons as protons, and proton number is the SMALLER number written to the bottom right of the element)",
       "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)"
    ],
@@ -1419,5 +1420,6 @@
    "TRANSPIRATION is\u2026": "the movement of WATER up a plant due to evaporation from the LEAVES",
    "Where is HAEMOGLOBIN found?": "RED blood cells",
    "What does the XYLEM transport in plants?": "Water and mineral ions",
-   "MAGNESIUM OXIDE has a higher MELTING POINT than SODIUM CHLORIDE because Mg\u00b2\u207a and O\u00b2\u207b ions form\u2026": "STRONGER IONIC bonds than Na\u207a and Cl\u207b ions since they are more STRONGLY CHARGED"
+   "MAGNESIUM OXIDE has a higher MELTING POINT than SODIUM CHLORIDE because Mg\u00b2\u207a and O\u00b2\u207b ions form\u2026": "STRONGER IONIC bonds than Na\u207a and Cl\u207b ions since they are more STRONGLY CHARGED",
+   "What is the relative atomic mass (Ar) of COPPER in g/mol? [\n63\nCu - 70%,\n65\nCu - 30%]": "[(70 x 63) + (30 x 65)] \u00f7 100 = 63.6"
 }
