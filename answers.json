@@ -798,7 +798,7 @@
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
    "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The EARTH pin is the TOP one",
+      "You SHOULD NOT do this while the plug is in the wall",
       "The GREEN & YELLOW wire is the EARTH (E)"
    ],
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
@@ -948,7 +948,10 @@
    "An LDR's resistance INCREASES as the\u2026": "light intensity decreases",
    "The CURRENT is the same at every point in a\u2026": "series circuit",
    "Components which are connected to DIFFERENT branches of a circuit are\u2026": "in parallel",
-   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": "1: insulators; 2: clothes sticking from the tumble-drier",
+   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": [
+      "1: insulators; 2: dust being attracted to TV screens",
+      "1: insulators; 2: clothes sticking from the tumble-drier"
+   ],
    "Blood drawn INTO the heart from the LUNGS is\u2026": "oxygenated",
    "In PLANTS, a ROOT HAIR is an example of\u2026": "a cell",
    "We define GOOD HEALTH as\u2026": "the state of PHYSICAL, MENTAL and SOCIAL well being",
