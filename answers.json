@@ -14,7 +14,10 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
+      "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
+      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants"
+   ],
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1492,5 +1495,7 @@
    "The STRENGTH of INTERmolecular forces ---(1)--- as the SIZE of the molecule INCREASES; this is why LARGE covalent molecules have a ---(2)--- melting point than SMALL covalent substances.": "1: increases; 2: higher",
    "The electrons within metals are\u2026": "delocalised",
    "Why are FULLERENES used to deliver DRUGS to certain parts of the body?": "They can 'WRAP UP' the drug until it reaches the part of the body where it needs to be released",
-   "NANOPARTICLES are used as ---(1)--- because they react very quickly, this allows them to ---(2)--- the speed of reactions, saving time and money in industry.": "1: catalysts; 2: increase"
+   "NANOPARTICLES are used as ---(1)--- because they react very quickly, this allows them to ---(2)--- the speed of reactions, saving time and money in industry.": "1: catalysts; 2: increase",
+   "A farmer was disappointed in his tomatoes this summer; the plants were STUNTED, the yield was LOW and the leaves seemed to have a MOSAIC pattern on them. What is the suspected PATHOGEN that caused this?": "A virus",
+   "Why is the common COLD and INFLUENZA so hard to prevent with VACCINATIONS?": "The viruses MUTATE very QUICKLY, therefore new vaccines have to be developed constantly"
 }
