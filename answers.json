@@ -431,7 +431,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "All the particles are represented as SPHERES",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -583,7 +583,7 @@
    "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes FIRST?": "Drugs are tested using COMPUTER models and HUMAN cells grown in the LAB",
    "The force of attraction between NANOPARTICLES is strong because\u2026": "of their HIGH surface area to volume ratio",
    "Comparing a NANOPARTICLE of a particular material to a larger particle of the same material, you would observe\u2026": "DIFFERENT properties (due to comparative difference in SURFACE AREA to VOLUME ratio)",
-   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "[ALL of these]",
+   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
    "Molecular compounds such as CARBON DIOXIDE and METHANE have relatively ---(1)--- melting and boiling points because their INTERMOLECULAR forces are ---(2)---.": "1: low; 2: weak",
    "Oxygen gas, which makes up approximately 21% of the atmosphere, has the formula\u2026": "O_2",
    "The NATURE of the particles in a substance determines\u2026": "[ALL of these]",
@@ -1399,5 +1399,8 @@
    "HEART valves may become faulty and be replaced by\u2026": "[EITHER of these]",
    "On a CURRENT-POTENTIAL DIFFERENCE graph, which quantity is measured on the y-axis?": "Current (I)",
    "How is CURRENT defined?": "The flow of CHARGE per unit TIME [I = Q / t]",
-   "The quantity measured in VOLTS is called the ---(1)---, and is represented in equations by the letter ---(2)---.": "1: POTENTIAL difference; 2: V"
+   "The quantity measured in VOLTS is called the ---(1)---, and is represented in equations by the letter ---(2)---.": "1: POTENTIAL difference; 2: V",
+   "A GIANT COVALENT structure is hard to melt because\u2026": "there are many strong BONDS that must be broken",
+   "NANOTECHNOLOGY is controversial because\u2026": "we do not yet fully understand the POTENTIAL dangers (e.g. HEALTH RISKS) of these materials",
+   "[TRUE or FALSE?]: In GIANT COVALENT structures, the bonds are very STRONG.": "[TRUE]: Their strength comes from PAIRS of electrons being SHARED between atoms"
 }
