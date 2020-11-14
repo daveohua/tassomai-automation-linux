@@ -909,7 +909,7 @@
    "Which of these statements about ENERGY is TRUE?": "[ALL of these]",
    "In a simple electrical circuit containing only a CELL and two resistors (first = 10\u03a9, second = 5\u03a9) in SERIES, we would find that the CURRENT\u2026": "through BOTH resistors would be EQUAL but the P.D. would be HIGHER through the HIGHER resistor (first)",
    "Which of these is drawn as two parallel vertical lines, one thick/short, one thin/long?": "A cell",
-   "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you DECREASE LIGHT on an LDR, then\u2026": "its RESISTANCE will INCREASE",
+   "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you DECREASE LIGHT on an LDR, then\u2026": "the CURRENT through it will DECREASE",
    "BOHR'S suggestion that electrons occupied ORBITS around the nucleus was accepted because his\u2026": "THEORY closely MATCHED the experimental OBSERVATIONS",
    "Group 1 elements all LOSE a SINGLE electron to form a stable positive ion. Because of this they\u2026": "have SIMILAR chemical properties",
    "A displacement reaction ---(1)--- take place between POTASSIUM BROMIDE (KBr) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will; 2: chlorine is MORE reactive than bromine, so POTASSIUM CHLORIDE + bromine will be formed",
@@ -948,10 +948,7 @@
    "An LDR's resistance INCREASES as the\u2026": "light intensity decreases",
    "The CURRENT is the same at every point in a\u2026": "series circuit",
    "Components which are connected to DIFFERENT branches of a circuit are\u2026": "in parallel",
-   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": [
-      "1: insulators; 2: dust being attracted to TV screens",
-      "1: insulators; 2: clothes sticking from the tumble-drier"
-   ],
+   "STATIC ELECTRICITY/CHARGE can build up on ---(1)---; this can cause 'NUISANCE' effects such as ---(2)---.": "1: insulators; 2: dust being attracted to TV screens",
    "Blood drawn INTO the heart from the LUNGS is\u2026": "oxygenated",
    "In PLANTS, a ROOT HAIR is an example of\u2026": "a cell",
    "We define GOOD HEALTH as\u2026": "the state of PHYSICAL, MENTAL and SOCIAL well being",
