@@ -83,7 +83,7 @@
    "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
    "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
-   "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "[ALL of these]",
+   "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the RELATIVE SIZES or SCALE of ions",
    "ENERGY WASTE occurs when energy is transferred into stores which are NOT useful. What is used to REDUCE unwanted energy transfers?": "Thermal insulation",
    "A STEP-DOWN transformer will\u2026": "have more turns on the PRIMARY coil",
    "Which of these is drawn as a circle containing the letter M?": "A motor",
@@ -432,7 +432,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "All the particles are represented as SPHERES",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "The particles are represented as SOLID spheres, which is NOT the case in REALITY",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -440,7 +440,7 @@
    "The ENERGY required for a substance to CHANGE STATES depends on...": "the strength of the FORCES between the PARTICLES",
    "When a POSITIVE ion and a NEGATIVE ion interact they\u2026": "form a STRONG IONIC bond",
    "A STRONG or STIFF polymer will be hard to melt, bend or break because it has\u2026": "relatively LONG-chain molecules, MANY CROSS-LINKS in its structure and STRONG intermolecular forces",
-   "Both diamond and silicon dioxide have a GIANT COVALENT structure. Which characteristics do they share? [**BE CAREFUL; there are 2 versions of this question but with different answers]": "They are very HARD",
+   "Both diamond and silicon dioxide have a GIANT COVALENT structure. Which characteristics do they share? [**BE CAREFUL; there are 2 versions of this question but with different answers]": "[ALL of these]",
    "The STRONGER the forces between the particles, the\u2026": "HIGHER the melting and boiling points",
    "HERD immunity helps\u2026": "to prevent disease EPIDEMICS",
    "The ---(1)--- number of an element in the periodic table determines its ---(2)--- charge.": "1: group; 2: ionic",
@@ -1503,5 +1503,6 @@
    "Why is the common COLD and INFLUENZA so hard to prevent with VACCINATIONS?": "The viruses MUTATE very QUICKLY, therefore new vaccines have to be developed constantly",
    "ALLOYS present an ADVANTAGE over PURE metals by being\u2026": "stronger, because they have a LESS REGULAR crystalline structure",
    "Which of the following has the HIGHEST BLOOD PRESSURE?": "Left ventricle",
-   "In CORONARY heart disease, ---(1)--- build inside the arteries, which ---(2)--- blood flow and may lead to a heart attack.": "1: fatty deposits ; 2: reduces"
+   "In CORONARY heart disease, ---(1)--- build inside the arteries, which ---(2)--- blood flow and may lead to a heart attack.": "1: fatty deposits ; 2: reduces",
+   "ALLOYS are stronger than pure metals because their LATTICE structure is disrupted by\u2026": "particles of DIFFERENT SIZES"
 }
