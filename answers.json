@@ -62,7 +62,7 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": "[ALL of these]",
+   "An example of a RENEWABLE energy resource is\u2026": "tidal barrages or undersea turbines",
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -316,7 +316,7 @@
    "A BENEFIT derived from the CRACKING of long-chain ALKANE molecules is that\u2026": "we create ALKENE by-products, which can be POLYMERISED to make PLASTICS",
    "Here are 4 equations describing the combustion of METHANE (\nCH\n4\n). Which of them shows the CORRECT PRODUCTS of combustion AND is CORRECTLY BALANCED?": "{CH}_4(g)+2O_2(g)\u2192{CO}_2(g)+2H_2{O(g)}",
    "GEOTHERMAL ENERGY can be used as a renewable energy source. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is replenishable; 2: most parts of the world do not have suitable areas where geothermal energy can be exploited",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS for car engines. Which of these POSITIVE statements about biofuels is TRUE?": "BIOFUELS can be made in countries without FOSSIL FUEL wealth, thus bringing ECONOMIC opportunities to poorer countries",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS for car engines. Which of these POSITIVE statements about biofuels is TRUE?": "[ALL of these]",
    "Platelets are useful in the blood because\u2026": "[BOTH of these]",
    "[TRUE or FALSE?]: ARTERIES have THINNER walls than VEINS.": "FALSE: ARTERIES have the THICKEST walls as they are constantly under the HIGHEST pressure",
    "In the HEART, DEOXYGENATED blood enters into the\u2026": "right atrium",
@@ -735,8 +735,8 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "[NEITHER of these]",
-      "[BOTH of these]"
+      "Energy (kWh) = power (kW) x time (h)",
+      "[NEITHER of these]"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
