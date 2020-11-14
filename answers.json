@@ -766,7 +766,7 @@
    "Limiting factors are important in the ---(1)--- in GREENHOUSES to gain the ---(2)--- while still MAINTAINING profit.": "1: ECONOMICS of enhancing the conditions; 2: MAXIMUM rate of photosynthesis",
    "Which element has the symbol Na?": "Sodium",
    "Na\n+\n+\nCl\n\u2212\n\u2192": "{NaCl}",
-   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "Transition elements have LOW melting/boiling points",
+   "Which of these statements about TRANSITION ELEMENTS is FALSE?": "[ALL of these are false]",
    "Which of these formulae calculates the KINETIC energy of a moving object?": "E_{K}=12 mv^2",
    "The term \"KINETIC energy\" refers to the energy an object has due to its\u2026": "movement",
    "If the DOT & CROSS diagram of a compound uses SQUARE brackets with CHARGES outside of them, then it refers to\u2026": "an IONIC substance",
@@ -984,7 +984,7 @@
    "Deoxygenated blood in the RIGHT ATRIUM is pumped into the\u2026": "right ventricle",
    "If an electric KETTLE has a power rating of 2 kW and takes 3 minutes to boil, how much ENERGY is TRANSFERRED?": "E={Pt} = (2 x10^3) x(3 x60) = 360000J=360{kJ}",
    "Which of these is drawn as a triangle next to a thick line with arrows pointing away?": "An LED",
-   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "hydrogen gas",
+   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "a hydroxide solution",
    "What is the difference between an ATOM and an ION?": "ATOMS are UNCHARGED whilst IONS are CHARGED",
    "NANOPARTICLES are used as ---(1)--- because they react very quickly, this is due to their ---(2)---.": "1: catalysts; 2: HIGH surface area to volume ratio",
    "HEART RATE can be increased by\u2026": "EXERCISE, which increases the muscles' demand for oxygen",
@@ -1464,5 +1464,7 @@
    "Which of these is drawn as an empty rectangle?": "A resistor",
    "What is the structure of XYLEM VESSELS?": "Narrow, hollow, elongated, and very hard (through lignification)",
    "NON-COMMUNICABLE diseases are ---(1)---; they are usually caused by ---(2)--- or genetic inheritance.": "1: non-infectious; 2: lifestyle factors",
-   "A material which keeps the SAME VOLUME but CHANGES SHAPE is a\u2026": "liquid"
+   "A material which keeps the SAME VOLUME but CHANGES SHAPE is a\u2026": "liquid",
+   "What was a famous scientific contribution by Ernest RUTHERFORD?": "The NUCLEAR model of the atom",
+   "Which method would be most suitable in separating different DYES in INK in order to ANALYSE them?": "Chromatography"
 }
