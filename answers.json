@@ -62,7 +62,10 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": "plants that provide biofuel",
+   "An example of a RENEWABLE energy resource is\u2026": [
+      "tidal barrages or undersea turbines",
+      "[ALL of these]"
+   ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -71,7 +74,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS may be RENEWABLE, but their production creates EXTRA CO\u2082",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -1442,5 +1445,6 @@
    "The electric CURRENT equals the ---(1)--- of electrical ---(2)---.": "1: rate of flow; 2: charge",
    "The ATOMIC NUMBER of NITROGEN is 7. Which of these shows the ELECTRON STRUCTURE of one of its ATOMS?": "2,5",
    "TREATMENTS for cardiovascular diseases include\u2026": "[ALL of these]",
-   "Which of the following may be a CAUSE of a NON-COMMUNICABLE disease?": "[ALL of these]"
+   "Which of the following may be a CAUSE of a NON-COMMUNICABLE disease?": "[ALL of these]",
+   "Which of these formulae shows the calculation for GRAVITATIONAL POTENTIAL ENERGY?": "[BOTH of these]"
 }
