@@ -82,7 +82,7 @@
       "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)"
    ],
    "Which pH value would best be described as NEUTRAL?": "7",
-   "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
+   "Which of the following can be used to represent COVALENT bonds in a diagram?": "[ALL of these]",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "[ALL of these]",
    "ENERGY WASTE occurs when energy is transferred into stores which are NOT useful. What is used to REDUCE unwanted energy transfers?": "Thermal insulation",
    "A STEP-DOWN transformer will\u2026": "have more turns on the PRIMARY coil",
@@ -431,7 +431,7 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "All the particles are represented as SPHERES",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "The particles are represented as SOLID spheres, which is NOT the case in REALITY",
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
@@ -1409,5 +1409,8 @@
    "The size of the stomata are controlled by the\u2026": "guard cells",
    "Which of the following are RISK factors for cancer?": "[ALL of these]",
    "How are the alveoli ADAPTED to gas exchange?": "[ALL of these]",
-   "An UNBALANCED diet can result in\u2026": "malnourishment"
+   "An UNBALANCED diet can result in\u2026": "malnourishment",
+   "Bonding between NON-METALLIC atoms is usually\u2026": "covalent bonding",
+   "Can an IONIC compound conduct electricity?": "Yes, in certain conditions",
+   "COARSE particles have a size range between ---(1)--- which makes them LARGER than nanoparticles. They are often referred to as fine ---(2)--- particles.": "1: 2.5 x 10- 1 x 10 m; 2: dust^{-6} ^{-5}"
 }
