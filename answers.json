@@ -63,8 +63,8 @@
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
    "An example of a RENEWABLE energy resource is\u2026": [
-      "hydroelectricity",
-      "wind energy"
+      "tidal barrages or undersea turbines",
+      "hydroelectricity"
    ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
@@ -74,7 +74,7 @@
    "The CENTRAL nervous system consists of\u2026": "[BOTH of these]",
    "Which of these are stages of the menstrual cycle?": "[ALL of these]",
    "What is the primary MALE sex hormone?": "Testosterone",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS are made using crops that would otherwise provide FOOD",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS. Which of these options shows a TRUE DRAWBACK of biofuels?": "BIOFUELS use polluting FERTILISERS in their production and release SULFUR into the atmosphere",
    "Capillaries\u2026": "are very NARROW, thin-walled vessels that flow through the organs to DELIVER SUBSTANCES to cells and REMOVE WASTE PRODUCTS",
    "[TRUE or FALSE?]: Human activity is INCREASING the levels of GREENHOUSE GASES in the atmosphere.": "[TRUE]: Nearly all scientists agree, however there are uncertainties in the evidence",
    "Which of these are pollutants in air?": "[BOTH of these]",
@@ -732,8 +732,8 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "[NEITHER of these]",
-      "[BOTH of these]"
+      "[BOTH of these]",
+      "[NEITHER of these]"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
@@ -1550,5 +1550,6 @@
       "The BROWN wire is the LIVE wire (L)",
       "An LED"
    ],
-   "BACTERIAL diseases can be treated with ANTIBIOTICS. Which of the following is an example of what ANTIBIOTICS can do?": "[ALL of these]"
+   "BACTERIAL diseases can be treated with ANTIBIOTICS. Which of the following is an example of what ANTIBIOTICS can do?": "[ALL of these]",
+   "Thermal insulation is used to reduce the ---(1)--- of a material, ---(2)--- the rate of UNWANTED energy transfer through conduction across the material.": "1: thermal conductivity; 2: reducing"
 }
