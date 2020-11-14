@@ -580,7 +580,7 @@
    "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes FIRST?": "Drugs are tested using COMPUTER models and HUMAN cells grown in the LAB",
    "The force of attraction between NANOPARTICLES is strong because\u2026": "of their HIGH surface area to volume ratio",
    "Comparing a NANOPARTICLE of a particular material to a larger particle of the same material, you would observe\u2026": "DIFFERENT properties (due to comparative difference in SURFACE AREA to VOLUME ratio)",
-   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
+   "2D or 3D models can be used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the RELATIVE SIZES or SCALE of ions",
    "Molecular compounds such as CARBON DIOXIDE and METHANE have relatively ---(1)--- melting and boiling points because their INTERMOLECULAR forces are ---(2)---.": "1: low; 2: weak",
    "Oxygen gas, which makes up approximately 21% of the atmosphere, has the formula\u2026": "O_2",
    "The NATURE of the particles in a substance determines\u2026": "[ALL of these]",
@@ -1484,5 +1484,7 @@
    "Plants use ---(1)--- such as ANTIMICROBIALS which KILL or ---(2)---.": "1: CHEMICAL defences; 2: INHIBIT the growth of BACTERIA, VIRUSES or FUNGI",
    "MALARIA is caused by a protozoa, PLASMODIUM, which infects humans and replicates in RED blood cells. The way plasmodium interacts with its host makes it a\u2026": "parasite",
    "IONIC compounds tend to have ---(1)--- melting points and ---(2)--- boiling points.": "1: high; 2: high",
-   "[TRUE or FALSE?]: Different STAINS can be used in LIGHT MICROSCOPY to identify different cellular components and cell types.": "[TRUE]: Different STAINS bind to SPECIFIC structures within the cell which ENHANCE the CONTRAST of a microscopic image"
+   "[TRUE or FALSE?]: Different STAINS can be used in LIGHT MICROSCOPY to identify different cellular components and cell types.": "[TRUE]: Different STAINS bind to SPECIFIC structures within the cell which ENHANCE the CONTRAST of a microscopic image",
+   "The STRENGTH of INTERmolecular forces ---(1)--- as the SIZE of the molecule INCREASES; this is why LARGE covalent molecules have a ---(2)--- melting point than SMALL covalent substances.": "1: increases; 2: higher",
+   "The electrons within metals are\u2026": "delocalised"
 }
