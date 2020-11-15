@@ -14,10 +14,7 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
-      "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
-      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants"
-   ],
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "HYDROCHLORIC ACID in the stomach destroys pathogens in food",
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1589,5 +1586,7 @@
    "The reaction 2NaI + F\n2\nproduces ---(1)--- because ---(2)---.": "1: 2NaF + I 2: iodine is LESS reactive than fluorine_2",
    "MUTATION of bacteria can lead to new bacteria which are\u2026": "RESISTANT to antibiotics",
    "Here are four steps that show the process of IMMUNISATION. Which happens LAST?": "If the pathogen re-enters the body, the white blood cells \"remember\" the correct antibody to produce - preventing infection",
-   "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes LAST?": "Further CLINICAL trials are done to ensure the drug is safe and to find the OPTIMAL DOSE of the drug"
+   "Below are FOUR steps in the DEVELOPMENT OF DRUGS. Which comes LAST?": "Further CLINICAL trials are done to ensure the drug is safe and to find the OPTIMAL DOSE of the drug",
+   "A FUNGUS such as ---(1)--- is a PATHOGEN because pathogens ---(2)---.": "1: athlete's foot; 2: cause INFECTION & DISEASE",
+   "How is the structure of CILIATED cells suited to their function in the respiratory tract?": "Their CILIA allow them to FILTER and MOISTEN incoming AIR"
 }
