@@ -1,0 +1,1 @@
+I noticed you tried to fix the security issue. Good attempt, but its still janky. Having an exe doesnt protect your token since it can be easily decompiled to plain python. which means i can see that you just need to decode the utf 16 bytes. A better option would be only allowing users to read the answers but not write them. pro tip, dont put exe up thinking that it hides tokens
