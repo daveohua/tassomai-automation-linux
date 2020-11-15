@@ -1566,5 +1566,7 @@
    "Factors such as ATOM ECONOMY and YIELDS of reactions are always considered when choosing a reaction pathway. Which of the following factors DOES NOT need to be considered when choosing a reaction pathway?": "The NAME of the reaction pathway",
    "An aqueous solution of KBr has a concentration of 6.25 g/dm\u00b3. What is the concentration in mol/dm\u00b3? [Molar masses (g/mol): K = 39, Br = 80]": "(6.25 / 119) = 0.05 mol/dm\u00b3",
    "The reaction H\n+\n(aq) + OH\n\u2212\n(aq) \u2192 H\n2\nO(l) is best described as a ---(1)--- reaction, and occurs when ---(2)--- react.": "1: neutralisation; 2: an acid and an alkali",
-   "Here are four steps that show how to work out the CONCENTRATION of an NaOH solution that has been neutralised by a given volume of HCl. Which happens THIRD?": "Use the balanced equation to work out the number of MOLES of NaOH that this amount of HCl reacts with"
+   "Here are four steps that show how to work out the CONCENTRATION of an NaOH solution that has been neutralised by a given volume of HCl. Which happens THIRD?": "Use the balanced equation to work out the number of MOLES of NaOH that this amount of HCl reacts with",
+   "If in an acid-alkali TITRATION exactly 0.5 dm\u00b3 of NaOH, with a concentration of 0.5 mol/dm\u00b3, is needed to neutralise 1dm\u00b3 of HCl with an UNKNOWN concentration (but the same number of molecules) what is the concentration of HCl? [Pay attention to units!]": "{(0.5 x 0.5) x 1}1 = 0.25 mol/dm^3",
+   "A solution of NaCl (aq) has a concentration of 29.25 g/dm\u00b3. Its MOLAR concentration is\u2026": "concentration (g/dm\u00b3) \u00f7 relative molecular mass (g/mol) = 29.25 \u00f7 58.5 = 0.5 mol/dm\u00b3"
 }
