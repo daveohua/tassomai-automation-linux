@@ -316,7 +316,7 @@
    "A BENEFIT derived from the CRACKING of long-chain ALKANE molecules is that\u2026": "we create ALKENE by-products, which can be POLYMERISED to make PLASTICS",
    "Here are 4 equations describing the combustion of METHANE (\nCH\n4\n). Which of them shows the CORRECT PRODUCTS of combustion AND is CORRECTLY BALANCED?": "{CH}_4(g)+2O_2(g)\u2192{CO}_2(g)+2H_2{O(g)}",
    "GEOTHERMAL ENERGY can be used as a renewable energy source. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is replenishable; 2: most parts of the world do not have suitable areas where geothermal energy can be exploited",
-   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS for car engines. Which of these POSITIVE statements about biofuels is TRUE?": "[ALL of these]",
+   "BIOFUELS are often suggested as an alternative to FOSSIL FUELS for car engines. Which of these POSITIVE statements about biofuels is TRUE?": "BIOFUEL production provides INCOME for FARMERS and creates JOBS",
    "Platelets are useful in the blood because\u2026": "[BOTH of these]",
    "[TRUE or FALSE?]: ARTERIES have THINNER walls than VEINS.": "FALSE: ARTERIES have the THICKEST walls as they are constantly under the HIGHEST pressure",
    "In the HEART, DEOXYGENATED blood enters into the\u2026": "right atrium",
@@ -378,7 +378,11 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "nuclear fuel",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": [
+      "nuclear fuel",
+      "[NEITHER of these]",
+      "[BOTH of these]"
+   ],
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
