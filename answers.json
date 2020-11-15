@@ -66,7 +66,7 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": "hydroelectricity",
+   "An example of a RENEWABLE energy resource is\u2026": "plants that provide biofuel",
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -737,7 +737,10 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "[NEITHER of these]",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
+      "Energy (kWh) = power (kW) x time (h)",
+      "[BOTH of these]"
+   ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
