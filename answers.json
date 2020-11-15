@@ -80,7 +80,7 @@
    "Which of these are pollutants in air?": "[BOTH of these]",
    "Fish growth can be increased by use of\u2026": "protein-rich food",
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
-   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
+   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
    "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
@@ -665,7 +665,10 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Transition elements make COLOURED compounds",
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
+      "Transition elements or their compounds OFTEN act as CATALYSTS",
+      "Many of them form IONS with DIFFERENT CHARGES"
+   ],
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -991,10 +994,7 @@
    "Deoxygenated blood in the RIGHT ATRIUM is pumped into the\u2026": "right ventricle",
    "If an electric KETTLE has a power rating of 2 kW and takes 3 minutes to boil, how much ENERGY is TRANSFERRED?": "E={Pt} = (2 x10^3) x(3 x60) = 360000J=360{kJ}",
    "Which of these is drawn as a triangle next to a thick line with arrows pointing away?": "An LED",
-   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": [
-      "a hydroxide solution",
-      "hydrogen gas"
-   ],
+   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "a hydroxide solution",
    "What is the difference between an ATOM and an ION?": "ATOMS are UNCHARGED whilst IONS are CHARGED",
    "NANOPARTICLES are used as ---(1)--- because they react very quickly, this is due to their ---(2)---.": "1: catalysts; 2: HIGH surface area to volume ratio",
    "HEART RATE can be increased by\u2026": "EXERCISE, which increases the muscles' demand for oxygen",
@@ -1565,5 +1565,8 @@
    "The reaction H\n+\n(aq) + OH\n\u2212\n(aq) \u2192 H\n2\nO(l) is best described as a ---(1)--- reaction, and occurs when ---(2)--- react.": "1: neutralisation; 2: an acid and an alkali",
    "Here are four steps that show how to work out the CONCENTRATION of an NaOH solution that has been neutralised by a given volume of HCl. Which happens THIRD?": "Use the balanced equation to work out the number of MOLES of NaOH that this amount of HCl reacts with",
    "If in an acid-alkali TITRATION exactly 0.5 dm\u00b3 of NaOH, with a concentration of 0.5 mol/dm\u00b3, is needed to neutralise 1dm\u00b3 of HCl with an UNKNOWN concentration (but the same number of molecules) what is the concentration of HCl? [Pay attention to units!]": "{(0.5 x 0.5) x 1}1 = 0.25 mol/dm^3",
-   "A solution of NaCl (aq) has a concentration of 29.25 g/dm\u00b3. Its MOLAR concentration is\u2026": "concentration (g/dm\u00b3) \u00f7 relative molecular mass (g/mol) = 29.25 \u00f7 58.5 = 0.5 mol/dm\u00b3"
+   "A solution of NaCl (aq) has a concentration of 29.25 g/dm\u00b3. Its MOLAR concentration is\u2026": "concentration (g/dm\u00b3) \u00f7 relative molecular mass (g/mol) = 29.25 \u00f7 58.5 = 0.5 mol/dm\u00b3",
+   "Elements in the SAME GROUP tend to have similar\u2026": "chemical properties",
+   "An element's position on the ---(1)--- is determined by its ---(2)---.": "1: periodic table; 2: atomic number",
+   "The properties of transition metals are generally ---(1)--- when compared to group 1 alkali metals, and ---(2)--- are shown between themselves.": "1: different; 2: no group trends"
 }
