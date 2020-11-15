@@ -14,7 +14,10 @@
    "Which of these HUMAN activities will lead to an INCREASE in CH\n4\nlevels?": "[ALL of these]",
    "Which of these is NOT a POTENTIAL EFFECT of CLIMATE CHANGE?": "[ALL of these ARE potential effects of climate change]",
    "HEART RATE can be monitored by\u2026": "[ALL of these]",
-   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs",
+   "Which of these is a method the human body uses to protect itself from MICROBES? [Pay attention to the KEY WORDS - some of these answers MAY have the words intentionally mixed up!]": [
+      "Tiny hair cells in the airways, known as CILIA, MOVE microbes and irritants away from the lungs",
+      "Sticky MUCUS secretions in the lungs and airways 'catch' microbes and irritants"
+   ],
    "Which of the following is a PAINKILLER?": "Paracetamol",
    "What is the PRIMARY VECTOR responsible for the spread of MALARIA?": "Mosquitoes",
    "HIV can be spread a number of different ways, one of which is through\u2026": "sexual contact",
@@ -1568,5 +1571,7 @@
    "A solution of NaCl (aq) has a concentration of 29.25 g/dm\u00b3. Its MOLAR concentration is\u2026": "concentration (g/dm\u00b3) \u00f7 relative molecular mass (g/mol) = 29.25 \u00f7 58.5 = 0.5 mol/dm\u00b3",
    "Elements in the SAME GROUP tend to have similar\u2026": "chemical properties",
    "An element's position on the ---(1)--- is determined by its ---(2)---.": "1: periodic table; 2: atomic number",
-   "The properties of transition metals are generally ---(1)--- when compared to group 1 alkali metals, and ---(2)--- are shown between themselves.": "1: different; 2: no group trends"
+   "The properties of transition metals are generally ---(1)--- when compared to group 1 alkali metals, and ---(2)--- are shown between themselves.": "1: different; 2: no group trends",
+   "What is the name of the PLANT pathogen that destroys leaves leaving a \"MOSAIC appearance\"?": "Tobacco Mosaic Virus (TMV)",
+   "Which of these statements about fungi is TRUE?": "[NONE of them]: They apply to some fungi but not all fungi"
 }
