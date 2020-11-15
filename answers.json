@@ -62,7 +62,10 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": "[ALL of these]",
+   "An example of a RENEWABLE energy resource is\u2026": [
+      "plants that provide biofuel",
+      "[ALL of these]"
+   ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -317,7 +320,6 @@
    "Here are 4 equations describing the combustion of METHANE (\nCH\n4\n). Which of them shows the CORRECT PRODUCTS of combustion AND is CORRECTLY BALANCED?": "{CH}_4(g)+2O_2(g)\u2192{CO}_2(g)+2H_2{O(g)}",
    "GEOTHERMAL ENERGY can be used as a renewable energy source. An ADVANTAGE of this is that ---(1)--- and a DISADVANTAGE of this is that ---(2)---.": "1: it is replenishable; 2: most parts of the world do not have suitable areas where geothermal energy can be exploited",
    "BIOFUELS are often suggested as an alternative to FOSSIL FUELS for car engines. Which of these POSITIVE statements about biofuels is TRUE?": [
-      "[ALL of these]",
       "BIOFUEL production provides INCOME for FARMERS and creates JOBS",
       "BIOFUELS can be made in countries without FOSSIL FUEL wealth, thus bringing ECONOMIC opportunities to poorer countries"
    ],
