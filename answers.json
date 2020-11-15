@@ -794,7 +794,6 @@
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
    "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The LIVE wire connects to the FUSE",
       "The NEUTRAL wire connects to the pin on the LEFT",
       "The BLUE wire is the NEUTRAL wire (N)"
    ],
@@ -1579,5 +1578,8 @@
    "The size of an atom's ---(1)--- is much smaller than the overall size of ---(2)---.": "1: nucleus; 2: the atom",
    "The ATOMIC NUMBER is\u2026": "UNIQUE to its element",
    "New medications and vaccinations are tested for safety before they are used in humans. What are they tested on prior to use in humans?": "ANIMAL and HUMAN CELLS grown in the laboratory",
-   "The term 'GROUP' refers to\u2026": "a COLUMN of the periodic table"
+   "The term 'GROUP' refers to\u2026": "a COLUMN of the periodic table",
+   "As the VOLTAGE across a FILAMENT LAMP increases, how does the CURRENT change?": "It INCREASES, proportionally at first, but then levels off at a higher voltage",
+   "A FIELD LINE pattern of a single POSITIVELY CHARGED sphere would have arrows pointing\u2026": "uniformly AWAY from the sphere",
+   "Which of these is drawn as two circular points connected by a horizontal line?": "A CLOSED switch"
 }
