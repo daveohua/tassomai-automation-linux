@@ -64,7 +64,7 @@
    "Energy can exist in which of these forms?": "[ALL of these]",
    "An example of a RENEWABLE energy resource is\u2026": [
       "wind energy",
-      "[ALL of these]"
+      "plants that provide biofuel"
    ],
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
@@ -368,7 +368,7 @@
    "Food molecules, once broken down, are absorbed in the\u2026": "ileum (small intestine)",
    "What sort of structure is the LINING of the SMALL INTESTINE?": "A tissue",
    "Which of these factors can REDUCE the risk of HEART disease?": "Moderate exercise",
-   "Electrical power is the RATE at which ENERGY is transferred by a component or appliance. It is measured in\u2026": "joules/second",
+   "Electrical power is the RATE at which ENERGY is transferred by a component or appliance. It is measured in\u2026": "[BOTH of these]: They mean the same thing",
    "Metals that react more easily with DILUTE ACIDS (e.g. 2M HCl)\u2026": "form their POSITIVE IONS more EASILY",
    "What colour will UNIVERSAL INDICATOR be in dilute HCl?": "Red",
    "What is meant by the term HYDROCARBON?": "A compound containing ONLY hydrogen & carbon",
@@ -734,8 +734,8 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "Energy (kWh) = power (kW) x time (h)",
-      "[BOTH of these]"
+      "[BOTH of these]",
+      "Energy (kWh) = power (kW) x time (h)"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
