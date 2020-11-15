@@ -597,8 +597,8 @@
    "The NEUTRON was discovered ---(1)--- after the idea of the ---(2)--- was widely accepted by scientists.": "1: 20 years; 2: nucleus",
    "[TRUE or FALSE?]: SODIUM reacts MORE vigorously with WATER than POTASSIUM.": "[FALSE]: Reactivity of group 1 metals INCREASES down the series",
    "Which of these metals will react with COLD WATER?": [
-      "[ALL of these]",
-      "Sodium"
+      "Sodium",
+      "[ALL of these]"
    ],
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
@@ -1589,5 +1589,6 @@
    "Which of the following would help you fight off unwanted PATHOGENS?": "[ALL of these]",
    "STATIC ELECTRICITY is a build-up of electric charge on\u2026": "an INSULATING OBJECT through which electrons cannot flow",
    "Electricity from the MAINS SUPPLY or from GENERATORS comes as\u2026": "alternating current (a.c.)",
-   "The RESISTANCE of a ---(1)--- INCREASES as its temperature ---(2)---.": "1: filament lamp; 2: increases"
+   "The RESISTANCE of a ---(1)--- INCREASES as its temperature ---(2)---.": "1: filament lamp; 2: increases",
+   "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost"
 }
