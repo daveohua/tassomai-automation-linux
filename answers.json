@@ -81,10 +81,7 @@
    "Which of these are pollutants in air?": "[BOTH of these]",
    "Fish growth can be increased by use of\u2026": "protein-rich food",
    "REFORESTATION is the process by which areas are repopulated with tree species. This generates a new habitat for animals to repopulate and is a way to\u2026": "REDUCE the effects of harmful human destruction of animal habitats",
-   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": [
-      "The nucleus contains 8 NEUTRONS (neutron number is the DIFFERENCE between the two numbers written either side of the element)",
-      "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)"
-   ],
+   "Which of these statements about the COMPOSITION of a carbon-14 NUCLEUS\n(\n14\nC\n6\n)\nis CORRECT [and for the RIGHT REASON!]?": "The nucleus contains 6 PROTONS (proton number is the SMALLER number written to the bottom right of the element)",
    "Which pH value would best be described as NEUTRAL?": "7",
    "Which of the following can be used to represent COVALENT bonds in a diagram?": "A DOT and a CROSS drawn where the OUTER RINGS of the atoms intersect",
    "BALL and STICK models are used to represent IONIC compounds. Which of the following statements are TRUE?": "They DON'T show the nature of MOVEMENT of ions",
@@ -600,7 +597,7 @@
    "Changing the state of a substance with a HIGH melting point, compared to a substance with a LOW melting point, requires\u2026": "more energy",
    "The NEUTRON was discovered ---(1)--- after the idea of the ---(2)--- was widely accepted by scientists.": "1: 20 years; 2: nucleus",
    "[TRUE or FALSE?]: SODIUM reacts MORE vigorously with WATER than POTASSIUM.": "[FALSE]: Reactivity of group 1 metals INCREASES down the series",
-   "Which of these metals will react with COLD WATER?": "[ALL of these]",
+   "Which of these metals will react with COLD WATER?": "Sodium",
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
    "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
@@ -668,10 +665,7 @@
    "ACTIVE TRANSPORT allows substances to be absorbed\u2026": "AGAINST the concentration gradient",
    "PROKARYOTIC cells contain two types of DNA; chromosomal DNA and\u2026": "plasmid DNA",
    "The transition metal COPPER (Cu) is ---(1)--- than the group 1 alkali ---(2)---.": "1: stronger; 2: sodium",
-   "Which of these statements about TRANSITION ELEMENTS is TRUE?": [
-      "Many of them form IONS with DIFFERENT CHARGES",
-      "Transition elements or their compounds OFTEN act as CATALYSTS"
-   ],
+   "Which of these statements about TRANSITION ELEMENTS is TRUE?": "Many of them form IONS with DIFFERENT CHARGES",
    "STEM CELLS can be used to treat conditions such as PARKINSON'S disease. In order to do this they change into ---(1)---. Once a stem cell has changed into its SPECIALISED form it is known to be ---(2)---.": "1: brain cells; 2: differentiated",
    "Which of the following are COVALENTLY bonded SMALL molecules?": "Oxygen (O\u2082), carbon dioxide (CO\u2082) and methane (CH\u2084)",
    "A material which keeps the SAME SHAPE & VOLUME is a\u2026": "solid",
@@ -983,10 +977,7 @@
    "TINY AIR SACS in the lungs are called\u2026": "alveoli",
    "Oxygenated blood pumped out of the LEFT VENTRICLE leaves via the\u2026": "AORTA",
    "Which of the following has the LOWEST level of organisation in animals?": "A cell",
-   "Which of these statements regarding metals and non-metals is TRUE?": [
-      "NON-METALS generally have 4-8 electrons in their OUTER SHELL",
-      "METALS tend to LOSE ELECTRONS, forming POSITIVE ions"
-   ],
+   "Which of these statements regarding metals and non-metals is TRUE?": "METALS tend to LOSE ELECTRONS, forming POSITIVE ions",
    "What is the chemical formula of a ZINC ion?": "Zn^{2+}",
    "The POTENTIAL DIFFERENCE of the UK domestic MAINS power supply is approximately\u2026 [pay attention to the UNITS]": "230V",
    "The amount of ---(1)--- an appliance ---(2)--- depends on its POWER output and the TIME it runs for.": "1: energy; 2: transfers",
@@ -1005,7 +996,7 @@
    "Deoxygenated blood in the RIGHT ATRIUM is pumped into the\u2026": "right ventricle",
    "If an electric KETTLE has a power rating of 2 kW and takes 3 minutes to boil, how much ENERGY is TRANSFERRED?": "E={Pt} = (2 x10^3) x(3 x60) = 360000J=360{kJ}",
    "Which of these is drawn as a triangle next to a thick line with arrows pointing away?": "An LED",
-   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "a hydroxide solution",
+   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "hydrogen gas",
    "What is the difference between an ATOM and an ION?": "ATOMS are UNCHARGED whilst IONS are CHARGED",
    "NANOPARTICLES are used as ---(1)--- because they react very quickly, this is due to their ---(2)---.": "1: catalysts; 2: HIGH surface area to volume ratio",
    "HEART RATE can be increased by\u2026": "EXERCISE, which increases the muscles' demand for oxygen",
@@ -1584,5 +1575,7 @@
    "Which of these statements about fungi is TRUE?": "[NONE of them]: They apply to some fungi but not all fungi",
    "Which of the following can be seen as PREVENTATIVE measures to reduce the transmission of diseases?": "[ALL of these]",
    "What is the RELATIVE MASS of a NEUTRON?": "1",
-   "ROSE BLACK spot is a fungal disease that occurs in leaves. It is either ---(1)--- or ---(2)---.": "1: purple; 2: black"
+   "ROSE BLACK spot is a fungal disease that occurs in leaves. It is either ---(1)--- or ---(2)---.": "1: purple; 2: black",
+   "When considering the compound iron (III) oxide, we know that an ion of iron has a charge of ---(1)--- because ---(2)---.": "1: 3+; 2: the roman numeral in brackets next to it is (III)",
+   "Atoms of a specific element will always have the same number of\u2026": "PROTONS in the nucleus"
 }
