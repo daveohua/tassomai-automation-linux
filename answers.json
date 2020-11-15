@@ -795,10 +795,7 @@
    "METALS tend to appear in which part of the PERIODIC TABLE?": "The LEFT side (actually taking up most of the table)",
    "The roman numeral in brackets next to a transition metal in a compound (e.g. copper (II) sulfate)\u2026": "refers to the POSITIVE CHARGE on the metal ION",
    "Lithium (s) + water (l) \u2192": "lithium hydroxide (aq) + hydrogen (g)",
-   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": [
-      "The BLUE wire is the NEUTRAL wire (N)",
-      "The EARTH pin is the TOP one"
-   ],
+   "If you are WIRING a PLUG, looking from the back, which of these statements is CORRECT (the rest being potentially extremely dangerous)?": "You SHOULD NOT do this while the plug is in the wall",
    "If an electric DRILL transfers 180 kJ of energy over 2 minutes to its motor, what is its POWER rating?": "{P(W)}= {{E(J)} / {t(s)}}= {180 x 10^3 / 2 x 60}=1500,W=1.5{ kW}",
    "Which of these is drawn as a rectangle around the line of the wire?": "A fuse",
    "If an electric DRILL has a power rating of 1300W, how much ENERGY is TRANSFERRED to the MOTOR over 30 seconds?": "E={Pt}=1300 x 30=39000J=39{kJ}",
@@ -907,7 +904,10 @@
    "Which of these statements about ENERGY is TRUE?": "[ALL of these]",
    "In a simple electrical circuit containing only a CELL and two resistors (first = 10\u03a9, second = 5\u03a9) in SERIES, we would find that the CURRENT\u2026": "through BOTH resistors would be EQUAL but the P.D. would be HIGHER through the HIGHER resistor (first)",
    "Which of these is drawn as two parallel vertical lines, one thick/short, one thin/long?": "A cell",
-   "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you DECREASE LIGHT on an LDR, then\u2026": "the CURRENT through it will DECREASE",
+   "A LIGHT-DEPENDENT RESISTOR will change its resistance with LIGHT INTENSITY. If you DECREASE LIGHT on an LDR, then\u2026": [
+      "the CURRENT through it will DECREASE",
+      "its RESISTANCE will INCREASE"
+   ],
    "BOHR'S suggestion that electrons occupied ORBITS around the nucleus was accepted because his\u2026": "THEORY closely MATCHED the experimental OBSERVATIONS",
    "Group 1 elements all LOSE a SINGLE electron to form a stable positive ion. Because of this they\u2026": "have SIMILAR chemical properties",
    "A displacement reaction ---(1)--- take place between POTASSIUM BROMIDE (KBr) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will; 2: chlorine is MORE reactive than bromine, so POTASSIUM CHLORIDE + bromine will be formed",
@@ -923,7 +923,10 @@
    "Group 7 halogens GAIN an electron when reacting with metals. The REACTIVITY of group 7 ---(1)--- as you go down the group, because their outer shell of electrons gets ---(2)--- the nucleus.": "1: decreases; 2: further from",
    "A COVALENT bond is formed when\u2026": "a PAIR (or PAIRS) of ELECTRONS are shared between two atoms",
    "A HEART attack is MORE likely if\u2026": "the CORONARY arteries are NARROWED",
-   "A component known as an NTC THERMISTOR changes its RESISTANCE when the TEMPERATURE changes. If you DECREASE the temperature around it, then\u2026": "its RESISTANCE will INCREASE",
+   "A component known as an NTC THERMISTOR changes its RESISTANCE when the TEMPERATURE changes. If you DECREASE the temperature around it, then\u2026": [
+      "the CURRENT through it will DECREASE",
+      "its RESISTANCE will INCREASE"
+   ],
    "What is the chemical formula of POTASSIUM CHLORIDE?": "KCl",
    "Which element has the symbol K?": "Potassium",
    "Rutherford's NUCLEAR ATOMIC model was further developed by ---(1)---, who proposed that ---(2)---.": "1: Niels BOHR; 2: ELECTRONS occupy shells that ORBIT around the NUCLEUS",
