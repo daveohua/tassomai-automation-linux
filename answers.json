@@ -596,10 +596,7 @@
    "Changing the state of a substance with a HIGH melting point, compared to a substance with a LOW melting point, requires\u2026": "more energy",
    "The NEUTRON was discovered ---(1)--- after the idea of the ---(2)--- was widely accepted by scientists.": "1: 20 years; 2: nucleus",
    "[TRUE or FALSE?]: SODIUM reacts MORE vigorously with WATER than POTASSIUM.": "[FALSE]: Reactivity of group 1 metals INCREASES down the series",
-   "Which of these metals will react with COLD WATER?": [
-      "Sodium",
-      "[ALL of these]"
-   ],
+   "Which of these metals will react with COLD WATER?": "Sodium",
    "[TRUE or FALSE?]: The NUCLEUS of an atom is RELATIVELY SMALL compared to the overall size of an atom.": "[TRUE]: Relative to the radius of electron orbits, the size of the nucleus is MINUSCULE",
    "Group 1 elements are all\u2026": "reactive metals",
    "When Group 7 halogens react with ---(1)---, they form hydrogen halides, which dissolve in water to produce ---(2)---.": "1: hydrogen; 2: acidic solutions",
@@ -993,7 +990,7 @@
    "Deoxygenated blood in the RIGHT ATRIUM is pumped into the\u2026": "right ventricle",
    "If an electric KETTLE has a power rating of 2 kW and takes 3 minutes to boil, how much ENERGY is TRANSFERRED?": "E={Pt} = (2 x10^3) x(3 x60) = 360000J=360{kJ}",
    "Which of these is drawn as a triangle next to a thick line with arrows pointing away?": "An LED",
-   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "a hydroxide solution",
+   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "hydrogen gas",
    "What is the difference between an ATOM and an ION?": "ATOMS are UNCHARGED whilst IONS are CHARGED",
    "NANOPARTICLES are used as ---(1)--- because they react very quickly, this is due to their ---(2)---.": "1: catalysts; 2: HIGH surface area to volume ratio",
    "HEART RATE can be increased by\u2026": "EXERCISE, which increases the muscles' demand for oxygen",
@@ -1593,5 +1590,6 @@
    "STATIC ELECTRICITY is a build-up of electric charge on\u2026": "an INSULATING OBJECT through which electrons cannot flow",
    "Electricity from the MAINS SUPPLY or from GENERATORS comes as\u2026": "alternating current (a.c.)",
    "The RESISTANCE of a ---(1)--- INCREASES as its temperature ---(2)---.": "1: filament lamp; 2: increases",
-   "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost"
+   "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost",
+   "Group 7 elements are all\u2026": "non-metals"
 }
