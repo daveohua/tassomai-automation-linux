@@ -357,7 +357,12 @@
    "Fractional distillation works by separating compounds within crude oil based on their\u2026": "boiling points",
    "The difference between AEROBIC and ANAEROBIC respiration in muscles is that\u2026": "ANAEROBIC respiration does NOT require OXYGEN",
    "Which of these is the correct word equation for AEROBIC respiration?": "Glucose + oxygen \u2192 carbon dioxide + water [+ENERGY]",
-   "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": "used for RESPIRATION",
+   "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": [
+      "converted into insoluble STARCH for storage",
+      "used to produce FAT or OIL for storage",
+      "used for RESPIRATION",
+      "used to produce AMINO ACIDS for protein SYNTHESIS"
+   ],
    "Assuming there is no other LIMITING factor, what effect will a small INCREASE in UV light have on the rate of photosynthesis?": "It would be HIGHER",
    "Food molecules, once broken down, are absorbed in the\u2026": "ileum (small intestine)",
    "What sort of structure is the LINING of the SMALL INTESTINE?": "A tissue",
@@ -377,7 +382,10 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[NEITHER of these]",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": [
+      "[NEITHER of these]",
+      "[BOTH of these]"
+   ],
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
