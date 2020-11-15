@@ -62,10 +62,7 @@
    "EFFICIENCY can be given as a\u2026": "[BOTH of these]",
    "ENERGY WASTE occurs when energy is transferred into forms that are NOT useful. What is used to REDUCE unwanted energy transfers?": "Lubrication",
    "Energy can exist in which of these forms?": "[ALL of these]",
-   "An example of a RENEWABLE energy resource is\u2026": [
-      "wind energy",
-      "plants that provide biofuel"
-   ],
+   "An example of a RENEWABLE energy resource is\u2026": "hydroelectricity",
    "A FORMULATION is a\u2026": "MIXTURE carefully prepared to ensure desired PROPERTIES",
    "A FORMULATION is a mixture that has been designed as a useful product. Which of the following substances is NOT a formulation?": "Sea water",
    "You accurately differentiate between PURE substances and MIXTURES by looking at the\u2026": "boiling/melting point",
@@ -737,7 +734,7 @@
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
    "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
-      "[BOTH of these]",
+      "[NEITHER of these]",
       "Energy (kWh) = power (kW) x time (h)"
    ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
