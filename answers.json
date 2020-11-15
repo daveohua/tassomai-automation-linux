@@ -761,7 +761,7 @@
    "FLUORINE and SODIUM react to form ---(1)--- which is ---(2)--- compound, generally termed a METAL HALIDE.": "1: sodium fluoride; 2: an ionic",
    "The power rating for a 1500 W vacuum cleaner means that\u2026": "1.5 kJ of energy is TRANSFERRED per second when it is being used",
    "CHARGE delivered to a circuit can be calculated by\u2026": "multiplying CURRENT by TIME [Q = I x t]",
-   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": "[ALL of these]",
+   "Which of these FORMULAE shows the ENERGY transferred in an ELECTRICAL appliance?": "[BOTH of these]",
    "Which of these formulae calculates the ELASTIC POTENTIAL energy of a spring?": "E_E = 12{ke}^2",
    "As protons, neutrons and electrons were yet to be discovered, scientists classified the EARLY periodic table by atomic\u2026": "mass",
    "A displacement reaction ---(1)--- take place between SODIUM FLUORIDE (NaF) and CHLORINE (Cl\u2082) because ---(2)---.": "1: will not; 2: chlorine is LESS reactive than fluorine",
@@ -1591,5 +1591,7 @@
    "Electricity from the MAINS SUPPLY or from GENERATORS comes as\u2026": "alternating current (a.c.)",
    "The RESISTANCE of a ---(1)--- INCREASES as its temperature ---(2)---.": "1: filament lamp; 2: increases",
    "The ---(1)--- in an atom occupy the ---(2)--- available energy shells.": "1: electrons; 2: innermost",
-   "Group 7 elements are all\u2026": "non-metals"
+   "Group 7 elements are all\u2026": "non-metals",
+   "REDUCING the VOLTAGE applied to a circuit has what effect on the CURRENT?": "It DECREASES in DIRECT proportion to the change in voltage (I=V/R)",
+   "The further away from a CHARGED object, the\u2026": "WEAKER the ELECTRIC field"
 }
