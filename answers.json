@@ -1621,5 +1621,7 @@
    "Increasing the FORCE on an AREA has what effect on the PRESSURE?": "It increases",
    "The PRESSURE exerted on the ground is less if a person wears\u2026": "snow-shoes (very large)",
    "A 0.5 mol/dm\u00b3 solution of an ACID is considered a ---(1)--- solution, because it contains a ---(2)--- number of ACID molecules relative to the amount of WATER.": "1: dilute; 2: LOW",
-   "Which pH value would best be described as a WEAK ACID?": "5"
+   "Which pH value would best be described as a WEAK ACID?": "5",
+   "One can calculate the PERCENTAGE YIELD of a reaction by dividing the\u2026": "amount of product ACTUALLY produced by the amount of PRODUCT that could POTENTIALLY have been produced (x100)",
+   "How many PARTICLES are there in 0.5 moles of hydrogen (Ar = 1)? [Look carefully at the numbers in superscript!]": "No. of particles = moles x Avogadro's constant (N\u1d00) = 0.5 x (6.022 x 10) = 3.011 x 10^{23} ^{23}"
 }
