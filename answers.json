@@ -6,8 +6,14 @@
    "Which of these cells is adapted for SWIMMING (because it has a flagellum)?": "Sperm cell",
    "Diffusion is the process by which\u2026": "[ALL of these]",
    "The SPECIFIC HEAT CAPACITY of a material depends on\u2026": "the SUBSTANCE from which it is made",
-   "The particles in GASES are\u2026": "moving MORE RAPIDLY on average than they are in the liquid state",
-   "The particles in LIQUIDS are\u2026": "moving MORE RAPIDLY on average than they are in the SOLID state",
+   "The particles in GASES are\u2026": [
+      "moving MORE RAPIDLY on average than they are in the liquid state",
+      "spread FAR APART"
+   ],
+   "The particles in LIQUIDS are\u2026": [
+      "LOOSELY packed",
+      "moving MORE RAPIDLY on average than they are in the SOLID state"
+   ],
    "[Fill in the blank]: Viruses may --- host cells.": "[ALL of these]",
    "Which of these HUMAN activities will lead to an INCREASE in atmospheric greenhouse gases such as methane and CO\n2\n?": "[ALL of these]",
    "Water that has not yet been PURIFIED might contain\u2026": "[ANY of these]",
@@ -1730,5 +1736,14 @@
    "In the gaseous reaction \"2SO\u2082(g) + O\u2082(g) \u21cc 2SO\u2083(g)\", an INCREASE in the concentration of O\u2082 will cause\u2026": "the position of equilibrium to move to the RIGHT",
    "Here are four steps that show a REVERSIBLE reaction reaching EQUILIBRIUM under standard conditions. Which happens SECOND?": "The RATE of the FORWARD reaction DECREASES as reactants are used up, and the RATE of the BACKWARD reaction INCREASES",
    "What is Newton's SECOND LAW of motion?": "A net FORCE acting on an object will produce an ACCELERATION",
-   "On a DISTANCE-TIME graph, we can determine the SPEED of an object by the\u2026": "GRADIENT of the line"
+   "On a DISTANCE-TIME graph, we can determine the SPEED of an object by the\u2026": "GRADIENT of the line",
+   "Some brain surgery is carried out with patients awake but with significant pain medications. This is so that\u2026": "doctors can see if surgery is causing any harm to a patient's ability to do tasks",
+   "The uneven distribution of AUXIN allows plants to coordinate the growth of their roots. In which direction do roots grow?": "With gravity (into the ground)",
+   "What is the name for the chemical which diffuses across a SYNAPSE to transmit an ELECTRICAL IMPULSE from one neuron to another?": "Neurotransmitter",
+   "AUXIN is a\u2026": "hormone",
+   "During IVF, at what stage of development are cells transferred back into the woman who is undergoing the treatment?": "Embryonic stage",
+   "The specific temperature range at which an ENZYME works best is termed the\u2026": "OPTIMUM temperature",
+   "Auxins may be used in which of these applications?": "[BOTH of these]",
+   "How can body temperature be raised/retained?": "Respiration, shivering, exercise and wearing clothing",
+   "The brain is difficult to examine and investigate because of its\u2026": "complexity"
 }
