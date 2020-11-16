@@ -51,10 +51,7 @@
    "Which of these parts of the EM spectrum is used in COOKING?": "Microwaves",
    "Which of these formulae, regarding frequency (Hz), wavelength (m) and wavespeed (m/s), is correct?": "[ALL of these]",
    "Which of these is an example of a NON-CONTACT force?": "A MAGNET pulling a piece of iron",
-   "A driver's REACTION time can be affected by\u2026": [
-      "alcohol",
-      "[BOTH of these]"
-   ],
+   "A driver's REACTION time can be affected by\u2026": "alcohol",
    "Which of these factors affect a car's STOPPING DISTANCE?": "[ALL of these]",
    "A car's BRAKING DISTANCE is altered if\u2026": "the ROAD is wet or icy",
    "Which of the following fuels DOES NOT come from CRUDE OIL?": "Coal",
@@ -1656,5 +1653,13 @@
    "During an explosion (an exothermic reaction) the heat energy comes from\u2026": "new bonds being formed",
    "Combustion, neutralisation and many oxidation reactions are examples of ---(1)--- reactions, because HEAT ENERGY is ---(2)--- the surroundings.": "1: exothermic; 2: given to",
    "When calculating the OVERALL ENERGY CHANGE from bond energies, the total energy change is equal to\u2026": "energy in - energy out",
-   "[Fill in the blank]: The equation to calculate the DECLINE in radioactive emission of a substance after X number of half-lives is given by: Current rate = Initial rate\u2026": "2^x,  ({where}, x,{is the number of half-lives})"
+   "[Fill in the blank]: The equation to calculate the DECLINE in radioactive emission of a substance after X number of half-lives is given by: Current rate = Initial rate\u2026": "2^x,  ({where}, x,{is the number of half-lives})",
+   "Which of these will extend the STOPPING DISTANCE of a car?": "The TYRES are worn out",
+   "MASSIVE objects (i.e. objects that have mass) on EARTH experience a FORCE called ---(1)---, as a result of a ---(2)--- FIELD.": "1: weight; 2: gravitational",
+   "Which features of an arrow represent different qualities of a VECTOR quantity?": "[BOTH of these]",
+   "When calculating WORK DONE, what must be remembered about the measurements?": "The DISTANCE measured and the action of the FORCE must have the SAME DIRECTION",
+   "A VECTOR quantity is one that\u2026": "has BOTH MAGNITUDE (size) and DIRECTION",
+   "Objects can interact at a distance WITHOUT contact through\u2026": "gravitational forces",
+   "Objects MUST be PHYSICALLY touching for them to experience\u2026": "contact forces",
+   "HOOKE'S LAW tells us that the restoring FORCE of a distorted object is ---(1)--- PROPORTIONAL to ---(2)---.": "1: directly; 2: its EXTENSION: F = ke"
 }
