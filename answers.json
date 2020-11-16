@@ -1749,5 +1749,8 @@
    "In the reaction C\u2083H\u2088 + 5O\u2082 \u2192 3CO\u2082 + 4H\u2082O, 40 grams of CO\u2082 was produced in 100 seconds. The mean RATE of REACTION in grams per second is\u2026": "{40 / 100}=0.40{ g/s}",
    "What is the total ENERGY CHANGE in the reaction \"3H\n2\n2\n+ N\n2\n2\n\u2192 2NH\n3\n3\n\" [Bond energies (kJ/mol): H-H = 432, N-N = 942, N-H = 386]": "(3 x 432) + 942 - 2(3 x 386) = - 78 kJ/mol",
    "A chemical reaction which is ENDOTHERMIC transfers energy ---(1)--- the surroundings, so the molecules in the reaction now have ---(2)--- energy.": "1: from; 2: more",
-   "The REACTION PROFILE of an EXOTHERMIC reaction will show the ---(1)--- at a LOWER level than the ---(2)---.": "1: products; 2: reactants"
+   "The REACTION PROFILE of an EXOTHERMIC reaction will show the ---(1)--- at a LOWER level than the ---(2)---.": "1: products; 2: reactants",
+   "In the CRACKING of nonane, C\n9\n9\nH\n20\n20\n, 2 moles of butene, C\n4\n4\nH\n8\n8\n, are formed. The OTHER PRODUCT is\u2026": "CH_4",
+   "Which of the following products IS NOT produced by the PETROCHEMICAL INDUSTRY?": "[They are all produced by the petrochemical industry]",
+   "Here are 4 equations describing the combustion of METHANE (\nCH\n4\nCH\n). Which of them shows the CORRECT PRODUCTS of combustion AND is CORRECTLY BALANCED?": "{CH}_4(g)+2O_2(g)\u2192{CO}_2(g)+2H_2{O(g)}"
 }
