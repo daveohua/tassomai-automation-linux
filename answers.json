@@ -6,8 +6,14 @@
    "Which of these cells is adapted for SWIMMING (because it has a flagellum)?": "Sperm cell",
    "Diffusion is the process by which\u2026": "[ALL of these]",
    "The SPECIFIC HEAT CAPACITY of a material depends on\u2026": "the SUBSTANCE from which it is made",
-   "The particles in GASES are\u2026": "spread FAR APART",
-   "The particles in LIQUIDS are\u2026": "LOOSELY packed",
+   "The particles in GASES are\u2026": [
+      "moving MORE RAPIDLY on average than they are in the liquid state",
+      "spread FAR APART"
+   ],
+   "The particles in LIQUIDS are\u2026": [
+      "LOOSELY packed",
+      "moving MORE RAPIDLY on average than they are in the SOLID state"
+   ],
    "[Fill in the blank]: Viruses may --- host cells.": "[ALL of these]",
    "Which of these HUMAN activities will lead to an INCREASE in atmospheric greenhouse gases such as methane and CO\n2\n?": "[ALL of these]",
    "Water that has not yet been PURIFIED might contain\u2026": "[ANY of these]",
