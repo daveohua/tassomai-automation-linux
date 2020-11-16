@@ -646,7 +646,10 @@
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
    "Group 1 metals have one electron in their outer shells. As you go down the group the metals have more shells, meaning that the outer shell is further away. This\u2026": "makes it EASIER to lose electrons",
-   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": "SEX CELLS (sperm and eggs) are produced by MEIOSIS",
+   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": [
+      "SEX CELLS (sperm and eggs) are produced by MEIOSIS",
+      "DIPLOID cells copy and divide by MEIOSIS, to produce FOUR HAPLOID daughter cells: this is SEX CELL PRODUCTION"
+   ],
    "A plant CELL WALL is made up of tough ---(1)--- and functions as ---(2)--- to the cell.": "1: cellulose; 2: support",
    "Genetically IDENTICAL clones of a PARENT cell are produced by which process?": "Mitosis",
    "[TRUE or FALSE?]: Nanoparticles have many uses in the fields of medicine, electronics, cosmetics and as catalysts.": "TRUE: Nanotechnology is a relatively NEW field with lots of uses in different fields and many uses YET TO BE DISCOVERED",
@@ -1696,5 +1699,6 @@
    "Why is it important to complete a course of antibiotics?": "To STOP the development of RESISTANT organisms",
    "X-RAYS and GAMMA rays are both ---(1)--- radiations that can cause the ---(2)--- of GENES, which may lead to CANCER.": "1: ionising; 2: mutation",
    "Here are some examples of WAVES that can be detected. Which of these is a TRANSVERSE wave?": "The wave shape moving along a WHIP as it's CRACKED",
-   "When drawing a RAY DIAGRAM, you should draw ARROWS on the light rays\u2026": "pointing AWAY from the light source"
+   "When drawing a RAY DIAGRAM, you should draw ARROWS on the light rays\u2026": "pointing AWAY from the light source",
+   "The process of selective breeding involves\u2026": "[ALL of these]"
 }
