@@ -363,8 +363,8 @@
    "What sort of structure is the LINING of the SMALL INTESTINE?": "A tissue",
    "Which of these factors can REDUCE the risk of HEART disease?": "Moderate exercise",
    "Electrical power is the RATE at which ENERGY is transferred by a component or appliance. It is measured in\u2026": [
-      "joules/second",
-      "[BOTH of these]: They mean the same thing"
+      "[BOTH of these]: They mean the same thing",
+      "joules/second"
    ],
    "Metals that react more easily with DILUTE ACIDS (e.g. 2M HCl)\u2026": "form their POSITIVE IONS more EASILY",
    "What colour will UNIVERSAL INDICATOR be in dilute HCl?": "Red",
@@ -380,7 +380,7 @@
    "[TRUE or FALSE?]: PHOTOSYNTHESIS is an ENDOTHERMIC reaction.": "[TRUE]: Energy is transferred FROM the ENVIRONMENT to CHLOROPLASTS by light",
    "LIGHT energy is used to react CARBON DIOXIDE and ---(1)--- during ---(2)--- in plants. This gives off OXYGEN as a WASTE product.": "1: water; 2: photosynthesis",
    "When a SYSTEM CHANGES, the way energy is STORED within that system also changes. When water is brought to the BOIL in an electrical kettle, ---(1)--- energy is converted into ---(2)--- energy.": "1: electrical; 2: thermal",
-   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[NEITHER of these]",
+   "An example of a NON-RENEWABLE energy resource used on Earth is\u2026": "[BOTH of these]",
    "Which of these is a DISADVANTAGE of using NUCLEAR power stations?": "They produce radioactive waste",
    "Where is TESTOSTERONE produced in the body?": "The testes AND ovaries (the testes produce far MORE than the ovaries)",
    "Which hormone drives the development of secondary sexual characteristics in women?": "Oestrogen",
@@ -727,7 +727,10 @@
    "If you INCREASE the LIGHT ---(1)--- a LIGHT-DEPENDENT RESISTOR its resistance will ---(2)---; this will INCREASE the CURRENT in the circuit.": "1: incident on (shines on); 2: decrease",
    "A STEP-DOWN transformer will ---(1)--- CURRENT and ---(2)--- VOLTAGE.": "1: increase; 2: decrease",
    "If a MAINS circuit is switched OFF then an exposed LIVE wire is\u2026": "still DANGEROUS",
-   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": "Energy (kWh) = power (kW) x time (h)",
+   "Which of these formulae is accurate for calculating ENERGY transferred? [*BE CAREFUL; there are many versions of this question but with different UNITS!]": [
+      "Energy (kWh) = power (kW) x time (h)",
+      "[NEITHER of these]"
+   ],
    "Energy can be TRANSFERRED, STORED or DISSIPATED but cannot be\u2026": "[EITHER of these]",
    "The early \"PLUM PUDDING\" model of atomic structure was named this because the embedded ---(1)--- in the ---(2)--- atomic sphere resembled a plum pudding.": "1: electrons; 2: positive",
    "Which of these does NOT explain why halogens get LESS reactive as you go DOWN the group?": "They become MORE METALLIC",
