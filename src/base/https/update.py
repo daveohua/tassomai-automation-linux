@@ -65,7 +65,6 @@ class Updater(QObject):
             self.restart_button.setText("RESTART")
             self.status.emit("Checking for updates...")
             self.restart_button.setEnabled(False)
-            self.ui.setWindowFlag(Qt.WindowCloseButtonHint, False)
             if not self.is_outdated:
                 self.change.emit(self.ui.close)
                 self.begin_progress_thread(*(1, 100), **{'space': 0.03, 'join': True})
@@ -137,7 +136,6 @@ class Updater(QObject):
                     return
                 self.progress.emit(100)
                 self.status.emit("Restart required!")
-                self.ui.setWindowFlag(Qt.WindowCloseButtonHint, True)
                 self.restart_button.setEnabled(True)
                 self.change.emit(self.ui.restart)
         except Exception as e:
