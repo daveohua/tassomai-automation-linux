@@ -54,7 +54,10 @@
    "Which of these parts of the EM spectrum is used in COOKING?": "Microwaves",
    "Which of these formulae, regarding frequency (Hz), wavelength (m) and wavespeed (m/s), is correct?": "[ALL of these]",
    "Which of these is an example of a NON-CONTACT force?": "A MAGNET pulling a piece of iron",
-   "A driver's REACTION time can be affected by\u2026": "[BOTH of these]",
+   "A driver's REACTION time can be affected by\u2026": [
+      "[BOTH of these]",
+      "alcohol"
+   ],
    "Which of these factors affect a car's STOPPING DISTANCE?": "[ALL of these]",
    "A car's BRAKING DISTANCE is altered if\u2026": "the ROAD is wet or icy",
    "Which of the following fuels DOES NOT come from CRUDE OIL?": "Coal",
@@ -1731,5 +1734,7 @@
    "GAMMA rays can be formed when there are CHANGES in the ---(1)--- of atoms or ions which lead to the ---(2)--- of radiation.": "1: nuclei; 2: emission",
    "ENZYMES can act as CATALYSTS in\u2026": "[ALL of these]",
    "In the gaseous reaction \"2SO\u2082(g) + O\u2082(g) \u21cc 2SO\u2083(g)\", an INCREASE in the concentration of O\u2082 will cause\u2026": "the position of equilibrium to move to the RIGHT",
-   "Here are four steps that show a REVERSIBLE reaction reaching EQUILIBRIUM under standard conditions. Which happens SECOND?": "The RATE of the FORWARD reaction DECREASES as reactants are used up, and the RATE of the BACKWARD reaction INCREASES"
+   "Here are four steps that show a REVERSIBLE reaction reaching EQUILIBRIUM under standard conditions. Which happens SECOND?": "The RATE of the FORWARD reaction DECREASES as reactants are used up, and the RATE of the BACKWARD reaction INCREASES",
+   "What is Newton's SECOND LAW of motion?": "A net FORCE acting on an object will produce an ACCELERATION",
+   "On a DISTANCE-TIME graph, we can determine the SPEED of an object by the\u2026": "GRADIENT of the line"
 }
