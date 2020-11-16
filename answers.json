@@ -6,14 +6,8 @@
    "Which of these cells is adapted for SWIMMING (because it has a flagellum)?": "Sperm cell",
    "Diffusion is the process by which\u2026": "[ALL of these]",
    "The SPECIFIC HEAT CAPACITY of a material depends on\u2026": "the SUBSTANCE from which it is made",
-   "The particles in GASES are\u2026": [
-      "moving MORE RAPIDLY on average than they are in the liquid state",
-      "spread FAR APART"
-   ],
-   "The particles in LIQUIDS are\u2026": [
-      "LOOSELY packed",
-      "moving MORE RAPIDLY on average than they are in the SOLID state"
-   ],
+   "The particles in GASES are\u2026": "moving MORE RAPIDLY on average than they are in the liquid state",
+   "The particles in LIQUIDS are\u2026": "moving MORE RAPIDLY on average than they are in the SOLID state",
    "[Fill in the blank]: Viruses may --- host cells.": "[ALL of these]",
    "Which of these HUMAN activities will lead to an INCREASE in atmospheric greenhouse gases such as methane and CO\n2\n?": "[ALL of these]",
    "Water that has not yet been PURIFIED might contain\u2026": "[ANY of these]",
@@ -54,10 +48,7 @@
    "Which of these parts of the EM spectrum is used in COOKING?": "Microwaves",
    "Which of these formulae, regarding frequency (Hz), wavelength (m) and wavespeed (m/s), is correct?": "[ALL of these]",
    "Which of these is an example of a NON-CONTACT force?": "A MAGNET pulling a piece of iron",
-   "A driver's REACTION time can be affected by\u2026": [
-      "[BOTH of these]",
-      "alcohol"
-   ],
+   "A driver's REACTION time can be affected by\u2026": "alcohol",
    "Which of these factors affect a car's STOPPING DISTANCE?": "[ALL of these]",
    "A car's BRAKING DISTANCE is altered if\u2026": "the ROAD is wet or icy",
    "Which of the following fuels DOES NOT come from CRUDE OIL?": "Coal",
@@ -649,7 +640,7 @@
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
    "Group 1 metals have one electron in their outer shells. As you go down the group the metals have more shells, meaning that the outer shell is further away. This\u2026": "makes it EASIER to lose electrons",
-   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": "ASEXUAL reproduction (through MITOSIS) results in little or NO GENETIC VARIATION",
+   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": "Cells that contain PAIRS of corresponding chromosomes are known as DIPLOID cells",
    "A plant CELL WALL is made up of tough ---(1)--- and functions as ---(2)--- to the cell.": "1: cellulose; 2: support",
    "Genetically IDENTICAL clones of a PARENT cell are produced by which process?": "Mitosis",
    "[TRUE or FALSE?]: Nanoparticles have many uses in the fields of medicine, electronics, cosmetics and as catalysts.": "TRUE: Nanotechnology is a relatively NEW field with lots of uses in different fields and many uses YET TO BE DISCOVERED",
@@ -1668,7 +1659,7 @@
    "Which features of an arrow represent different qualities of a VECTOR quantity?": "[BOTH of these]",
    "When calculating WORK DONE, what must be remembered about the measurements?": "The DISTANCE measured and the action of the FORCE must have the SAME DIRECTION",
    "A VECTOR quantity is one that\u2026": "has BOTH MAGNITUDE (size) and DIRECTION",
-   "Objects can interact at a distance WITHOUT contact through\u2026": "gravitational forces",
+   "Objects can interact at a distance WITHOUT contact through\u2026": "[EITHER of these]",
    "Objects MUST be PHYSICALLY touching for them to experience\u2026": "contact forces",
    "HOOKE'S LAW tells us that the restoring FORCE of a distorted object is ---(1)--- PROPORTIONAL to ---(2)---.": "1: directly; 2: its EXTENSION: F = ke",
    "When a woman's EGG is FERTILISED, the lining of the UTERUS is ---(1)--- in order to ---(2)---.": "1: maintained; 2: allow the egg to embed",
@@ -1737,13 +1728,14 @@
    "Here are four steps that show a REVERSIBLE reaction reaching EQUILIBRIUM under standard conditions. Which happens SECOND?": "The RATE of the FORWARD reaction DECREASES as reactants are used up, and the RATE of the BACKWARD reaction INCREASES",
    "What is Newton's SECOND LAW of motion?": "A net FORCE acting on an object will produce an ACCELERATION",
    "On a DISTANCE-TIME graph, we can determine the SPEED of an object by the\u2026": "GRADIENT of the line",
-   "Some brain surgery is carried out with patients awake but with significant pain medications. This is so that\u2026": "doctors can see if surgery is causing any harm to a patient's ability to do tasks",
-   "The uneven distribution of AUXIN allows plants to coordinate the growth of their roots. In which direction do roots grow?": "With gravity (into the ground)",
-   "What is the name for the chemical which diffuses across a SYNAPSE to transmit an ELECTRICAL IMPULSE from one neuron to another?": "Neurotransmitter",
-   "AUXIN is a\u2026": "hormone",
-   "During IVF, at what stage of development are cells transferred back into the woman who is undergoing the treatment?": "Embryonic stage",
-   "The specific temperature range at which an ENZYME works best is termed the\u2026": "OPTIMUM temperature",
-   "Auxins may be used in which of these applications?": "[BOTH of these]",
-   "How can body temperature be raised/retained?": "Respiration, shivering, exercise and wearing clothing",
-   "The brain is difficult to examine and investigate because of its\u2026": "complexity"
+   "As an EM wave travels from one medium into a MORE DENSE material the ---(1)--- decreases, which causes it to ---(2)---.": "1: wave speed; 2: refract",
+   "GAMMA rays can be used to treat CANCER because they\u2026": "have VERY HIGH energy which destroys cells",
+   "Which of these parts of the EM spectrum has the HIGHEST frequency?": "Visible light",
+   "What is the total ENERGY CHANGE in the reaction \"\nH\n2\n+\nCl\n2\n\u2192\n2\nHCl\nH\n\" [Bond energies (kJ/mol): H-H = 432, Cl-Cl = 331, H-Cl = 431]": "432+331-(2 x431)=-99{ kJ/mol}",
+   "Using a graph of PRODUCT formed vs TIME, the REACTION RATE can be obtained by\u2026": "drawing a TANGENT on the curve at a time point and using the GRADIENT to measure the rate",
+   "As height INCREASES, there is always ---(1)--- air above a surface than there is at a LOWER height. Therefore, ATMOSPHERIC PRESSURE ---(2)--- with an INCREASING height.": "1: less; 2: decreases",
+   "An object moving at a CONSTANT speed in a CIRCLE will have a continually changing\u2026": "[BOTH of these]",
+   "ALKENES are ---(1)--- reactive than ALKANES and, unlike alkanes, they readily react with ---(2)---.": "1: more; 2: bromine water",
+   "STEAM cracking involves mixing steam with LONG chain HYDROCARBONS and\u2026": "heating to a HIGH TEMPERATURE",
+   "C\u2084H\u2081\u2080 is the molecular formula for\u2026": "butane"
 }
