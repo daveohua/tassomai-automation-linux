@@ -6,7 +6,7 @@ __license__ = 'MIT License'
 __version__ = '1.0.7'
 __module__ = os.getcwd()
 
-if not __module__.endswith(("app", "")):
+if not __module__.endswith("app"):
     __module__ = __module__+'\\'
     github_db = __module__+'github_db.exe'
     is_executable = True
