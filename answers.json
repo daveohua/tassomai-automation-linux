@@ -27,7 +27,10 @@
    "Variation within a species occurs through\u2026": "[BOTH of these]",
    "When a person has a baby, what is the percentage chance that they will have a biologically FEMALE baby?": "50%",
    "What evidence do we have for EVOLUTION?": "[BOTH of these]",
-   "Which of these are magnetic?": "Iron",
+   "Which of these are magnetic?": [
+      "[ALL of these]",
+      "Iron"
+   ],
    "When a CONDUCTOR carrying a CURRENT is placed in a MAGNETIC field, the size of the FORCE on the conductor depends on the\u2026": "[BOTH of these]",
    "A material that is MAGNETICALLY SOFT can\u2026": "ONLY be TEMPORARILY magnetised",
    "[Fill in the blank]: An INCREASED exposure to RADIATION would --- the RISK of sickness or tumours.": "increase",
@@ -1629,5 +1632,7 @@
    "How did the level of CO\n2\n2\nin the atmosphere fall from its high level in the early life of the Earth to its current level of a fraction of 1%?": "[BOTH of these]",
    "The INCOMPLETE combustion of a hydrocarbon produces\u2026": "[ALL of these]",
    "The percentage of NITROGEN GAS in the Earth's atmosphere today is roughly\u2026": "80%",
-   "The OXYGEN in the Earth's atmosphere comes from\u2026": "PHOTOSYNTHESIS (performed by early plants and some bacteria)"
+   "The OXYGEN in the Earth's atmosphere comes from\u2026": "PHOTOSYNTHESIS (performed by early plants and some bacteria)",
+   "A material that is MAGNETICALLY HARD can\u2026": "be PERMANENTLY magnetised",
+   "Which equation links the FORCE on a conductor to the STRENGTH of the field, the size of the CURRENT and the LENGTH of the conductor?": "Force = magnetic flux density \u00d7 current \u00d7 length"
 }
