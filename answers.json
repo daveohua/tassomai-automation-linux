@@ -1746,5 +1746,8 @@
    "C\u2084H\u2081\u2080 is the molecular formula for\u2026": "butane",
    "In the reversible reaction \"H\u2082O + CO\u2082 \u21cc H\u2082CO\u2083\" the energy released in the FORWARD reaction is 15 kJ/mol. Therefore, the energy required for the backward reaction is\u2026": "15 kJ/mol",
    "The rate of a reaction involving a SOLID REACTANT can be improved by increasing the ---(1)--- ratio. This can be done by ---(2)---.": "1: surface area to volume; 2: breaking up the solid into smaller pieces",
-   "In the reaction C\u2083H\u2088 + 5O\u2082 \u2192 3CO\u2082 + 4H\u2082O, 40 grams of CO\u2082 was produced in 100 seconds. The mean RATE of REACTION in grams per second is\u2026": "{40 / 100}=0.40{ g/s}"
+   "In the reaction C\u2083H\u2088 + 5O\u2082 \u2192 3CO\u2082 + 4H\u2082O, 40 grams of CO\u2082 was produced in 100 seconds. The mean RATE of REACTION in grams per second is\u2026": "{40 / 100}=0.40{ g/s}",
+   "What is the total ENERGY CHANGE in the reaction \"3H\n2\n2\n+ N\n2\n2\n\u2192 2NH\n3\n3\n\" [Bond energies (kJ/mol): H-H = 432, N-N = 942, N-H = 386]": "(3 x 432) + 942 - 2(3 x 386) = - 78 kJ/mol",
+   "A chemical reaction which is ENDOTHERMIC transfers energy ---(1)--- the surroundings, so the molecules in the reaction now have ---(2)--- energy.": "1: from; 2: more",
+   "The REACTION PROFILE of an EXOTHERMIC reaction will show the ---(1)--- at a LOWER level than the ---(2)---.": "1: products; 2: reactants"
 }
