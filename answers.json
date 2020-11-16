@@ -7,7 +7,10 @@
    "Diffusion is the process by which\u2026": "[ALL of these]",
    "The SPECIFIC HEAT CAPACITY of a material depends on\u2026": "the SUBSTANCE from which it is made",
    "The particles in GASES are\u2026": "spread FAR APART",
-   "The particles in LIQUIDS are\u2026": "LOOSELY packed",
+   "The particles in LIQUIDS are\u2026": [
+      "moving MORE RAPIDLY on average than they are in the SOLID state",
+      "LOOSELY packed"
+   ],
    "[Fill in the blank]: Viruses may --- host cells.": "[ALL of these]",
    "Which of these HUMAN activities will lead to an INCREASE in atmospheric greenhouse gases such as methane and CO\n2\n?": "[ALL of these]",
    "Water that has not yet been PURIFIED might contain\u2026": "[ANY of these]",
@@ -116,7 +119,10 @@
    "On a HEATING and COOLING graph, what does an UPWARD gradient represent?": "An INCREASE of temperature over time",
    "The SPECIFIC HEAT CAPACITY, c, measured in J/kg\u00baC, is the HEAT energy required to change the temperature of\u2026": "1kg of a material by 1\u00baC",
    "The equation governing SPECIFIC HEAT CAPACITY is given as \u0394E = mc\u0394\u03b8. What does the c represent?": "The specific heat capacity of the material",
-   "When HEAT ENERGY is transferred to a system, the INCREASE in the system's TEMPERATURE depends on the\u2026": "[BOTH of these]",
+   "When HEAT ENERGY is transferred to a system, the INCREASE in the system's TEMPERATURE depends on the\u2026": [
+      "[BOTH of these]",
+      "[BOTH of these]"
+   ],
    "The quantity measured in KILOGRAMS per CUBIC METRE (kg/m\n3\n) is\u2026": "density",
    "CHANGES of STATE are always ---(1)--- changes, as the material ---(2)--- properties if the change is REVERSED.": "1: physical; 2: recovers its original",
    "HEATING a CLOSED system will change its...": "energy",
@@ -1642,5 +1648,6 @@
    "In the reaction\nBr\n2\n+\nC\n2\nH\n4\n\u2192\nC\n2\nH\n4\nBr\n2\nBr\n, 15 grams of\nC\n2\nH\n4\nBr\n2\nC\nwas produced in 5 minutes. The mean RATE of REACTION in grams per second is\u2026": "{15 / 5 x 60}=0.05{ g/s}",
    "When at EQUILIBRIUM, the relative AMOUNTS of reactants and products\u2026": "depend on forward AND backward reaction RATES as determined by REACTION CONDITIONS",
    "The ENERGY required to start a reaction is known as the\u2026": "ACTIVATION energy",
-   "[TRUE or FALSE?]: ENZYMES can be used to CATALYSE chemical reactions.": "[TRUE]: Enzymes can be used in chemical reactions, such as in the production of alcohol, but often denature when the temperature is TOO HIGH"
+   "[TRUE or FALSE?]: ENZYMES can be used to CATALYSE chemical reactions.": "[TRUE]: Enzymes can be used in chemical reactions, such as in the production of alcohol, but often denature when the temperature is TOO HIGH",
+   "The quantity measured in KILOGRAMS per CUBIC METRE (kg/m\n3\n3\n) is\u2026": "density"
 }
