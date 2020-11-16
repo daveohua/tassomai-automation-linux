@@ -1,5 +1,6 @@
 import sys
 import optparse
+import logging, traceback
 
 from PyQt5.QtWidgets import QApplication
 from youtube_dl.compat import compat_get_terminal_size
@@ -68,30 +69,34 @@ parser.add_option('--bonus',
 (options, args) = parser.parse_args()
 
 if __name__ == '__main__':
-    from gui import Window
+    try:
+        from gui import Window
 
-    app = QApplication(sys.argv)
+        app = QApplication(sys.argv)
 
-    win = Window(show_stats=not options.no_stats, close=options.close)
+        win = Window(show_stats=not options.no_stats, close=options.close)
 
-    if options.frameless:
-        win.ui.framelessFirefox.setChecked(True)
-    if not options.gui_frameless:
-        win.show()
-    if options.username != '':
-        win.ui.emailTassomai.setText(options.username)
-    if options.password != '':
-        win.ui.passwordTassomai.setText(options.password)
-    if options.executable != '':
-        win.ui.pathToGecko.setText(options.executable)
-    if options.no_daily:
-        win.ui.dailyGoal.setChecked(False)
-    if options.bonus:
-        win.ui.bonusGoal.setChecked(True)
+        if options.frameless:
+            win.ui.framelessFirefox.setChecked(True)
+        if not options.gui_frameless:
+            win.show()
+        if options.username != '':
+            win.ui.emailTassomai.setText(options.username)
+        if options.password != '':
+            win.ui.passwordTassomai.setText(options.password)
+        if options.executable != '':
+            win.ui.pathToGecko.setText(options.executable)
+        if options.no_daily:
+            win.ui.dailyGoal.setChecked(False)
+        if options.bonus:
+            win.ui.bonusGoal.setChecked(True)
 
-    win.ui.maxQuizes.setValue(abs(options.max_quizes))
+        win.ui.maxQuizes.setValue(abs(options.max_quizes))
 
-    if options.start:
-        win.ui.startButton.click()
+        if options.start:
+            win.ui.startButton.click()
 
-    sys.exit(app.exec())
+        sys.exit(app.exec())
+    except Exception as e:
+        if not traceback.format_exc().__contains__('SystemExit'):
+            logging.error(traceback.format_exc())

@@ -1,4 +1,5 @@
 import requests
+import ctypes
 import json
 import os
 
@@ -16,6 +17,12 @@ def establishConnection():
 
 def calculate_percentage(number, total):
     return round((number/total) * 100, 1)
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
 
 def retreive_temp_data(folder):
     with open(folder+'\\temp.json') as f:

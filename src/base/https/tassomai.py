@@ -198,21 +198,9 @@ class Tassomai:
         text_xpath = self.text_xpath % (section+1, box) + '/text()'
         xpath = '/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/' \
                 'swiper/div/div[1]/div[%s]/question/div[2]/div[%s]/answer/button/span[1]/script/text()'
-        # xpath2 = self.text_xpath % (section, box) + '/*[substring(@id,string-length(@id) -string-length(\'-Frame\') +1) = \'-Frame\']/@data-mathml'
-        # xpath3 = self.text_xpath % (section, box) + '/span/span/span/span/span'
-        #
+
         tree = Selector(self.driver.page_source)
         text_answer = tree.xpath(text_xpath).getall() # finding the text
-        # mathjax = tree.xpath(xpath2).getall() # for symbols like CO2 (but with a smaller 2)
-        # unknown = tree.xpath(xpath3).getall() # other symbols like γ
-        # mathjax = [element.strip("<mn>") for element in re.findall('<mn>\d+', ''.join(mathjax))]
-        # unknown = [element.strip('</span>') for element in re.findall('>.</span>', ''.join(unknown))]
-        #
-        # if len(mathjax) >= 1:
-        #     for index, symbol in enumerate(mathjax):
-        #         text.insert(index+(index+1), symbol) # 0+(0+1) = 1 ..... 1+(1+1) = 3 therefore we can insert inbetween characters.
-        # elif len(unknown) >= 1:
-        #     text = unknown
 
         quiz_id = re.search("quizModal:quiz/\d+", self.driver.current_url)[0].replace("quizModal:quiz/", "")
         text = self.session.get(f'https://kolin.tassomai.com/api/quiz/fetch/{quiz_id}', headers=self.headers).json()
@@ -257,7 +245,16 @@ class Tassomai:
             except:
                 break
         quiz = random.choice(quizes)
-        quiz.click()
+        try:
+            quiz.click()
+        except Exception: # Possible solution for: <button class="tasso-button__green"> is not clickable at point
+                          # (1053,537) because another element <div class="rewards-navigation"> obscures it
+            reward_nav = self.driver.find_element_by_class_name('rewards-navigation')
+            reward_nav.click()
+
+            time.sleep(0.25)
+
+            quiz.click()
 
         self.wait('quiz-start-control-buttons', time=3, no_errors=True)
 

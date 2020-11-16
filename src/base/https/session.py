@@ -1,12 +1,13 @@
 import time
 import json
 import subprocess
+import requests
 import sys
 import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from app import path
+from app import path, __version__
 from base.common import establishConnection, convert_to_time, calculate_percentage, retreive_temp_data
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
@@ -76,7 +77,7 @@ class Session(QObject):
         connect()
 
         with open(self.database.filename, 'w') as f:
-            subprocess.call([path+'github_db.exe', '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
+            subprocess.call([path('github_db.exe'), '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
             content = retreive_temp_data(self.database.folder)
             json.dump(content, f, indent=3)
 
@@ -143,6 +144,12 @@ class Session(QObject):
                     break
                 if self.tassomai.is_bonus_complete and self.bonusGoal:
                     break
+                if __version__ != (version := self.get_version()):
+                    self.logger.emit('TYPES=[(#c8001a, BOLD), Your Tassomai Automation is outdated! '
+                                     f'Please update to the newest version v{version} for better performance.]', {})
+                    print(f"Your Tassomai Automation is outdated! Please update to the newest version v{version} for better performance.")
+                    self.ui.terminate_session()
+
                 self.logger.emit(f'COLOR=(#0c5d09, Starting up quiz {quiz+1}.)', {'newlinesbefore': 1})
                 print(f"\nQuiz {quiz+1}")
 
@@ -152,7 +159,6 @@ class Session(QObject):
                 self.logger.emit(title, {'color': '#7214ff', 'bold': True, 'newlinesafter': 2})
                 print(f"{title}\n")
 
-                to_update = {}
                 for section in range(self.tassomai.sections):
                     question = self.tassomai.get_current_question(section)
 
@@ -177,26 +183,38 @@ class Session(QObject):
                         self.selenium.driver.quit()
                         return
 
-                    if question in to_update:
-                        if type(to_update[question]) == list:
-                            to_update[question].append(answer)
-                        else:
-                            to_update[question] = [to_update[question], answer] # multiple possibilities
+                    db = self.database.all()
+
+                    if question in db:
+                        if type(db[question]) == str:
+                            if db[question] != answer:
+                                db[question] = [db[question], answer]
+                        elif type(db[question]) == list:
+                            if answer not in db[question]:
+                                db[question].append(answer)
                     else:
-                        to_update.update({question: answer})
+                        db.update({question: answer})
 
                     self.logger.emit(f'COLOR=(#7214ff, Question {section+1}:) '
                                      f'TYPES=[(BOLD, {"#0c5d09" if is_correct else "#c8001a"}), {"Correct" if is_correct else "Incorrect"}]', {})
                     self.logger.emit(f'COLOR=(#7214ff, Correct Answer:) TYPES=[(BOLD, #0c5d09), {answer.replace("[", "(").replace("]", ")")}]', {})
                     print(f"Question {section+1}: {'Correct' if is_correct else 'Incorrect'}")
                     print(f"Correct Answer: {answer.replace('[', '(').replace(']', ')')}")
+
                     if is_correct:
                         self.correct += 1
                     else:
                         self.incorrect += 1
-                    time.sleep(1.60)
 
-                self.database.store(to_update)
+                    time.sleep(1.50)
+
+                self.database.store(db)
+
+                with open(self.database.filename, 'w') as f:
+                    subprocess.call([path('github_db.exe'), '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
+                    content = retreive_temp_data(self.database.folder)
+                    content.update(db)
+                    json.dump(content, f, indent=3)
 
                 if not self.running:
                     self.selenium.driver.close()
@@ -219,7 +237,7 @@ class Session(QObject):
 
                 self.quizes += 1
 
-                subprocess.call([path+'github_db.exe', '-e', self.database.filename], shell=True)
+                subprocess.call([path('github_db.exe'), '-e', self.database.filename], shell=True)
 
             self.shownStats = True
             self.show_stats()
@@ -230,6 +248,10 @@ class Session(QObject):
         self.selenium.driver.close()
         self.selenium.driver.quit()
         self.ui.terminate_session()
+
+    def get_version(self):
+        req = requests.get('https://raw.githubusercontent.com/Gloryness/tassomai-automation/master/version.txt')
+        return req.text.strip()
 
     def show_stats(self):
         if self.ui.showStats:

@@ -1,27 +1,26 @@
 from PyQt5.QtWidgets import QMainWindow, QSizePolicy, QFrame, QFormLayout, QWidget, QGridLayout, QCheckBox, QLabel, \
-            QSpinBox, QHBoxLayout, QLineEdit, QMenuBar, QGroupBox, QTextEdit, QPushButton
+            QSpinBox, QHBoxLayout, QLineEdit, QMenuBar, QMenu, QGroupBox, QTextEdit, QPushButton, QAction
 from PyQt5.QtCore import QMetaObject, QRect, QThread, pyqtSlot
 from PyQt5.QtGui import QPixmap, QFont, QIcon
 
-import os, sys
+import os
+import sys
 
 from base.https.session import Session
 from base.output import OutputSender
+from base.common import is_admin
+from gui.updatewindow import UpdateDialog
 from app.cache import Database
+from app import path, __version__
 
 class TassomaiUI(object):
     def __init__(self, main_window: QMainWindow):
         self.win = main_window
-        self.path = __file__
-        if not self.path.endswith(("gui\\mainwindow.py", "gui/mainwindow.py")): # this is when we're using the .exe version
-            self.path = ""
-        else:
-            self.path = self.path.replace("gui\\mainwindow.py", "").replace("\\", "/")
 
     def setupUi(self):
-        self.win.setWindowTitle("Tassomai Automation")
-        self.win.setWindowIcon(QIcon(self.path + 'images/logo.png'))
-        self.win.resize(665, 510)
+        self.win.setWindowTitle(f"Tassomai Automation v{__version__}")
+        self.win.setWindowIcon(QIcon(path('images', 'logo.png')))
+        self.win.resize(665, 530)
 
         self.centralwidget = QWidget(self.win)
 
@@ -46,7 +45,7 @@ class TassomaiUI(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.tassomaiImage.sizePolicy().hasHeightForWidth())
         self.tassomaiImage.setSizePolicy(sizePolicy)
-        self.tassomaiImage.setPixmap(QPixmap(self.path + "images/banner.png"))
+        self.tassomaiImage.setPixmap(QPixmap(path('images', 'banner.png')))
         self.gridLayout.addWidget(self.tassomaiImage, 0, 0, 1, 1)
 
         self.formLayout.setWidget(0, QFormLayout.SpanningRole, self.topFrame)
@@ -157,6 +156,15 @@ class TassomaiUI(object):
         self.win.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(self.win)
         self.menubar.setGeometry(QRect(0, 0, 665, 21))
+
+        self.tools_menu = QMenu(self.menubar)
+
+        self.update_option = QAction()
+
+        self.tools_menu.addAction(self.update_option)
+
+        self.menubar.addAction(self.tools_menu.menuAction())
+
         self.win.setMenuBar(self.menubar)
 
         self.retranslateUi()
@@ -174,6 +182,8 @@ class TassomaiUI(object):
         self.pathToGeckoLabel.setText("PATH to geckodriver.exe (Firefox WebDriver)")
         self.startButton.setText("Start Automation")
         self.stopButton.setText("Stop Automation")
+        self.tools_menu.setTitle("Tools")
+        self.update_option.setText("Update")
         self.startButton.setEnabled(True)
         self.stopButton.setEnabled(False)
         self.output.setHtml("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -203,7 +213,16 @@ class Window(QMainWindow):
         self.ui.emailTassomai.setText(self.cache.get('email'))
         self.ui.passwordTassomai.setText(self.cache.get('password'))
 
+        self.ui.update_option.triggered.connect(self.showUpdateDialog)
+
         self.createWorkers()
+
+        if is_admin():
+            self.showUpdateDialog()
+
+    def showUpdateDialog(self):
+        update = UpdateDialog(self)
+        update.show()
 
     def closeEvent(self, event):
         if self.session_thread.isRunning():

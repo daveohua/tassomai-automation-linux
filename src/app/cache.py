@@ -20,7 +20,7 @@ class Database:
 
         if self.filename == 'answers.json':
             with open(self.filename, 'w') as f:
-                subprocess.call([path+'github_db.exe', '-p', self.folder, '-g'], shell=True)
+                subprocess.call([path('github_db.exe'), '-p', self.folder, '-g'], shell=True)
                 content = retreive_temp_data(self.folder)
                 json.dump(content, f, indent=3)
 
@@ -70,8 +70,7 @@ class Database:
         with open(self.filename) as f:
             data = json.load(f)
 
-        for key in dictionary:
-            data[key] = dictionary[key]
+        data.update(dictionary)
 
         with open(self.filename, 'w') as f:
             json.dump(data, f, indent=3)
