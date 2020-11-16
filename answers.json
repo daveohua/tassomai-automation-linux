@@ -7,10 +7,7 @@
    "Diffusion is the process by which\u2026": "[ALL of these]",
    "The SPECIFIC HEAT CAPACITY of a material depends on\u2026": "the SUBSTANCE from which it is made",
    "The particles in GASES are\u2026": "spread FAR APART",
-   "The particles in LIQUIDS are\u2026": [
-      "moving MORE RAPIDLY on average than they are in the SOLID state",
-      "LOOSELY packed"
-   ],
+   "The particles in LIQUIDS are\u2026": "LOOSELY packed",
    "[Fill in the blank]: Viruses may --- host cells.": "[ALL of these]",
    "Which of these HUMAN activities will lead to an INCREASE in atmospheric greenhouse gases such as methane and CO\n2\n?": "[ALL of these]",
    "Water that has not yet been PURIFIED might contain\u2026": "[ANY of these]",
@@ -437,7 +434,10 @@
    "The ---(1)--- of a gas produces a net force ---(2)--- to any surface.": "1: pressure; 2: perpendicular",
    "CHOLERA is a communicable disease. It can be spread by consuming bacterial diseases in\u2026": "contaminated water",
    "NANOTECHNOLOGY is the name given to\u2026": "the use and control of NANOPARTICLES",
-   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": "It DOESN'T show the FORCES between the particles",
+   "Which of the following statements regarding the LIMITATIONS of using the SIMPLE MODEL to represent STATES of matter is TRUE?": [
+      "All the particles are represented as SPHERES",
+      "It DOESN'T show the FORCES between the particles"
+   ],
    "Metals CONDUCT electricity because\u2026": "DELOCALISED ELECTRONS are free to carry a CHARGE",
    "Particles have the highest kinetic energy in\u2026": "gases",
    "In a metal, the DELOCALISED electrons have the ability to ---(1)--- throughout the metal, so their ELECTROSTATIC effect is ---(2)--- between the structure.": "1: move; 2: shared",
