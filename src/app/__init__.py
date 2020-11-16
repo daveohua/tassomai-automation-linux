@@ -8,9 +8,11 @@ __module__ = os.getcwd()
 
 if not __module__.endswith(("app", "")):
     __module__ = __module__+'\\'
+    github_db = __module__+'github_db.exe'
     is_executable = True
 else:
     __module__ = __module__.replace("app", "").replace("/", "\\")
+    github_db = __module__+'app\\github_db.exe'
     is_executable = False
 
 path = lambda *p: __module__+'\\'.join(p)

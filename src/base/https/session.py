@@ -7,7 +7,7 @@ import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from app import path, __version__
+from app import github_db, __version__
 from base.common import establishConnection, convert_to_time, calculate_percentage, retreive_temp_data
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
@@ -77,7 +77,7 @@ class Session(QObject):
         connect()
 
         with open(self.database.filename, 'w') as f:
-            subprocess.call([path('github_db.exe'), '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
+            subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
             content = retreive_temp_data(self.database.folder)
             json.dump(content, f, indent=3)
 
@@ -211,7 +211,7 @@ class Session(QObject):
                 self.database.store(db)
 
                 with open(self.database.filename, 'w') as f:
-                    subprocess.call([path('github_db.exe'), '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
+                    subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
                     content = retreive_temp_data(self.database.folder)
                     content.update(db)
                     json.dump(content, f, indent=3)
@@ -237,7 +237,7 @@ class Session(QObject):
 
                 self.quizes += 1
 
-                subprocess.call([path('github_db.exe'), '-e', self.database.filename], shell=True)
+                subprocess.call([github_db, '-e', self.database.filename], shell=True)
 
             self.shownStats = True
             self.show_stats()
