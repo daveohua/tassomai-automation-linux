@@ -30,10 +30,7 @@
    "Variation within a species occurs through\u2026": "[BOTH of these]",
    "When a person has a baby, what is the percentage chance that they will have a biologically FEMALE baby?": "50%",
    "What evidence do we have for EVOLUTION?": "[BOTH of these]",
-   "Which of these are magnetic?": [
-      "[ALL of these]",
-      "Iron"
-   ],
+   "Which of these are magnetic?": "[ALL of these]",
    "When a CONDUCTOR carrying a CURRENT is placed in a MAGNETIC field, the size of the FORCE on the conductor depends on the\u2026": "[BOTH of these]",
    "A material that is MAGNETICALLY SOFT can\u2026": "ONLY be TEMPORARILY magnetised",
    "[Fill in the blank]: An INCREASED exposure to RADIATION would --- the RISK of sickness or tumours.": "increase",
@@ -1318,7 +1315,7 @@
    "An ELECTROMAGNET is a\u2026": "solenoid with a SOFT IRON core",
    "In magnets, 2 of the SAME pole will do what to each other?": "Repel",
    "A MAGNETIC field exists around\u2026": "a wire carrying a current",
-   "When a CURRENT flows through a CONDUCTING wire, a MAGNETIC field is produced around the wire. The STRENGTH of the magnetic field is GREATER...": "[EITHER of these]",
+   "When a CURRENT flows through a CONDUCTING wire, a MAGNETIC field is produced around the wire. The STRENGTH of the magnetic field is GREATER...": "CLOSER to the wire",
    "Which of these will help to INCREASE the strength of a magnetic field of a SOLENOID?": "An iron core",
    "Here are some examples of WAVES that can be observed or detected. Which of these is a LONGITUDINAL wave?": "The movement of the rungs of a SPRING as it bounces",
    "Which quantity is measured in HERTZ (Hz)?": "Frequency (f)",
@@ -1701,5 +1698,7 @@
    "Here are some examples of WAVES that can be detected. Which of these is a TRANSVERSE wave?": "The wave shape moving along a WHIP as it's CRACKED",
    "When drawing a RAY DIAGRAM, you should draw ARROWS on the light rays\u2026": "pointing AWAY from the light source",
    "The process of selective breeding involves\u2026": "[ALL of these]",
-   "Excretory products, faeces and dead bodies may be used as the starting point for other food chains. How is this possible?": "[ALL of these]"
+   "Excretory products, faeces and dead bodies may be used as the starting point for other food chains. How is this possible?": "[ALL of these]",
+   "Which of these converts ELECTRICAL energy to KINETIC energy?": "A motor",
+   "When a CURRENT flows through a CONDUCTING wire, a MAGNETIC field is produced around the wire. The STRENGTH of the magnetic field DECREASES...": "[BOTH of these]"
 }
