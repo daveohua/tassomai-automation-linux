@@ -118,19 +118,13 @@
    "CHANGES of STATE are always ---(1)--- changes, as the material ---(2)--- properties if the change is REVERSED.": "1: physical; 2: recovers its original",
    "HEATING a CLOSED system will change its...": "energy",
    "What stays the SAME during the time in which substances are undergoing a CHANGE OF STATE? [*BE CAREFUL; there are many versions of this question but with different ANSWERS!]": "The MASS of the substance",
-   "The particles in SOLIDS are\u2026": [
-      "moving LESS RAPIDLY on average than they are in the liquid state",
-      "CLOSELY packed"
-   ],
+   "The particles in SOLIDS are\u2026": "moving LESS RAPIDLY on average than they are in the liquid state",
    "On a HEATING and COOLING graph, what does a HORIZONTAL segment between two diagonal segments represent?": "The change of STATE",
    "The specific LATENT heat of FUSION is the energy REQUIRED for a change of state from a\u2026": "solid to a liquid",
    "The SPECIFIC HEAT CAPACITY of an object is the HEAT energy required to\u2026": "increase the temperature of 1kg by 1\u00baC",
    "The equation governing SPECIFIC HEAT CAPACITY is given as \u0394E = mc\u0394\u03b8. What does the m represent?": "Mass",
    "Heating a closed system will RAISE the temperature and may produce changes of\u2026": "state",
-   "On a HEATING and COOLING graph, which quantity is measured on the y-axis?": [
-      "[EITHER of these]",
-      "Temperature (\u00baC)"
-   ],
+   "On a HEATING and COOLING graph, which quantity is measured on the y-axis?": "[EITHER of these]",
    "The specific LATENT heat of VAPORISATION is the energy REQUIRED for a change of state from a\u2026": "liquid to a vapour",
    "Which of these formulae is used to work out the ENERGY required for a CHANGE OF STATE?": "E = m x L [energy = mass x specific latent heat]",
    "How do we know that the specific heat capacity of water is 4.2J/g\u00baC?": "We can measure the rise in temperature of a KNOWN MASS of water from a KNOWN AMOUNT of HEAT energy, then calculate: energy / (mass x temp rise)",
@@ -1761,5 +1755,6 @@
    "METHANE is produced by DECOMPOSERS during which kind of respiration?": "Anaerobic",
    "INCREASING the PRESSURE on a certain reaction at equilibrium causes NO CHANGE in the concentration of the reactants or products. This means that\u2026": "in the equation, the number of molecules of reactants is the SAME as the number of molecules of products",
    "In a reversible reaction AT EQUILIBRIUM, if the concentration of one reactant or product is changed\u2026": "the system is NO LONGER at equilibrium",
-   "Which of these is the correct definition for DYNAMIC EQUILIBRIUM?": "The point in a reversible reaction at which the RATE of the forward and reverse reaction are EQUAL such that the amount of products and reactants remains constant"
+   "Which of these is the correct definition for DYNAMIC EQUILIBRIUM?": "The point in a reversible reaction at which the RATE of the forward and reverse reaction are EQUAL such that the amount of products and reactants remains constant",
+   "If SPECIFIC LATENT HEAT (\nL\nL\n) of water is 3340 J/kg and its mass (\nm\nm\n) is 2000g, what is the ENERGY (\nE\nE\n) required for a CHANGE of STATE? [CHECK the UNITS]": "E = m  x L =  {2000 / 1000}  x3340 = 6680 ,J"
 }
