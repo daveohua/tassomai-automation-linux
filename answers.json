@@ -1625,5 +1625,6 @@
    "One can calculate the PERCENTAGE YIELD of a reaction by dividing the\u2026": "amount of product ACTUALLY produced by the amount of PRODUCT that could POTENTIALLY have been produced (x100)",
    "How many PARTICLES are there in 0.5 moles of hydrogen (Ar = 1)? [Look carefully at the numbers in superscript!]": "No. of particles = moles x Avogadro's constant (N\u1d00) = 0.5 x (6.022 x 10) = 3.011 x 10^{23} ^{23}",
    "Electrolysis of aqueous FeBr\n2\nis carried out. The correct HALF-EQUATION for the reaction at the CATHODE is\u2026": "2H^+ + 2e^- \u2192 H_2",
-   "How many moles of carbon atoms (A\nr\n=12) make a mass of 60g?": "{Moles (n)} =  {{mass (m)} / {atomic mass (Ar)}} = {60 / 12} = 5{ mol}"
+   "How many moles of carbon atoms (A\nr\n=12) make a mass of 60g?": "{Moles (n)} =  {{mass (m)} / {atomic mass (Ar)}} = {60 / 12} = 5{ mol}",
+   "MAGNESIUM has 3 ISOTOPES of differing mass and in different proportions [\n24\nMg\n\u2212\n79\n%\n,\n25\nMg\n\u2212\n10\n%\n,\n26\nMg\n\u2212\n11\n%\n24\n]. Which of these demonstrates how we calculate its relative atomic mass (Ar) in g/mol?": "{(79 x 24)+(10 x25)+(11 x 26) / 100}=24.3"
 }
