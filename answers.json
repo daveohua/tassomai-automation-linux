@@ -354,7 +354,11 @@
    "Fractional distillation works by separating compounds within crude oil based on their\u2026": "boiling points",
    "The difference between AEROBIC and ANAEROBIC respiration in muscles is that\u2026": "ANAEROBIC respiration does NOT require OXYGEN",
    "Which of these is the correct word equation for AEROBIC respiration?": "Glucose + oxygen \u2192 carbon dioxide + water [+ENERGY]",
-   "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": "used for RESPIRATION",
+   "In PLANTS, the GLUCOSE produced from PHOTOSYNTHESIS can be\u2026": [
+      "used for RESPIRATION",
+      "converted into insoluble STARCH for storage",
+      "used to produce FAT or OIL for storage"
+   ],
    "Assuming there is no other LIMITING factor, what effect will a small INCREASE in UV light have on the rate of photosynthesis?": "It would be HIGHER",
    "Food molecules, once broken down, are absorbed in the\u2026": "ileum (small intestine)",
    "What sort of structure is the LINING of the SMALL INTESTINE?": "A tissue",
