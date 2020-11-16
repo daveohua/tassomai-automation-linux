@@ -643,7 +643,7 @@
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
    "Group 1 metals have one electron in their outer shells. As you go down the group the metals have more shells, meaning that the outer shell is further away. This\u2026": "makes it EASIER to lose electrons",
-   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": "DIPLOID cells copy and divide by MITOSIS to produce TWO DIPLOID daughter cells: this is normal CELL DIVISION",
+   "Here are some statements about GENETICS, which may (or may not) have some fairly tricky inaccuracies. Click on the TRUE statement.": "DIPLOID cells copy and divide by MEIOSIS, to produce FOUR HAPLOID daughter cells: this is SEX CELL PRODUCTION",
    "A plant CELL WALL is made up of tough ---(1)--- and functions as ---(2)--- to the cell.": "1: cellulose; 2: support",
    "Genetically IDENTICAL clones of a PARENT cell are produced by which process?": "Mitosis",
    "[TRUE or FALSE?]: Nanoparticles have many uses in the fields of medicine, electronics, cosmetics and as catalysts.": "TRUE: Nanotechnology is a relatively NEW field with lots of uses in different fields and many uses YET TO BE DISCOVERED",
@@ -1770,5 +1770,6 @@
    "Which of the following are all FRACTIONS obtained from CRUDE OIL?": "LPG, petrol, diesel, paraffin",
    "Having the SAME two ALLELES of the same GENE is defined as being\u2026": "homozygous",
    "Which of these provides evidence for EVOLUTION?": "[BOTH of these]",
-   "VARIATION between individuals of the SAME species is\u2026": "caused by both GENETICS and ENVIRONMENTAL factors"
+   "VARIATION between individuals of the SAME species is\u2026": "caused by both GENETICS and ENVIRONMENTAL factors",
+   "Which of these defines the term GENOME?": "ALL of the genetic information of an organism"
 }
