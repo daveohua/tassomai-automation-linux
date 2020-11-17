@@ -36,7 +36,10 @@
    "Variation within a species occurs through\u2026": "[BOTH of these]",
    "When a person has a baby, what is the percentage chance that they will have a biologically FEMALE baby?": "50%",
    "What evidence do we have for EVOLUTION?": "[BOTH of these]",
-   "Which of these are magnetic?": "[ALL of these]",
+   "Which of these are magnetic?": [
+      "[ALL of these]",
+      "Iron"
+   ],
    "When a CONDUCTOR carrying a CURRENT is placed in a MAGNETIC field, the size of the FORCE on the conductor depends on the\u2026": "[BOTH of these]",
    "A material that is MAGNETICALLY SOFT can\u2026": "ONLY be TEMPORARILY magnetised",
    "[Fill in the blank]: An INCREASED exposure to RADIATION would --- the RISK of sickness or tumours.": "increase",
