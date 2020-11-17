@@ -1833,5 +1833,6 @@
    "[TRUE or FALSE?]: In an EXOTHERMIC reaction, the BOND energy of the REACTANTS is GREATER than the PRODUCTS.": "[FALSE]: In an EXOTHERMIC reaction, more energy is released in FORMING the PRODUCTS' bonds than is required to BREAK the REACTANTS' bonds",
    "What is the total ENERGY CHANGE in the reaction \"CH\n4\n+ Cl\n2\n\u2192 CH\n3\nCl + HCl\" [Bond energies (kJ/mol): Cl-Cl = 243, C-H = 411, C-Cl = 331, H-Cl = 431]": "(4 x 411) + 243 - (3 x 411) - 331 - 431= -108 kJ/mol",
    "The SMALLER HYDROCARBON molecules derived from the fractional distillation of CRUDE OIL will have ---(1)--- BOILING points due to ---(2)--- intermolecular forces.": "1: lower; 2: weaker",
-   "Propane has the molecular formula\u2026": "C_3H_8"
+   "Propane has the molecular formula\u2026": "C_3H_8",
+   "Which of these statements regarding ALTERNATIVE methods of metal EXTRACTION is TRUE?": "Using ALTERNATIVE methods allows EXTRACTION from WASTE material"
 }
