@@ -1830,5 +1830,6 @@
    "Which of these terms is best described as 'a rapid involuntary response to a stimulus to prevent it from coming to harm'?": "Reflex arc",
    "The TIME taken for the number of radioactive ---(1)--- of an isotope to HALVE is known as the ---(2)---.": "1: nuclei; 2: half-life",
    "Staff at institutions with a HIGH RISK of RADIATION exposure are\u2026": "checked FREQUENTLY and REGULARLY for any damage to their health",
-   "[TRUE or FALSE?]: In an EXOTHERMIC reaction, the BOND energy of the REACTANTS is GREATER than the PRODUCTS.": "[FALSE]: In an EXOTHERMIC reaction, more energy is released in FORMING the PRODUCTS' bonds than is required to BREAK the REACTANTS' bonds"
+   "[TRUE or FALSE?]: In an EXOTHERMIC reaction, the BOND energy of the REACTANTS is GREATER than the PRODUCTS.": "[FALSE]: In an EXOTHERMIC reaction, more energy is released in FORMING the PRODUCTS' bonds than is required to BREAK the REACTANTS' bonds",
+   "What is the total ENERGY CHANGE in the reaction \"CH\n4\n+ Cl\n2\n\u2192 CH\n3\nCl + HCl\" [Bond energies (kJ/mol): Cl-Cl = 243, C-H = 411, C-Cl = 331, H-Cl = 431]": "(4 x 411) + 243 - (3 x 411) - 331 - 431= -108 kJ/mol"
 }
