@@ -676,7 +676,10 @@
    "Which of the following is an ADVANTAGE of vaccinations?": "[ALL of these]",
    "Diamond has a\u2026": "giant covalent structure",
    "Group 0 elements have a full ---(1)--- shell of electrons, meaning that they are highly ---(2)---, which makes them UNREACTIVE.": "1: outer; 2: stable",
-   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": "[BOTH of these]",
+   "Group 0 elements are also known as NOBLE gases. Noble gases are\u2026": [
+      "[BOTH of these]",
+      "inert"
+   ],
    "The transition metal COBALT (Co) is ---(1)--- than the group 1 alkali metal ---(2)---.": "1: harder; 2: caesium",
    "Group 7 elements are called\u2026": "halogens",
    "The MASS NUMBER is the\u2026": "SUM of the number of PROTONS and NEUTRONS in one atom of a particular element",
