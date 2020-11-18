@@ -346,7 +346,10 @@
    "The NERVOUS SYSTEM does NOT include\u2026": "the pancreas",
    "FSH stimulates the maturation of follicles, which\u2026": "stimulates oestrogen production",
    "Why is HOMEOSTASIS necessary?": "Maintaining a CONSTANT INTERNAL ENVIRONMENT ensures that METABOLIC PROCESSES will be able to work at their optimum level",
-   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": "POSITIVELY charged aluminium ions gain electrons from the cathode",
+   "Which of these statements regarding the EXTRACTION of ALUMINIUM using ELECTROLYSIS is TRUE?": [
+      "POSITIVELY charged aluminium ions gain electrons from the cathode",
+      "[BOTH of these]"
+   ],
    "The positive electrode, made of GRAPHITE (CARBON), must be CONTINUALLY REPLACED in the extraction of ALUMINIUM because \u2026": "it reacts with OXYGEN IONS to form CO\u2082, a gas",
    "The circulation of blood FROM the body as it enters HEART'S DOUBLE PUMP can be broken into FOUR steps. What happens LAST?": "OXYGENATED blood is pumped to the body via the AORTA",
    "The type of energy that is used for RESPIRATION is\u2026": "chemical",
