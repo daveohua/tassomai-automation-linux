@@ -1025,7 +1025,10 @@
    "Deoxygenated blood in the RIGHT ATRIUM is pumped into the\u2026": "right ventricle",
    "If an electric KETTLE has a power rating of 2 kW and takes 3 minutes to boil, how much ENERGY is TRANSFERRED?": "E={Pt} = (2 x10^3) x(3 x60) = 360000J=360{kJ}",
    "Which of these is drawn as a triangle next to a thick line with arrows pointing away?": "An LED",
-   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": "a hydroxide solution",
+   "Alkali metals (lithium, sodium, potassium) react with WATER to produce\u2026": [
+      "a hydroxide solution",
+      "hydrogen gas"
+   ],
    "What is the difference between an ATOM and an ION?": "ATOMS are UNCHARGED whilst IONS are CHARGED",
    "NANOPARTICLES are used as ---(1)--- because they react very quickly, this is due to their ---(2)---.": "1: catalysts; 2: HIGH surface area to volume ratio",
    "HEART RATE can be increased by\u2026": "EXERCISE, which increases the muscles' demand for oxygen",
