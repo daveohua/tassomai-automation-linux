@@ -1706,7 +1706,10 @@
    "Which features of an arrow represent different qualities of a VECTOR quantity?": "[BOTH of these]",
    "When calculating WORK DONE, what must be remembered about the measurements?": "The DISTANCE measured and the action of the FORCE must have the SAME DIRECTION",
    "A VECTOR quantity is one that\u2026": "has BOTH MAGNITUDE (size) and DIRECTION",
-   "Objects can interact at a distance WITHOUT contact through\u2026": "gravitational forces",
+   "Objects can interact at a distance WITHOUT contact through\u2026": [
+      "gravitational forces",
+      "[EITHER of these]"
+   ],
    "Objects MUST be PHYSICALLY touching for them to experience\u2026": "contact forces",
    "HOOKE'S LAW tells us that the restoring FORCE of a distorted object is ---(1)--- PROPORTIONAL to ---(2)---.": "1: directly; 2: its EXTENSION: F = ke",
    "When a woman's EGG is FERTILISED, the lining of the UTERUS is ---(1)--- in order to ---(2)---.": "1: maintained; 2: allow the egg to embed",
