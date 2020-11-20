@@ -12,7 +12,11 @@
     <a href="https://github.com/Gloryness/tassomai-automation/pulls">Send a Pull Request</a>
   </p>
 </p>
-  
+
+----------------------
+**As of `20/11/20`, I will be working on using the `requests` libary as I have came up with a solution to using them which is faster than `selenium` which now no longer works due to new Tassomai security.**
+----------------------
+
 # Installation
 
 Python 3.8+ recommended.
@@ -75,7 +79,7 @@ This is very useful for scheduling the automation with Windows Task Scheduler on
 
 7. This is all for 1 question. It will do this X times (depending on how many sections there are in the quiz)
 
-8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online <a href="https://github.com/Gloryness/tassomai-automation/blob/master/answers.json">here.</a>
+8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online in a private repository that is not viewable by any third party due to in violation of Tassomai TOS.
 
 **Currently as of 13/11/20 at 20:33 PM GMT, 1313 questions have been answered!**
 
