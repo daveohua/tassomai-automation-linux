@@ -83,4 +83,4 @@ This is very useful for scheduling the automation with Windows Task Scheduler on
 **Currently as of 13/11/20 at 20:33 PM GMT, 1313 questions have been answered!**
 
 # Overview
-<img src="src/images/Tassomai Automation.jpg">
+<img src="src/images/Tassomai Automation.png">
