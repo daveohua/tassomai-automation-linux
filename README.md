@@ -46,7 +46,6 @@ All you need to do is:
 ```bash
 $ "Tassomai Automation".exe -h
   -h, --help                              Print this help message and exit
-  -x EXECUTABLE, --executable=EXECUTABLE  Path to webdriver (geckodriver.exe)
   -u USERNAME, --username=USERNAME        Email for Tassomai
   -p PASSWORD, --password=PASSWORD        Tassomai Password
   --no-stats                              Do not show the stats when finished.
