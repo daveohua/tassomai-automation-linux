@@ -3,7 +3,7 @@ import os
 __title__ = 'app'
 __author__ = 'Gloryness'
 __license__ = 'MIT License'
-__version__ = '1.0.7'
+__version__ = '2020.12.3'
 __module__ = os.getcwd()
 
 if not __module__.endswith("app"):
