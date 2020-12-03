@@ -20,10 +20,6 @@ parser = optparse.OptionParser(**kw)
 parser.add_option('-h', '--help',
                   action='help',
                   help='Print this help message and exit')
-parser.add_option('-x', '--executable',
-                  type=str,
-                  help='Path to webdriver (geckodriver.exe)',
-                  default='')
 parser.add_option('-u', '--username',
                   type=str,
                   help='Email for Tassomai',
@@ -55,7 +51,7 @@ parser.add_option('--gui-frameless',
                   default=False)
 parser.add_option('--frameless',
                   action='store_true',
-                  help='Make firefox frameless',
+                  help='Start Chrome frameless (you will not see the window, but will still run in the background)',
                   default=False)
 parser.add_option('--no-daily',
                   action='store_true',
@@ -84,8 +80,6 @@ if __name__ == '__main__':
             win.ui.emailTassomai.setText(options.username)
         if options.password != '':
             win.ui.passwordTassomai.setText(options.password)
-        if options.executable != '':
-            win.ui.pathToGecko.setText(options.executable)
         if options.no_daily:
             win.ui.dailyGoal.setChecked(False)
         if options.bonus:

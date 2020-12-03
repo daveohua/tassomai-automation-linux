@@ -99,41 +99,35 @@ class TassomaiUI(object):
         self.horizontalLayout.addWidget(self.label2)
         self.gridLayout_2.addLayout(self.horizontalLayout, 1, 0, 1, 1)
 
-        self.seleniumBox = QGroupBox(self.frame)
+        self.userBox = QGroupBox(self.frame)
         font = QFont()
         font.setPointSize(9)
         font.setBold(False)
         font.setWeight(50)
-        self.seleniumBox.setFont(font)
-        self.gridLayout_3 = QGridLayout(self.seleniumBox)
+        self.userBox.setFont(font)
+        self.gridLayout_3 = QGridLayout(self.userBox)
 
-        self.passwordTassomaiLabel = QLabel(self.seleniumBox)
+        self.passwordTassomaiLabel = QLabel(self.userBox)
         self.gridLayout_3.addWidget(self.passwordTassomaiLabel, 2, 0, 1, 1)
 
-        self.emailTassomaiLabel = QLabel(self.seleniumBox)
+        self.emailTassomaiLabel = QLabel(self.userBox)
         self.gridLayout_3.addWidget(self.emailTassomaiLabel, 1, 0, 1, 1)
 
-        self.pathToGeckoLabel = QLabel(self.seleniumBox)
-        self.gridLayout_3.addWidget(self.pathToGeckoLabel, 0, 0, 1, 1)
-
-        self.emailTassomai = QLineEdit(self.seleniumBox)
+        self.emailTassomai = QLineEdit(self.userBox)
         self.gridLayout_3.addWidget(self.emailTassomai, 1, 1, 1, 1)
 
-        self.pathToGecko = QLineEdit(self.seleniumBox)
-        self.gridLayout_3.addWidget(self.pathToGecko, 0, 1, 1, 1)
-
-        self.passwordTassomai = QLineEdit(self.seleniumBox)
+        self.passwordTassomai = QLineEdit(self.userBox)
         self.passwordTassomai.setEchoMode(QLineEdit.Password)
         self.gridLayout_3.addWidget(self.passwordTassomai, 2, 1, 1, 1)
 
-        self.framelessFirefox = QCheckBox(self.seleniumBox)
+        self.framelessChrome = QCheckBox(self.userBox)
         font = QFont()
         font.setPointSize(9)
-        self.framelessFirefox.setFont(font)
-        self.framelessFirefox.setChecked(False)
-        self.gridLayout_3.addWidget(self.framelessFirefox, 3, 0, 1, 1)
+        self.framelessChrome.setFont(font)
+        self.framelessChrome.setChecked(False)
+        self.gridLayout_3.addWidget(self.framelessChrome, 3, 0, 1, 1)
 
-        self.gridLayout_2.addWidget(self.seleniumBox, 0, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.userBox, 0, 0, 1, 1)
 
         self.formLayout.setWidget(3, QFormLayout.SpanningRole, self.frame)
 
@@ -173,13 +167,12 @@ class TassomaiUI(object):
     def retranslateUi(self):
         self.dailyGoal.setText("Finish when daily goal complete")
         self.bonusGoal.setText("Finish when bonus goal complete")
-        self.framelessFirefox.setText("Enable Frameless Window (runs in background)")
+        self.framelessChrome.setText("Enable Frameless Window (runs in background)")
         self.label1.setText("Only do a maximum of ")
         self.label2.setText(" quiz(s)")
-        self.seleniumBox.setTitle("Selenium Settings")
+        self.userBox.setTitle("User Settings")
         self.passwordTassomaiLabel.setText("Password for Tassomai login")
         self.emailTassomaiLabel.setText("Email for Tassomai login")
-        self.pathToGeckoLabel.setText("PATH to geckodriver.exe (Firefox WebDriver)")
         self.startButton.setText("Start Automation")
         self.stopButton.setText("Stop Automation")
         self.tools_menu.setTitle("Tools")
@@ -209,7 +202,6 @@ class Window(QMainWindow):
         self.database = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'answers.json')
         self.cache = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'info.json')
 
-        self.ui.pathToGecko.setText(self.cache.get('path'))
         self.ui.emailTassomai.setText(self.cache.get('email'))
         self.ui.passwordTassomai.setText(self.cache.get('password'))
 

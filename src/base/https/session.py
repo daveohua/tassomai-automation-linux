@@ -3,6 +3,7 @@ import json
 import subprocess
 import requests
 import sys
+import os
 import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
@@ -34,7 +35,7 @@ class Session(QObject):
         self.ui.ui.startButton.setEnabled(False)
         self.ui.ui.stopButton.setEnabled(True)
 
-        self.geckoPath = self.ui.ui.pathToGecko.text()
+        self.geckoPath = "chromedriver.exe"
         self.email = self.ui.ui.emailTassomai.text()
         self.password = self.ui.ui.passwordTassomai.text()
         self.maxQuizes = self.ui.ui.maxQuizes.text()
@@ -52,15 +53,14 @@ class Session(QObject):
             self.logger.emit('TYPES=[(#c8001a, BOLD), Must include password.]', {})
             print("Must include password.")
             return
-        if len(self.geckoPath) < 1:
-            self.logger.emit('TYPES=[(#c8001a, BOLD), Must include path to geckodriver. '
-                             'If it\'s in the same directory then enter \'geckodriver.exe\']', {})
-            print("Must include path to geckodriver. If it\'s in the same directory then enter \'geckodriver.exe\'")
+        if not os.path.isfile(self.geckoPath):
+            self.logger.emit('TYPES=[(#c8001a, BOLD), chromedriver.exe not found. (must have it within the same directory).]', {})
+            print("chromedriver.exe not found. (must have it within the same directory).")
             return
 
         self.timer = time.perf_counter()
 
-        self.cache.store({'path': self.geckoPath, 'email': self.email, 'password': self.password})
+        self.cache.store({'email': self.email, 'password': self.password})
 
         def connect():
             self.logger.emit('TYPES=[(#0066cc, BOLD), Establishing a connection...]', {})
@@ -76,22 +76,25 @@ class Session(QObject):
                 connect()
         connect()
 
+        data = self.database.all()
+
         with open(self.database.filename, 'w') as f:
             subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
             content = retreive_temp_data(self.database.folder)
+            content.update(data)
             json.dump(content, f, indent=3)
 
         self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Public Answers Database!]', {'newlinesafter': 2})
         print("Successfully updated local database by fetching the Public Answers Database!\n")
 
-        self.logger.emit('TYPES=[(BOLD, #0066cc), Loading Firefox...]', {})
-        print("Loading Firefox...")
+        self.logger.emit('TYPES=[(BOLD, #0066cc), Loading Chrome...]', {})
+        print("Loading Chrome...")
 
         try:
             self.selenium = Selenium(self, self.geckoPath)
             self.selenium.start()
         except:
-            self.logger.emit('TYPES=[(#c8001a, BOLD), Unable to load Firefox.]', {})
+            self.logger.emit('TYPES=[(#c8001a, BOLD), Unable to load Chrome.]', {})
             print("Unable to load Firefox.")
             logging.error(traceback.format_exc())
             return
@@ -199,7 +202,7 @@ class Session(QObject):
                                      f'TYPES=[(BOLD, {"#0c5d09" if is_correct else "#c8001a"}), {"Correct" if is_correct else "Incorrect"}]', {})
                     self.logger.emit(f'COLOR=(#7214ff, Correct Answer:) TYPES=[(BOLD, #0c5d09), {answer.replace("[", "(").replace("]", ")")}]', {})
                     print(f"Question {section+1}: {'Correct' if is_correct else 'Incorrect'}")
-                    print(f"Correct Answer: {answer.replace('[', '(').replace(']', ')')}")
+                    print(f"Correct Answer: {answer.replace('[', '(').replace(']', ')')}\n")
 
                     if is_correct:
                         self.correct += 1
