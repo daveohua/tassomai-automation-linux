@@ -14,8 +14,7 @@
 </p>
 
 ----------------------
-**As of `20/11/20`, I will be working on using the `requests` libary as I have came up with a solution to using them which is faster than `selenium` which now no longer works due to new Tassomai security.**
-
+**Currently working a version of the bot that uses the `requests` module instead which will run 10x more faster than using `selenium`.**
 
 # Installation
 
@@ -31,7 +30,6 @@ OR:
 - <a href="https://github.com/Gloryness/tassomai-automation/raw/master/exe/Tassomai%20Automation.zip">Download the .exe version</a>
 
 # How To Use
-- Enter path to geckodriver (Firefox webdriver)
 - Enter Tassomai username
 - Enter Tassomai password
 - You can provide options such as 'Only do a maximum of X quizes' or 'Finish when daily/bonus goal complete'.
@@ -53,7 +51,7 @@ $ "Tassomai Automation".exe -h
   --max-quizes=NUMBER                     Maximum number of quizes to do
   --start                                 Automatically start the automation
   --gui-frameless                         Make the GUI hidden but still runs in the background.
-  --frameless                             Make firefox frameless
+  --frameless                             Make Chrome frameless
   --no-daily                              Do not finish when daily goal is complete.
   --bonus                                 Finish when bonus goal is complete.
 ```
@@ -80,7 +78,7 @@ This is very useful for scheduling the automation with Windows Task Scheduler on
 
 8. At the end of the quiz, it will grab the dictionary in `answers.json` and store it online in a private repository that is not viewable by any third party due to in violation of Tassomai TOS.
 
-**Currently as of 13/11/20 at 20:33 PM GMT, 1313 questions have been answered!**
+**Currently as of 4/12/20, 2500+ questions have been answered!**
 
 # Overview
 <img src="src/images/Tassomai Automation.png">
