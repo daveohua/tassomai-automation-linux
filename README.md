@@ -14,8 +14,7 @@
 </p>
 
 ----------------------
-**As of `20/11/20`, I will be working on using the `requests` libary as I have came up with a solution to using them which is faster than `selenium` which now no longer works due to new Tassomai security.**
-
+**Currently working a version of the bot that uses the `requests` module instead which will run 10x more faster than using `selenium`.**
 
 # Installation
 
