@@ -8,7 +8,7 @@ import logging, traceback
 
 from PyQt5.QtCore import QObject, pyqtSignal
 
-from app import github_db, __version__
+from app import github_db, is_executable, path, __version__
 from base.common import establishConnection, convert_to_time, calculate_percentage, retreive_temp_data
 from base.https.webdriver import Selenium
 from base.https.tassomai import Tassomai
@@ -35,7 +35,10 @@ class Session(QObject):
         self.ui.ui.startButton.setEnabled(False)
         self.ui.ui.stopButton.setEnabled(True)
 
-        self.geckoPath = "chromedriver.exe"
+        if is_executable:
+            self.geckoPath = path('bin', 'chromedriver.exe')
+        else:
+            self.geckoPath = "chromedriver.exe"
         self.email = self.ui.ui.emailTassomai.text()
         self.password = self.ui.ui.passwordTassomai.text()
         self.maxQuizes = self.ui.ui.maxQuizes.text()
