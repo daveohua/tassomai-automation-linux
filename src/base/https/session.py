@@ -112,7 +112,7 @@ class Session(QObject):
                 if not self.running:
                     subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
                     content = retreive_temp_data(self.database.folder)
-                    content.update(database)
+                    content.update(self.tassomai.database)
                     database = {key: value for key, value in
                                 sorted(content.items(), key=lambda item: item[0])}
                     self.database.store(database)
@@ -179,7 +179,7 @@ class Session(QObject):
                 if not self.running:
                     subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
                     content = retreive_temp_data(self.database.folder)
-                    content.update(database)
+                    content.update(self.tassomai.database)
                     database = {key: value for key, value in
                                 sorted(content.items(), key=lambda item: item[0])}
                     self.database.store(database)
@@ -193,7 +193,7 @@ class Session(QObject):
 
         subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
         content = retreive_temp_data(self.database.folder)
-        content.update(database)
+        content.update(self.tassomai.database)
         database = {key: value for key, value in
                     sorted(content.items(), key=lambda item: item[0])}
 
