@@ -9,6 +9,8 @@ __module__ = os.getcwd()
 if not __module__.endswith("app"):
     __module__ = __module__+'\\'
     github_db = __module__+'github_db.exe'
+    if not os.path.isfile(github_db):
+        github_db = 'github_db.exe'
     is_executable = True
 else:
     __module__ = __module__.replace("app", "").replace("/", "\\")
