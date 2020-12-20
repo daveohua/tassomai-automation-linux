@@ -51,7 +51,6 @@ $ "Tassomai Automation".exe -h
   --max-quizes=NUMBER                     Maximum number of quizes to do
   --start                                 Automatically start the automation
   --gui-frameless                         Make the GUI hidden but still runs in the background.
-  --frameless                             Make Chrome frameless
   --no-daily                              Do not finish when daily goal is complete.
   --bonus                                 Finish when bonus goal is complete.
 ```
