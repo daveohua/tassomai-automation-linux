@@ -3,6 +3,10 @@ import ctypes
 import json
 import os
 
+class Variables:
+    def __init__(self, question):
+        self.question = question
+
 def establishConnection():
     """
     Send a HEAD request to www.google.com to establish interet connection.
@@ -17,6 +21,12 @@ def establishConnection():
 
 def calculate_percentage(number, total):
     return round((number/total) * 100, 1)
+
+def prepare(answers):
+    return dict(zip([answer['text'] for answer in answers], ["unknown" for i in range(4)]))
+
+def gather_answers(answers):
+    return list(sorted([answer['text'] for answer in answers]))
 
 def is_admin():
     try:

@@ -1,9 +1,13 @@
 import sys
 import optparse
+import atexit
+import subprocess
 import logging, traceback
 
 from PyQt5.QtWidgets import QApplication
 from youtube_dl.compat import compat_get_terminal_size
+from app import github_db
+from base.common import establishConnection, retreive_temp_data
 
 columns = compat_get_terminal_size().columns # you could call this 'hipity hopity this is now my property'
 max_width = columns if columns else 80
@@ -49,13 +53,9 @@ parser.add_option('--gui-frameless',
                   action='store_true',
                   help='Make the GUI hidden but still runs in the background.',
                   default=False)
-parser.add_option('--frameless',
+parser.add_option('--daily',
                   action='store_true',
-                  help='Start Chrome frameless (you will not see the window, but will still run in the background)',
-                  default=False)
-parser.add_option('--no-daily',
-                  action='store_true',
-                  help='Do not finish when daily goal is complete.',
+                  help='Finish when daily goal is complete.',
                   default=False)
 parser.add_option('--bonus',
                   action='store_true',
@@ -72,25 +72,38 @@ if __name__ == '__main__':
 
         win = Window(show_stats=not options.no_stats, close=options.close)
 
-        if options.frameless:
-            win.ui.framelessFirefox.setChecked(True)
         if not options.gui_frameless:
             win.show()
         if options.username != '':
             win.ui.emailTassomai.setText(options.username)
         if options.password != '':
             win.ui.passwordTassomai.setText(options.password)
-        if options.no_daily:
-            win.ui.dailyGoal.setChecked(False)
-        if options.bonus:
+        if options.daily and options.bonus:
             win.ui.bonusGoal.setChecked(True)
+        else:
+            win.ui.dailyGoal.setChecked(options.daily)
+            win.ui.bonusGoal.setChecked(options.bonus)
 
         win.ui.maxQuizes.setValue(abs(options.max_quizes))
+
+        @atexit.register
+        def on_exit():
+            if establishConnection():
+                print('Updating private database...')
+                subprocess.call([github_db, '-p', win.database.folder, '-g'], shell=True, stdout=sys.stdout)
+                content = retreive_temp_data(win.database.folder)
+                content.update(win.database.all())
+                win.database.store(content)
+
+                subprocess.call([github_db, '-e', win.database.filename], shell=True)
+                print('Successfully updated!')
+            else:
+                print('Unable to update the private database.')
 
         if options.start:
             win.ui.startButton.click()
 
         sys.exit(app.exec())
-    except Exception as e:
+    except Exception:
         if not traceback.format_exc().__contains__('SystemExit'):
             logging.error(traceback.format_exc())

@@ -1,6 +1,5 @@
 pyqt5_tools
-parsel
-selenium
+bs4
 requests
 youtube_dl
 PyGithub

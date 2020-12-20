@@ -1,33 +1,16 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-
 import random
 import requests
 import time
-import re
-from parsel import Selector
+from base.common import prepare, gather_answers
 
 class Tassomai:
     """
     Tassomai class for managing the automation.
     """
-    def __init__(self, driver: webdriver.Firefox, wait):
-        """
-        :param driver: WebDriver class
-        :param wait: The wait function that is assigned to the base.https.webdriver.Selenium class
-        """
-        self.driver = driver
-        self.wait = wait
+    def __init__(self, database):
+        self.database = database
 
-        self.text_xpath = "/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/" \
-                          "quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/swiper/div/div[1]/" \
-                          f"div[%s]/question/div[2]/div[%s]/answer/button/span"
-
-        self.quiz_xpath = "/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/" \
-                          "quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/swiper/div/div[1]/" \
-                          f"div[%s]/question/div[2]/div[%s]/answer/button"
-
-    def login(self, email, password):
+    async def login(self, email, password):
         """
         Log into the Tassomai page.
         """
@@ -52,17 +35,30 @@ class Tassomai:
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0"
         }
 
-        email_input = self.driver.find_element_by_name('email')
-        password_input = self.driver.find_element_by_name('password')
-        email_input.click() # focusing in
-        email_input.send_keys(email)
+    async def extract_quiz_data(self):
+        extra = await self._extract_extra_data()
 
-        password_input.click() # focusing in
-        password_input.send_keys(password)
+        num = random.choice([0, 1])
 
-        time.sleep(0.5)
+        params = {
+            "capabilities": {"image": True, "isMobile": False, "mathjax": True},
+            "playlist": extra['quizzes'][num]['playlistId'],
+            "course": extra['quizzes'][num]['courseId'],
+            "was_recommended": True
+        }
 
-        password_input.send_keys(Keys.ENTER) # Log in
+        while True:
+            self.quiz_data = self.session.post('https://kolin.tassomai.com/api/quiz/', headers=self.headers,
+                                               data=params).json()
+            if 'questions' not in self.quiz_data:
+                continue
+            break
+        return self.quiz_data
+
+    async def _extract_extra_data(self):
+        extra = self.session.get('https://kolin.tassomai.com/api/quiz/next/1/?capabilities=%7B%22'
+                                 'image%22:true,%22isMobile%22:false,%22mathjax%22:false%7D', headers=self.headers)
+        return extra.json()
 
     def check_daily_goal(self):
         """
@@ -109,20 +105,11 @@ class Tassomai:
         return [True if self.check_bonus_goal() >= self.bonus_goal() else False][0]
 
     @property
-    def is_video(self):
-        """
-        Check if you've been recommended a video.
-        """
-        return self.has_xpath_element('//button[@class=\'tutorial-video-skip\']')
-
-    @property
     def title(self):
         """
         Check the title of the quiz.
         """
-        tree = Selector(self.driver.page_source)
-        text = tree.xpath('/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/quiz/div/swiper/div/div[1]/div[1]/h4/text()').get()
-        return text.strip()
+        return self.quiz_data['title']
 
     @property
     def level(self):
@@ -153,208 +140,83 @@ class Tassomai:
         """
         Amount of sections
         """
-        section_xpath = '/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/quiz/div/swiper/' \
-                        'div/div[1]/div[1]/div/navigator/div/div[1]/div/ticker'
-        tree = Selector(self.driver.page_source)
-        text = tree.xpath(section_xpath).getall()
-        return len(text)
+        return len(self.quiz_data['questions'])
 
-    def skip_stats(self):
-        """
-        Skip the Stats.
-        """
-        time.sleep(0.5)
-        try:
-            continue_button = self.driver.find_element_by_xpath('//button[@class=\'continue ng-star-inserted\']')
-        except:
-            return
-        continue_button.click()
+    async def answer_question(self, data):
+        question_timer = time.perf_counter()
+        current_answers = gather_answers(data.question['answers'])
+        sc = str(current_answers)
 
-    def skip_prize(self):
-        """
-        Skip the rewards.
-        """
-        time.sleep(0.5)
-        try:
-            continue_button = self.driver.find_element_by_xpath('//button[@class=\'rewards-navigation-continue ng-star-inserted\']')
-        except:
-            return
-        continue_button.click()
-
-    def skip_video(self):
-        """
-        Skip the Video.
-        """
-        time.sleep(0.5)
-        no_thanks = self.driver.find_element_by_xpath('//button[@class=\'tutorial-video-skip\']')
-        no_thanks.click()
-
-    def process_text(self, section, box):
-        """
-        :param section: The section in the quiz
-        :param box: The box in the current section (1 to 4)
-        :return: The processed text
-        """
-        text_xpath = self.text_xpath % (section+1, box) + '/text()'
-        xpath = '/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/' \
-                'swiper/div/div[1]/div[%s]/question/div[2]/div[%s]/answer/button/span[1]/script/text()'
-
-        tree = Selector(self.driver.page_source)
-        text_answer = tree.xpath(text_xpath).getall() # finding the text
-
-        quiz_id = re.search("quizModal:quiz/\d+", self.driver.current_url)[0].replace("quizModal:quiz/", "")
-        text = self.session.get(f'https://kolin.tassomai.com/api/quiz/fetch/{quiz_id}', headers=self.headers).json()
-
-        if text['questions'][section]['uses_mathjax']:
-            try:
-                answer = ' '.join(tree.xpath(xpath % (section+1, box)).getall())
-            except:
-                return ''.join(text_answer)
-            mathjax = re.split('\\\\\[|\\\\frac|\\\\text |\\\\|]', answer)
-            mathjax = ''.join(mathjax).strip()
-            mathjax = mathjax.replace('times ', " x")
-            mathjax = mathjax.replace('times', " x ")
-            mathjax = mathjax.replace('}{', " / ")
-            return mathjax if len(text_answer) == 0 else ''.join(text_answer)+mathjax
-
-        return ''.join(text_answer)
-
-    def get_current_question(self, section):
-        """
-        :param section: The section in the quiz
-        :return: The question
-        """
-        xpath = "/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/quiz-modal/div[2]/" \
-                "quiz/div/swiper/div/div[1]/div[1]/swiper/div/div[1]/div[3]/swiper/div/div[1]/" \
-                f"div[{section+1}]/question/div[1]/div[2]/div"
-        text = self.driver.find_element_by_xpath(xpath).text
-        return text
-
-    def load_new_quiz(self):
-        """
-        Load up a new quiz.
-        """
-        time.sleep(0.5)
-        xpath = "/html/body/tasso-app/tasso-entry/div/div/learner-dashboard/div/tass-goal-page/div/" \
-                "accomplishments/discipline-dashboard/tass-quiz-suggestions-container/tass-quiz-suggestions/" \
-                "div/div[2]/tass-start-quiz-container[%s]/tass-start-quiz/div/div[2]/div[2]/button"
-        quizes = []
-        for i in range(1, 10):
-            try:
-                quizes.append(self.driver.find_element_by_xpath(xpath % i))
-            except:
-                break
-        quiz = random.choice(quizes)
-        try:
-            quiz.click()
-        except Exception: # Possible solution for: <button class="tasso-button__green"> is not clickable at point
-                          # (1053,537) because another element <div class="rewards-navigation"> obscures it
-            reward_nav = self.driver.find_element_by_class_name('rewards-navigation')
-            reward_nav.click()
-
-            time.sleep(0.25)
-
-            quiz.click()
-
-        self.wait('quiz-start-control-buttons', time=3, no_errors=True)
-
-        if self.has_class_element('quiz-start-control-buttons'):
-            time.sleep(0.5)
-            skip = self.driver.find_element_by_class_name('quiz-start-control-buttons') # skip the start bit
-            skip.click()
-
-        self.wait('quiz-start-continue ng-star-inserted', time=3, no_errors=True)
-
-        if self.has_class_element('quiz-start-continue ng-star-inserted'):
-            time.sleep(0.5)
-            start = self.driver.find_element_by_class_name('quiz-start-continue ng-star-inserted') # continue to quiz
-            start.click()
-
-        self.wait('//button[@class=\'tutorial-video-skip\']', by="XPATH", time=3, no_errors=True)
-
-        if self.is_video:
-            self.skip_video()
-
-    def find_correct_answer(self, section):
-        """
-        :param section: The section in the quiz
-        :return: The correct answer
-        """
-        elements = {}
-        for i in range(1, 5):
-            xpath = self.quiz_xpath % (section + 1, i)
-
-            text = self.process_text(section, i) # finding the text
-
-            quiz = self.driver.find_element_by_xpath(xpath)
-            elements[quiz] = text
-        
-        for element in elements:
-            color = list(map(int, element.value_of_css_property('background-color').strip('rgba()').split(', ')))
-            if color[0] == 201 and color[1] == 240 and color[2] == 195:
-                return elements[element]
-
-    def list_answers(self, section):
-        """
-        :param section: The section in the quiz
-        :return: A list of all answers
-        """
-        time.sleep(0.10)
-        answer_boxes = [self.driver.find_element_by_xpath(self.quiz_xpath % (section + 1, i)) for i in range(1, 5)]
-        return answer_boxes
-
-    def answer_random(self, section):
-        """
-        :param section: The section in the quiz
-        :return A random answer
-        """
-        box = random.randint(0, 3)
-        return self.answer(section, box)
-
-    def answer_from_database(self, database, section):
-        """
-        Using the database, loop through the answers for the section and see if the text is equal to the value in the database
-        :param database: Database object
-        :param section: The section in the quiz
-        """
-        answer = database.get(self.get_current_question(section)) # getting the answer
-        for i in range(1, 5):
-            text = self.process_text(section, i)
-
-            if type(answer) == list:
-                if text in answer:  # looping through all the boxes and seeing which box is in the list
-                    break
-            else:
-                if answer == text: # looping through all the boxes and seeing which box is equal to the answer
-                    break
-
-        return self.answer(section, i-1)
-
-    def answer(self, section, box):
-        """
-        Answer section X, box X
-        :param section: The section in the quiz
-        :param box: The box in the current section (1 to 4)
-        """
-        answer_boxes = self.list_answers(section)
-        answer_boxes[box].click()
-        time.sleep(0.50)
-        color = list(map(int, answer_boxes[box].value_of_css_property('background-color').strip('rgba()').split(', ')))
-        if color[0] == 201 and color[1] == 240 and color[2] == 195:
-            return True
+        if data.question['text'] not in self.database:
+            to_answer = random.choice(data.question['answers'])
+            self.database[data.question['text']] = {sc: prepare(data.question['answers'])}
         else:
-            return False
+            if sc not in self.database[data.question['text']]:
+                self.database[data.question['text']][sc] = prepare(data.question['answers'])
+            for answer in data.question['answers']:
+                if data.question['text'] in self.database:
+                    if answer['text'] == self.database[data.question['text']][sc]:
+                        to_answer = answer
+                        break
+            try:
+                to_answer
+            except:
+                if data.question['text'] in self.database:
+                    if type(self.database[data.question['text']][sc]) == dict:
+                        indexes = list(filter(lambda k: k is not None,
+                                   [index if question_['text'] in self.database[data.question['text']][sc] else None
+                                   for index, question_ in enumerate(data.question['answers'])]))
+                        if len(indexes) == 0:
+                            to_answer = data.question['answers'][random.randint(0, 3)]
+                        else:
+                            to_answer = data.question['answers'][random.choice(indexes)]
+                    else:
+                        to_answer = data.question['answers'][random.randint(0, 3)]
+                else:
+                    to_answer = data.question['answers'][random.randint(0, 3)]
 
-    def has_class_element(self, name):
-        try:
-            e = self.driver.find_element_by_class_name(name)
-            return True
-        except:
-            return False
+        params = {
+            "answer_id": to_answer['id']
+        }
 
-    def has_xpath_element(self, name):
-        try:
-            e = self.driver.find_element_by_xpath(name)
-            return True
-        except:
-            return False
+        print(f'-----------{self.quiz_data["questions"].index(data.question)+1}-----------')
+        print(data.question['text'])
+        print("Answering:", to_answer['text'], ':', to_answer['id'])
+        while True:
+            try:
+                answer = self.session.post(f'https://kolin.tassomai.com/api/answer/{data.question["asking_id"]}/',
+                                    headers=self.headers, data=params).json()
+                if 'is_correct' not in answer:
+                    continue
+                break
+            except:
+                continue
+        print("Correct" if answer['is_correct'] else "Incorrect")
+
+        end_time = time.perf_counter() - question_timer
+        print(f"Completed question {self.quiz_data['questions'].index(data.question)+1} in {end_time:0.2f}s\n\n")
+
+        if answer['is_correct']:
+            if data.question['text'] in self.database:
+                self.database[data.question['text']][sc] = to_answer['text']
+            else:
+                self.database[data.question['text']] = {sc: to_answer['text']}
+        else:
+            if data.question['text'] in self.database:
+                if type(self.database[data.question['text']][sc]) == dict:
+                    try:
+                        del self.database[data.question['text']][sc][to_answer['text']]
+
+                        if len(self.database[data.question['text']][sc]) == 1:
+                            self.database[data.question['text']][sc] = list(self.database[data.question['text']][sc].keys())[0]
+                    except:
+                        pass
+            else:
+                self.database[data.question['text']] = {sc: prepare(data.question['answers'])}
+                del self.database[data.question['text']][sc][to_answer['text']]
+        if type(self.database[data.question['text']][sc]) == dict:
+            answers = [item for item in self.database[data.question['text']][sc]]
+        else:
+            answers = [self.database[data.question['text']][sc]]
+
+        return {'question': data.question['text'], 'correct': answer['is_correct'], 'time': f"{end_time:0.2f}", 'answer': answers}, self.database

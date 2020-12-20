@@ -5,7 +5,7 @@ import zipfile
 import logging, traceback
 
 from threading import Thread
-from PyQt5.QtCore import QObject, Qt, pyqtSignal
+from PyQt5.QtCore import QObject, pyqtSignal
 
 from app import __version__
 
