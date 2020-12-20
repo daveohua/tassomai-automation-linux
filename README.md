@@ -12,8 +12,10 @@
     <a href="https://github.com/Gloryness/tassomai-automation/pulls">Send a Pull Request</a>
   </p>
 </p>
-**NOTE: The previous database has been fully deleted because I have now updated how it stores the answers, hopefully guaranteeing 100% accuracy!**
+  
 ----------------------
+**NOTE: The previous database has been fully deleted because I have now updated how it stores the answers, hopefully guaranteeing 100% accuracy!**
+
 # Installation
 
 Python 3.8+ recommended.
