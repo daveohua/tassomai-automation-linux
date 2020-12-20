@@ -267,6 +267,12 @@ class Window(QMainWindow):
 
         self.database = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'answers.json')
         self.cache = Database(f'{os.environ["USERPROFILE"]}/AppData/Local/tassomai-automation/', 'info.json')
+        all_ = self.database.all()
+        keys = list(all_.keys())
+        for key in keys:
+            if type(all_[key]) != dict: # making sure they dont have an old version of the database
+                self.database.clear()
+                break
 
         self.ui.emailTassomai.setText(self.cache.get('email'))
         self.ui.passwordTassomai.setText(self.cache.get('password'))
