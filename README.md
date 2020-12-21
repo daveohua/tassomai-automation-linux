@@ -13,6 +13,10 @@
   </p>
 </p>
   
+[![Release](https://img.shields.io/github/v/release/Gloryness/tassomai-automation)](https://github.com/Gloryness/tassomai-automation/releases)
+[![Downloads](https://img.shields.io/github/downloads/Gloryness/tassomai-automation/total)](https://github.com/Gloryness/tassomai-automation/releases)
+[![Donate](https://img.shields.io/badge/donate-%C2%A3%C2%A3%C2%A3-sucess.svg)](https://streamlabs.com/gloryness/tip)
+
 ----------------------
 **NOTE: The previous database has been fully deleted because I have now updated how it stores the answers, hopefully guaranteeing 100% accuracy!**
 
