@@ -31,7 +31,7 @@ Clone the repo using git:
 $ git clone https://github.com/Gloryness/tassomai-automation.git
 ```
 OR:
-- <a href="https://github.com/Gloryness/tassomai-automation/raw/master/exe/Tassomai%20Automation.zip">Download the .exe version</a>
+- <a href="https://github.com/Gloryness/tassomai-automation/releases">Download the .exe version</a>
 
 # How To Use
 - Enter Tassomai username
