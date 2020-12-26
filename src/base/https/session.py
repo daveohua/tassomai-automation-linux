@@ -2,6 +2,7 @@ import time
 import subprocess
 import asyncio
 import requests
+import random
 import sys
 import logging, traceback
 
@@ -168,6 +169,11 @@ class Session(QObject):
                         self.correct += 1
                     else:
                         self.incorrect += 1
+                    if self.ui.ui.delay.isChecked():
+                        if self.ui.ui.whenDelay.currentText() == "question":
+                            rand = round(random.uniform(1, 4), 2)
+                            item5.setText(str(question_data['time']+rand)+'s')
+                            await asyncio.sleep(rand)
 
                 end_time = time.perf_counter() - quiz_timer
                 print(f"Completed quiz {loop} in {end_time:0.2f}s")
@@ -186,6 +192,10 @@ class Session(QObject):
                     return
 
                 self.quizes += 1
+
+                if self.ui.ui.delay.isChecked():
+                    if self.ui.ui.whenDelay.currentText() == "quiz":
+                        await asyncio.sleep(round(random.uniform(1, 4), 2))
 
 
         except:

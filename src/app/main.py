@@ -61,6 +61,10 @@ parser.add_option('--bonus',
                   action='store_true',
                   help='Finish when bonus goal is complete.',
                   default=False)
+parser.add_option('--delay',
+                  type=str,
+                  help='Add a delay of 1-4s between each quiz/question. Specify \'quiz\' or \'question\' in the params.',
+                  default='none')
 
 (options, args) = parser.parse_args()
 
@@ -78,6 +82,10 @@ if __name__ == '__main__':
             win.ui.emailTassomai.setText(options.username)
         if options.password != '':
             win.ui.passwordTassomai.setText(options.password)
+        if options.delay != 'none':
+            win.ui.delay.setChecked(True)
+            if options.delay in ['quiz', 'question']:
+                win.ui.whenDelay.setCurrentText(options.delay)
         if options.daily and options.bonus:
             win.ui.bonusGoal.setChecked(True)
         else:

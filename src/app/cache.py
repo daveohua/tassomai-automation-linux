@@ -90,3 +90,12 @@ class Database:
             return ""
         evalulated = 'data' + ''.join([f'[{ascii(keyy) if type(keyy) == str else keyy}]' for keyy in keys])
         return eval(evalulated)
+
+    def clear(self):
+        empty = self._test_if_empty()
+        if empty: return {}
+
+        data = {}
+
+        with open(self.filename, 'w') as f:
+            json.dump(data, f, indent=3)

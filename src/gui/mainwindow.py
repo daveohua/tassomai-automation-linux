@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QSizePolicy, QFrame, QFormLayout, QWidget, QTabWidget, QGridLayout, QCheckBox, QLabel, \
     QSpinBox, QHBoxLayout, QLineEdit, QMenuBar, QMenu, QGroupBox, QTextEdit, QPushButton, QAction, QSpacerItem, QTableWidget, \
-    QTableWidgetItem, QAbstractItemView
+    QTableWidgetItem, QAbstractItemView, QComboBox
 from PyQt5.QtCore import QMetaObject, QRect, QThread, QSize, Qt, pyqtSlot
 from PyQt5.QtGui import QPixmap, QFont, QIcon
 import os
@@ -74,15 +74,37 @@ class TassomaiUI(object):
         self.automation_frame.setFrameShape(QFrame.StyledPanel)
         self.automation_frame.setFrameShadow(QFrame.Raised)
 
+        self.horizontalLayout1 = QHBoxLayout()
+        self.horizontalLayout1.setContentsMargins(0, 0, 0, 0)
+
+        self.delay = QCheckBox(self.main_frame)
+        font = QFont()
+        font.setPointSize(10)
+        self.delay.setFont(font)
+
+        self.horizontalLayout1.addWidget(self.delay)
+
+        self.whenDelay = QComboBox(self.main_frame)
+        self.whenDelay.addItem("question")
+        self.whenDelay.addItem("quiz")
+        self.whenDelay.setMaximumWidth(100)
+
+        self.horizontalLayout1.addWidget(self.whenDelay)
+
+        self.verticalSpacer1 = QSpacerItem(20, 40, QSizePolicy.Expanding, QSizePolicy.Expanding)
+        self.horizontalLayout1.addItem(self.verticalSpacer1)
+
+        self.gridLayout_2.addLayout(self.horizontalLayout1, 2, 0, 1, 1)
+
         self.dailyGoal = QCheckBox(self.main_frame)
         font = QFont()
         font.setPointSize(10)
         self.dailyGoal.setFont(font)
-        self.gridLayout_2.addWidget(self.dailyGoal, 2, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.dailyGoal, 3, 0, 1, 1)
 
         self.bonusGoal = QCheckBox(self.main_frame)
         self.bonusGoal.setFont(font)
-        self.gridLayout_2.addWidget(self.bonusGoal, 3, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.bonusGoal, 4, 0, 1, 1)
 
         self.horizontalLayout = QHBoxLayout()
 
@@ -196,6 +218,7 @@ class TassomaiUI(object):
         self.dailyGoal.setChecked(True)
         self.dailyGoal.setText("Finish when daily goal complete")
         self.bonusGoal.setText("Finish when bonus goal complete")
+        self.delay.setText("Add a delay of 1-4 seconds between each ")
         self.label1.setText("Only do a maximum of ")
         self.label2.setText(" quiz(s)")
         self.userBox.setTitle("User Settings")
