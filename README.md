@@ -13,6 +13,10 @@
   </p>
 </p>
   
+[![Release](https://img.shields.io/github/v/release/Gloryness/tassomai-automation)](https://github.com/Gloryness/tassomai-automation/releases)
+[![Downloads](https://img.shields.io/github/downloads/Gloryness/tassomai-automation/total)](https://github.com/Gloryness/tassomai-automation/releases)
+[![Donate](https://img.shields.io/badge/donate-%C2%A3%C2%A3%C2%A3-sucess.svg)](https://streamlabs.com/gloryness/tip)
+
 ----------------------
 **NOTE: The previous database has been fully deleted because I have now updated how it stores the answers, hopefully guaranteeing 100% accuracy!**
 
@@ -27,7 +31,7 @@ Clone the repo using git:
 $ git clone https://github.com/Gloryness/tassomai-automation.git
 ```
 OR:
-- <a href="https://github.com/Gloryness/tassomai-automation/raw/master/exe/Tassomai%20Automation.zip">Download the .exe version</a>
+- <a href="https://github.com/Gloryness/tassomai-automation/releases">Download the .exe version</a>
 
 # How To Use
 - Enter Tassomai username
@@ -77,7 +81,7 @@ This is very useful for scheduling the automation with Windows Task Scheduler on
 
 8. When the program has been exited, it will grab the dictionary in `answers.json` and store it online in a private repository that is not viewable by any third party due to in violation of Tassomai TOS.
 
-**Currently as of 20/12/20, 500+ questions have been answered!**
+**Currently as of 21/12/20, 1482+ questions have been answered!**
 
 # Overview
 <img src="src/images/Tassomai Automation.png">
