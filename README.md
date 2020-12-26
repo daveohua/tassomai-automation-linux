@@ -82,7 +82,7 @@ This is very useful for scheduling the automation with Windows Task Scheduler on
 
 8. When the program has been exited, it will grab the dictionary in `answers.json` and store it online in a private repository that is not viewable by any third party due to in violation of Tassomai TOS.
 
-**Currently as of 21/12/20, 1482+ questions have been answered!**
+**Currently as of 26/12/20, 1722+ questions have been answered!**
 
 # Overview
 <img src="src/images/Tassomai Automation.png">
