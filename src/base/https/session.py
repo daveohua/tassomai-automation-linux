@@ -90,8 +90,8 @@ class Session(QObject):
         content = retreive_temp_data(self.database.folder)
         self.database.store(content)
 
-        self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Public Answers Database!]', {'newlinesafter': 2})
-        print("Successfully updated local database by fetching the Public Answers Database!\n")
+        self.logger.emit('TYPES=[(BOLD, #000000), Successfully updated local database by fetching the Private Answers Database!]', {'newlinesafter': 2})
+        print("Successfully updated local database by fetching the Private Answers Database!\n")
 
         if not self.running:
             return
@@ -172,7 +172,7 @@ class Session(QObject):
                     if self.ui.ui.delay.isChecked():
                         if self.ui.ui.whenDelay.currentText() == "question":
                             rand = round(random.uniform(1, 4), 2)
-                            item5.setText(str(question_data['time']+rand)+'s')
+                            item5.setText(f"{float(question_data['time']) + rand}s")
                             await asyncio.sleep(rand)
 
                 end_time = time.perf_counter() - quiz_timer
