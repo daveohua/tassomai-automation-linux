@@ -18,8 +18,6 @@
 [![Donate](https://img.shields.io/badge/donate-%C2%A3%C2%A3%C2%A3-sucess.svg)](https://streamlabs.com/gloryness/tip)
 
 ----------------------
-**NOTE: The previous database has been fully deleted because I have now updated how it stores the answers, hopefully guaranteeing 100% accuracy!**
-
 # Installation
 
 Python 3.8+ recommended.
