@@ -56,7 +56,7 @@ $ "Tassomai Automation".exe -h
   --no-daily                              Do not finish when daily goal is complete.
   --bonus                                 Finish when bonus goal is complete.
   --delay                                 Add a specified delay (use --delay-amount or by default its between 1-4) between each quiz/question.
-  --delay-amount                          The delay to use. This only works when you've used --delay aswell!
+  --delay-amount                          The delay to use. This only works when you have used --delay aswell!
   --random                                Make it so you answer a question incorrectly every X questions.
 ```
 for a full list of commands.
