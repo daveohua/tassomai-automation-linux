@@ -55,7 +55,9 @@ $ "Tassomai Automation".exe -h
   --gui-frameless                         Make the GUI hidden but still runs in the background.
   --no-daily                              Do not finish when daily goal is complete.
   --bonus                                 Finish when bonus goal is complete.
-  --delay                                 Add a delay of 1-4s between each quiz/question. Specify 'quiz' or 'question' in the params.
+  --delay                                 Add a specified delay (use --delay-amount or by default its between 1-4) between each quiz/question.
+  --delay-amount                          The delay to use. This only works when you have used --delay aswell!
+  --random                                Make it so you answer a question incorrectly every X questions.
 ```
 for a full list of commands.
 
