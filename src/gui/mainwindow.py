@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QSizePolicy, QFrame, QFormLayout, QWidget, QTabWidget, QGridLayout, QCheckBox, QLabel, \
     QSpinBox, QHBoxLayout, QLineEdit, QMenuBar, QMenu, QGroupBox, QTextEdit, QPushButton, QAction, QSpacerItem, QTableWidget, \
-    QTableWidgetItem, QAbstractItemView, QComboBox
+    QTableWidgetItem, QAbstractItemView, QComboBox, QDoubleSpinBox
 from PyQt5.QtCore import QMetaObject, QRect, QThread, QSize, Qt, pyqtSlot
 from PyQt5.QtGui import QPixmap, QFont, QIcon
 import os
@@ -74,37 +74,74 @@ class TassomaiUI(object):
         self.automation_frame.setFrameShape(QFrame.StyledPanel)
         self.automation_frame.setFrameShadow(QFrame.Raised)
 
-        self.horizontalLayout1 = QHBoxLayout()
-        self.horizontalLayout1.setContentsMargins(0, 0, 0, 0)
+        self.delayLayout = QHBoxLayout()
+        self.delayLayout.setContentsMargins(0, 0, 0, 0)
+        self.delayLayout.setSpacing(3)
 
         self.delay = QCheckBox(self.main_frame)
         font = QFont()
         font.setPointSize(10)
         self.delay.setFont(font)
 
-        self.horizontalLayout1.addWidget(self.delay)
+        self.delayLayout.addWidget(self.delay)
+
+        self.amountOfDelay = QDoubleSpinBox(self.main_frame)
+        self.amountOfDelay.setMinimumWidth(70)
+        self.amountOfDelay.setMaximum(25.00)
+
+        self.delayLayout.addWidget(self.amountOfDelay)
+
+        self.label3 = QLabel(self.main_frame)
+        self.label3.setSizePolicy(sizePolicy)
+        self.label3.setFont(font)
+
+        self.delayLayout.addWidget(self.label3)
 
         self.whenDelay = QComboBox(self.main_frame)
         self.whenDelay.addItem("question")
         self.whenDelay.addItem("quiz")
         self.whenDelay.setMaximumWidth(100)
 
-        self.horizontalLayout1.addWidget(self.whenDelay)
+        self.delayLayout.addWidget(self.whenDelay)
 
         self.verticalSpacer1 = QSpacerItem(20, 40, QSizePolicy.Expanding, QSizePolicy.Expanding)
-        self.horizontalLayout1.addItem(self.verticalSpacer1)
+        self.delayLayout.addItem(self.verticalSpacer1)
 
-        self.gridLayout_2.addLayout(self.horizontalLayout1, 2, 0, 1, 1)
+        self.gridLayout_2.addLayout(self.delayLayout, 2, 0, 1, 1)
+
+        self.randomnessLayout = QHBoxLayout()
+        self.randomnessLayout.setContentsMargins(0, 0, 0, 0)
+        self.randomnessLayout.setSpacing(3)
+
+        self.randomness = QCheckBox(self.main_frame)
+        self.randomness.setFont(font)
+        self.randomness.setMaximumWidth(338)
+
+        self.randomnessLayout.addWidget(self.randomness)
+
+        self.randomnessAmount = QSpinBox(self.main_frame)
+        self.randomnessAmount.setMinimumWidth(70)
+        self.randomnessAmount.setMaximum(600)
+
+        self.randomnessLayout.addWidget(self.randomnessAmount)
+
+        self.label4 = QLabel(self.main_frame)
+        self.label4.setSizePolicy(sizePolicy)
+        self.label4.setFont(font)
+
+        self.randomnessLayout.addWidget(self.label4)
+
+        self.gridLayout_2.addLayout(self.randomnessLayout, 3, 0, 1, 1)
 
         self.dailyGoal = QCheckBox(self.main_frame)
         font = QFont()
         font.setPointSize(10)
         self.dailyGoal.setFont(font)
-        self.gridLayout_2.addWidget(self.dailyGoal, 3, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.dailyGoal, 4, 0, 1, 1)
 
         self.bonusGoal = QCheckBox(self.main_frame)
         self.bonusGoal.setFont(font)
-        self.gridLayout_2.addWidget(self.bonusGoal, 4, 0, 1, 1)
+        self.gridLayout_2.addWidget(self.bonusGoal, 5, 0, 1, 1)
 
         self.horizontalLayout = QHBoxLayout()
 
@@ -218,7 +255,10 @@ class TassomaiUI(object):
         self.dailyGoal.setChecked(True)
         self.dailyGoal.setText("Finish when daily goal complete")
         self.bonusGoal.setText("Finish when bonus goal complete")
-        self.delay.setText("Add a delay of 1-4 seconds between each ")
+        self.delay.setText("Add a delay of")
+        self.label3.setText("seconds between each")
+        self.randomness.setText("Make it so that you answer a question incorrectly every")
+        self.label4.setText("questions")
         self.label1.setText("Only do a maximum of ")
         self.label2.setText(" quiz(s)")
         self.userBox.setTitle("User Settings")

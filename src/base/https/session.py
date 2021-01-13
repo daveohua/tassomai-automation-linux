@@ -58,6 +58,8 @@ class Session(QObject):
         self.correct = 0
         self.incorrect = 0
         self.quizes = 0
+        self.until = 0
+        self.until_incorrect = self.ui.ui.randomnessAmount.value()
 
         if '@' not in self.email:
             self.logger.emit('TYPES=[(#c8001a, BOLD), Invalid email.]', {})
@@ -142,7 +144,12 @@ class Session(QObject):
                 quiz_timer = time.perf_counter()
 
                 for index, question in enumerate(self.quiz_data['questions']):
-                    question_data, database = await self.tassomai.answer_question(Variables(question))
+                    force_incorrect = False
+                    if self.ui.ui.randomness.isChecked():
+                        if self.until == self.until_incorrect:
+                            self.until = 0
+                            force_incorrect = True
+                    question_data, database = await self.tassomai.answer_question(Variables(question, force_incorrect))
                     item = self.ui.ui.table.item(self.row, 0)
                     if item is None:
                         for i in range(6):
@@ -173,7 +180,10 @@ class Session(QObject):
                         if self.ui.ui.whenDelay.currentText() == "question":
                             rand = round(random.uniform(1, 4), 2)
                             item5.setText(f"{float(question_data['time']) + rand}s")
+                            if self.ui.ui.amountOfDelay.value() != 0:
+                                rand = self.ui.ui.amountOfDelay.value()
                             await asyncio.sleep(rand)
+                    self.until += 1
 
                 end_time = time.perf_counter() - quiz_timer
                 print(f"Completed quiz {loop} in {end_time:0.2f}s")
@@ -195,7 +205,10 @@ class Session(QObject):
 
                 if self.ui.ui.delay.isChecked():
                     if self.ui.ui.whenDelay.currentText() == "quiz":
-                        await asyncio.sleep(round(random.uniform(1, 4), 2))
+                        rand = round(random.uniform(1, 4), 2)
+                        if self.ui.ui.amountOfDelay.value() != 0:
+                            rand = self.ui.ui.amountOfDelay.value()
+                        await asyncio.sleep(rand)
 
 
         except:

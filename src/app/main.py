@@ -63,8 +63,19 @@ parser.add_option('--bonus',
                   default=False)
 parser.add_option('--delay',
                   type=str,
-                  help='Add a delay of 1-4s between each quiz/question. Specify \'quiz\' or \'question\' in the params.',
+                  help='Add a specified delay (use --delay-amount or by default its between 1-4) between '
+                       'each quiz/question. Specify \'quiz\' or \'question\' in the params.',
                   default='none')
+parser.add_option('--delay-amount',
+                  metavar='DECIMAL',
+                  type=float,
+                  help='The delay to use. This only works when you\'ve used --delay aswell!',
+                  default=0)
+parser.add_option('--random',
+                  metavar='NUMBER',
+                  type=int,
+                  help='Make it so you answer a question incorrectly every X questions.',
+                  default=0)
 
 (options, args) = parser.parse_args()
 
@@ -86,6 +97,14 @@ if __name__ == '__main__':
             win.ui.delay.setChecked(True)
             if options.delay in ['quiz', 'question']:
                 win.ui.whenDelay.setCurrentText(options.delay)
+            if options.delay_amount != 0:
+                amount = options.delay_amount if options.delay_amount <= 25.00 else 25.00
+                win.ui.amountOfDelay.setValue(amount)
+        if options.random > 0:
+            amount = options.random if options.random <= 600 else 600
+            win.ui.randomness.setChecked(True)
+            win.ui.randomnessAmount.setValue(amount)
+
         if options.daily and options.bonus:
             win.ui.bonusGoal.setChecked(True)
         else:

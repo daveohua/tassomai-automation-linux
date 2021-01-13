@@ -4,8 +4,9 @@ import json
 import os
 
 class Variables:
-    def __init__(self, question):
+    def __init__(self, question, force_incorrect):
         self.question = question
+        self.force_incorrect = force_incorrect
 
 def establishConnection():
     """
