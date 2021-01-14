@@ -155,7 +155,7 @@ class Tassomai:
                 self.database[data.question['text']][sc] = prepare(data.question['answers'])
             for answer in data.question['answers']:
                 if data.question['text'] in self.database:
-                    if answer['text'] != self.database[data.question['text'][sc]] and data.force_incorrect:
+                    if answer['text'] != self.database[data.question['text']][sc] and data.force_incorrect:
                         to_answer = answer
                     if answer['text'] == self.database[data.question['text']][sc]:
                         if data.force_incorrect:
