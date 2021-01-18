@@ -178,10 +178,13 @@ class Session(QObject):
                         self.incorrect += 1
                     if self.ui.ui.delay.isChecked():
                         if self.ui.ui.whenDelay.currentText() == "question":
-                            rand = round(random.uniform(1, 4), 2)
-                            item5.setText(f"{float(question_data['time']) + rand}s")
-                            if self.ui.ui.amountOfDelay.value() != 0:
+                            if self.ui.ui.amountOfDelay.value() == 0 and self.ui.ui.amountOfDelay2.value() == 0:
+                                rand = round(random.uniform(1, 4), 2)
+                            elif self.ui.ui.amountOfDelay.value() == self.ui.ui.amountOfDelay2.value():
                                 rand = self.ui.ui.amountOfDelay.value()
+                            elif self.ui.ui.amountOfDelay.value() != self.ui.ui.amountOfDelay2.value():
+                                rand = round(random.uniform(self.ui.ui.amountOfDelay.value(), self.ui.ui.amountOfDelay2.value()), 2)
+                            item5.setText(f"{float(question_data['time']) + rand}s")
                             await asyncio.sleep(rand)
                     self.until += 1
 
@@ -205,9 +208,12 @@ class Session(QObject):
 
                 if self.ui.ui.delay.isChecked():
                     if self.ui.ui.whenDelay.currentText() == "quiz":
-                        rand = round(random.uniform(1, 4), 2)
-                        if self.ui.ui.amountOfDelay.value() != 0:
+                        if self.ui.ui.amountOfDelay.value() == 0 and self.ui.ui.amountOfDelay2.value() == 0:
+                            rand = round(random.uniform(1, 4), 2)
+                        elif self.ui.ui.amountOfDelay.value() == self.ui.ui.amountOfDelay2.value():
                             rand = self.ui.ui.amountOfDelay.value()
+                        elif self.ui.ui.amountOfDelay.value() != self.ui.ui.amountOfDelay2.value():
+                            rand = round(random.uniform(self.ui.ui.amountOfDelay.value(), self.ui.ui.amountOfDelay2.value()), 2)
                         await asyncio.sleep(rand)
 
 

@@ -91,6 +91,18 @@ class TassomaiUI(object):
 
         self.delayLayout.addWidget(self.amountOfDelay)
 
+        self.label03 = QLabel(self.main_frame)
+        self.label03.setSizePolicy(sizePolicy)
+        self.label03.setFont(font)
+
+        self.delayLayout.addWidget(self.label03)
+
+        self.amountOfDelay2 = QDoubleSpinBox(self.main_frame)
+        self.amountOfDelay2.setMinimumWidth(70)
+        self.amountOfDelay2.setMaximum(25.00)
+
+        self.delayLayout.addWidget(self.amountOfDelay2)
+
         self.label3 = QLabel(self.main_frame)
         self.label3.setSizePolicy(sizePolicy)
         self.label3.setFont(font)
@@ -255,7 +267,8 @@ class TassomaiUI(object):
         self.dailyGoal.setChecked(True)
         self.dailyGoal.setText("Finish when daily goal complete")
         self.bonusGoal.setText("Finish when bonus goal complete")
-        self.delay.setText("Add a delay of")
+        self.delay.setText("Add a delay between")
+        self.label03.setText("and")
         self.label3.setText("seconds between each")
         self.randomness.setText("Make it so that you answer a question incorrectly every")
         self.label4.setText("questions")

@@ -67,10 +67,11 @@ parser.add_option('--delay',
                        'each quiz/question. Specify \'quiz\' or \'question\' in the params.',
                   default='none')
 parser.add_option('--delay-amount',
-                  metavar='DECIMAL',
-                  type=float,
-                  help='The delay to use. This only works when you\'ve used --delay aswell!',
-                  default=0)
+                  metavar='DECIMAL(S)',
+                  type=str,
+                  help='The delay to use. e.g: --delay-amount=1.23,1.51 to randomise it OR --delay-amount=1 to be specific. '
+                       'This only works when you\'ve used --delay aswell!',
+                  default="0")
 parser.add_option('--random',
                   metavar='NUMBER',
                   type=int,
@@ -97,9 +98,20 @@ if __name__ == '__main__':
             win.ui.delay.setChecked(True)
             if options.delay in ['quiz', 'question']:
                 win.ui.whenDelay.setCurrentText(options.delay)
-            if options.delay_amount != 0:
-                amount = options.delay_amount if options.delay_amount <= 25.00 else 25.00
-                win.ui.amountOfDelay.setValue(amount)
+            if options.delay_amount != "0":
+                if ',' in options.delay_amount:
+                    try:
+                        v1, v2 = tuple(map(lambda k: float(k), options.delay_amount.split(',')))
+                    except:
+                        win.ui.delay.setChecked(False)
+                    win.ui.amountOfDelay.setValue(v1)
+                    win.ui.amountOfDelay2.setValue(v2)
+                else:
+                    try: float(options.delay_amount)
+                    except: win.ui.delay.setChecked(False)
+                    amount = float(options.delay_amount) if float(options.delay_amount) <= 25.00 else 25.00
+                    win.ui.amountOfDelay.setValue(amount)
+                    win.ui.amountOfDelay2.setValue(amount)
         if options.random > 0:
             amount = options.random if options.random <= 600 else 600
             win.ui.randomness.setChecked(True)
