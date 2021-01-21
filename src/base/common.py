@@ -24,7 +24,7 @@ def calculate_percentage(number, total):
     return round((number/total) * 100, 1)
 
 def prepare(answers):
-    return dict(zip([answer['text'] for answer in answers], ["unknown" for i in range(4)]))
+    return dict(zip([answer['text'] for answer in answers], ["?" for i in range(4)]))
 
 def gather_answers(answers):
     return list(sorted([answer['text'] for answer in answers]))
