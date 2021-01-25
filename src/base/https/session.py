@@ -88,6 +88,12 @@ class Session(QObject):
                 connect()
         connect()
 
+        if __version__ != (version := self.get_version()):
+            self.logger.emit('TYPES=[(#c8001a, BOLD), Your Tassomai Automation is outdated! '
+                             ''f'Please update to the newest version v{version} for better performance.]', {})
+            print(f"Your Tassomai Automation is outdated! Please update to the newest version v{version} for better performance.")
+            return
+
         subprocess.call([github_db, '-p', self.database.folder, '-g'], shell=True, stdout=sys.stdout)
         content = retreive_temp_data(self.database.folder)
         self.database.store(content)
@@ -123,11 +129,6 @@ class Session(QObject):
                 if self.tassomai.is_complete and self.dailyGoal:
                     break
                 if self.tassomai.is_bonus_complete and self.bonusGoal:
-                    break
-                if __version__ != (version := self.get_version()):
-                    self.logger.emit('TYPES=[(#c8001a, BOLD), Your Tassomai Automation is outdated! '
-                                     f'Please update to the newest version v{version} for better performance.]', {})
-                    print(f"Your Tassomai Automation is outdated! Please update to the newest version v{version} for better performance.")
                     break
 
                 self.logger.emit(f'COLOR=(#0c5d09, Starting up quiz {quiz+1}.)', {'newlinesbefore': 1})
