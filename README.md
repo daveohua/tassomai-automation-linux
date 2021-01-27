@@ -1,21 +1,9 @@
-<p align="center">
-  <a><img src="src/images/logo.png"</a>
-  <h3 align="center">Automate your Tassomai!</h3>
-  <p align="center">
-    Ever bored of doing Science homework 5 days a week on Tassomai? Well... you came to the right place!
-    <br />
-    <br />
-    <a href="https://github.com/Gloryness/tassomai-automation/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Gloryness/tassomai-automation/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/Gloryness/tassomai-automation/pulls">Send a Pull Request</a>
-  </p>
-</p>
-  
-[![Release](https://img.shields.io/github/v/release/Gloryness/tassomai-automation)](https://github.com/Gloryness/tassomai-automation/releases)
-[![Downloads](https://img.shields.io/github/downloads/Gloryness/tassomai-automation/total)](https://github.com/Gloryness/tassomai-automation/releases)
-[![Donate](https://img.shields.io/badge/donate-%C2%A3%C2%A3%C2%A3-sucess.svg)](https://streamlabs.com/gloryness/tip)
+**This is a Linux fork of the Windows program written by [Gloryness](https://github.com/Gloryness). Check it out [here](https://github.com/Gloryness)!**
+
+![Tassomai Logo](/src/images/logo.png)
+
+# Automate your Tassomai - Linux Edition!
+
 
 ----------------------
 # Installation
@@ -26,10 +14,10 @@ Install required modules which is all listed in `requirements.txt`
 
 Clone the repo using git:
 ```bash
-$ git clone https://github.com/Gloryness/tassomai-automation.git
+$ git clone https://github.com/daveohua/tassomai-automation-linux.git
 ```
 OR:
-- <a href="https://github.com/Gloryness/tassomai-automation/releases">Download the .exe version</a>
+- <a href="https://github.com/daveohua/tassomai-automation-linux/releases">Download the .exe version</a>
 
 # How To Use
 - Enter Tassomai username
@@ -38,7 +26,7 @@ OR:
 - Start Automation!
 - At the end of the automation, it will provide stats such as if daily/bonus goal is complete, the time it took, amount of correct/incorrect answers and the total quizes complete.
 
-**NOTE: Credentials are only stored to `info.json` in AppData/Local/tassomai-automation to auto-fill them in each time you run the GUI.**
+**NOTE: Credentials are only stored to `info.json` in $HOME/.tassomaiautomation to auto-fill them in each time you run the GUI.**
 
 # Tip
 If you want... there are command line options that are available!
